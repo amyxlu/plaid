@@ -2,18 +2,20 @@
 
 ## Contents
 
-- [PLAID (Protein Latent Induced Diffusion)](#plaid-protein-latent-induced-diffusion)
-	- [Contents](#contents)
-	- [Demo](#demo)
-	- [Installation](#installation)
-		- [Clone the Repository](#clone-the-repository)
-	- [Environment Setup](#environment-setup)
-		- [Model Weights](#model-weights)
-	- [Inference](#inference)
-		- [Design-Only Inference](#design-only-inference)
-	- [Evaluation](#evaluation)
-	- [Training](#training)
-
+- [Contents](#contents)
+- [Demo](#demo)
+- [Installation](#installation)
+  - [Clone the Repository](#clone-the-repository)
+  - [Environment Setup](#environment-setup)
+  - [Model Weights](#model-weights)
+  - [Loading Pretrained Models](#loading-pretrained-models)
+- [Usage](#usage)
+  - [Example Quick Start](#example-quick-start)
+  - [Full Pipeline](#full-pipeline)
+  - [Design-Only Inference](#design-only-inference)
+  - [Evaluation](#evaluation)
+- [Training](#training)
+- [License](#license)
 
 ## Demo
 
@@ -65,7 +67,7 @@ The denoiser and diffusion configuration is loaded separately, since in theory, 
 Using the sampling steps below will initialize the discrete diffusion process used in our paper.
 
 
-## Inference
+## Usage
 
 ### Example Quick Start
 
@@ -99,12 +101,14 @@ python pipeline/run_sample.py ++length=200 ++function_idx=166 ++organism_idx=132
 python pipeline/run_sample.py ++length=200 ++function_idx=2219 ++organism_idx=3617 ++output_root_dir=/data/lux70/plaid/samples/unconditional
 ```
 
->[!TIP] To find the mapping between your desired GO term and function index, see `src/plaid/constants.py`. A list of organism indices can be found in `assets/organisms`.
-GO
+>[!IMPORTANT]
+>The specified length is half the actual protein length and must be divisible by 4. For example, to generate a 200-residue protein, set length=100.
 
->[!IMPORTANT] The specified length is half the actual protein length and must be divisible by 4. For example, to generate a 200-residue protein, set length=100.
+>[!TIP]
+>To find the mapping between your desired GO term and function index, see `src/plaid/constants.py`. A list of organism indices can be found in `assets/organisms`.
 
->[!TIP] PLAID also supports the DPM++ sampler, which achieves comparable performance with fewer sampling steps. See `configs/inference/sample/dpm2m_sde.yaml` for more details.
+>[!TIP]
+>PLAID also supports the DPM++ sampler, which achieves comparable performance with fewer sampling steps. See `configs/inference/sample/dpm2m_sde.yaml` for more details.
 
 #### Step 2: Decode the Latent Embedding
 * 2a. Uncompress latent arrays using the CHEAP autoencoder.
@@ -145,3 +149,7 @@ Key features:
 Note: If using torch.compile, ensure precision is set to float32 due to compatibility issues with the xFormers library.
 
 Embeddings are pre-computed and cached as `.tar` files for compatibility with [WebDataset](https://github.com/webdataset/webdataset) dataloaders. Pfam embedding `.tar` files used for training and validation data will be uploaded soon.
+
+## License
+
+PLAID is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
