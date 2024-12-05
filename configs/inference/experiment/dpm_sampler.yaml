@@ -1,0 +1,10 @@
+# @package _global_
+
+# see configs/inference/full.yaml for the full pipeline configuration.
+# this provides some default config groups for commonly sampling experiments.
+# this sets up configs for an example DPM++ sampler experiment.
+
+defaults:
+  - _self_
+  - override /sample: dpm2m_sde
+  

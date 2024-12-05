@@ -1,0 +1,15 @@
+_target_: plaid.denoisers.FunctionOrganismUDiT
+
+hidden_size: 768 
+max_seq_len: 256 
+depth: 12 
+num_heads: 12
+mlp_ratio: 4.0
+use_self_conditioning: True
+
+timestep_embedding_strategy: "sinusoidal"
+use_skip_connect: False
+attention_mode: "xformers_memory_efficient"
+
+
+# 134M parameters 

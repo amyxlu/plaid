@@ -1,0 +1,28 @@
+_target_: plaid.diffusion.FunctionOrganismDiffusion
+
+# beta scheduler
+beta_scheduler_name: "sigmoid"
+beta_scheduler_start: -3 
+beta_scheduler_end: 3 
+beta_scheduler_tau: 1 
+
+# additional diffusion hyperparameters
+x_downscale_factor: 1.0
+timesteps: 1000
+objective: "pred_v"
+min_snr_loss_weight: True
+min_snr_gamma: 5
+x_clip_val: 1.0
+
+# conditional free guidance
+function_y_cond_drop_prob: 0.1
+organism_y_cond_drop_prob: 0.1
+
+# optimization
+ema_decay: 0.9999
+lr: 1e-4
+lr_adam_betas: [0.9, 0.999]
+lr_sched_type: "cosine_with_restarts"
+lr_num_warmup_steps: 10_000 
+lr_num_training_steps: 1_000_000
+lr_num_cycles: 1

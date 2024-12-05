@@ -1,0 +1,12 @@
+_target_: plaid.callbacks.SampleCallback
+num_recycles: 4
+
+fid_reference_dataset: holdout_esmfold_feats.st
+
+n_to_sample: 64 
+n_to_construct: -1
+batch_size: -1
+calc_perplexity: False
+calc_structure: False
+calc_fid: True
+calc_sequence: True

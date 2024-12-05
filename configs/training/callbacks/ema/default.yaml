@@ -1,0 +1,6 @@
+_target_: plaid.callbacks.EMA
+decay: 0.9999
+apply_ema_every_n_steps: 1
+start_step: 0
+save_ema_weights_in_callback_state: false 
+evaluate_ema_weights_instead: true

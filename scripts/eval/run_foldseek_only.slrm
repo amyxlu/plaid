@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+#SBATCH --job-name foldseek 
+#SBATCH --nodes 1 
+#SBATCH --ntasks 1
+#SBATCH --gpus-per-node 0
+#SBATCH --partition g5 
+#SBATCH --time=5:00:00
+
+eval "$(micromamba shell hook --shell bash)"
+
+micromamba activate omegafold
+
+echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
+echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
+echo "SLURMD_NODENAME = ${SLURMD_NODENAME}"
+echo "SLURM_JOB_NUM_NODES = ${SLURM_JOB_NUM_NODES}"
+
+export HYDRA_FULL_ERROR=1
+
+cd /homefs/home/lux70/code/plaid/pipeline
+
+srun python run_foldseek.py $@
+

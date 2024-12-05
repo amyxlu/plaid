@@ -1,0 +1,22 @@
+_target_: plaid.callbacks.SampleCallback
+
+fid_holdout_tensor_fpath: /homefs/home/lux70/plaid_cached_tensors/uniref_esmfold_feats.st
+
+n_to_sample: 256
+batch_size: 8
+gen_seq_len: 128 
+
+n_to_construct: 16
+
+calc_sequence: True
+calc_structure: True
+calc_perplexity: True
+calc_fid: True 
+calc_sequence_properties: True
+
+log_to_wandb: True
+
+outdir: ${paths.artifacts_dir}/sampled
+save_generated_structures: True
+run_every_n_steps: 5000
+n_structures_to_log: 8 

@@ -1,0 +1,29 @@
+_target_: plaid.pipeline.SampleLatent
+
+model_id: "5j007z42"
+model_ckpt_dir: "/data/lux70/plaid/checkpoints/plaid-compositional"
+output_root_dir: "/data/lux70/plaid/artifacts/samples/" 
+
+organism_idx: 3617
+function_idx: 2219
+cond_scale: 1.0 
+
+num_samples: 64 
+batch_size: -1 
+length: 80 
+sampling_timesteps: 500 
+sample_scheduler: ddim 
+
+# append the conditioning code to the output folder 
+use_condition_output_suffix: False 
+
+# append an unique ID to the output folder 
+use_uid_output_suffix: False
+
+return_all_timesteps: True
+use_compile: False
+
+beta_scheduler_name: null 
+beta_scheduler_start: null
+beta_scheduler_end: null
+beta_scheduler_tau: null

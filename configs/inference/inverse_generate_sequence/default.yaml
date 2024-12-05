@@ -1,0 +1,21 @@
+_target_: plaid.pipeline.InverseFoldPipeline
+
+pdb_dir: null 
+output_fasta_path: null 
+
+verbose: true
+model_name: "v_48_002"
+ca_only: true
+num_seq_per_target: 8
+sampling_temp: "0.1"
+save_score: false
+save_probs: false
+score_only: false
+conditional_probs_only: false
+conditional_probs_only_backbone: false
+
+# all models uses "A" as default chain, except protpardelle, which uses "B" for default.
+designed_chain: "A"   
+
+max_length: 512 
+batch_size: 1

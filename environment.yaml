@@ -1,0 +1,14 @@
+name: plaid-train
+channels:
+  - conda-forge
+  - bioconda
+  - salilab
+dependencies:
+  - python==3.10
+  - gxx_linux-64>=9,<=12
+  - ninja
+  - bioconda::tmalign
+  - salilab::dssp
+  - pip
+  - pip:
+    - -r requirements.txt

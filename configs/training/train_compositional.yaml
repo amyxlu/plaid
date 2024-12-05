@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - paths: pcluster 
+  - trainer: default
+  - datamodule: compositional/j1v1wv6w 
+  - denoiser: UDiT_B 
+  - diffusion: compositional 
+  - callbacks/checkpoint: ema
+  - callbacks/ema: default
+  - logger: compositional
+  - experiment: null
+
+resume_from_model_id: null
+compression_model_id: j1v1wv6w 
+use_old_ema_module: false

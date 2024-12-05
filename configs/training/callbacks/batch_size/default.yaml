@@ -1,0 +1,4 @@
+_target_: lightning.pytorch.callbacks.BatchSizeFinder
+mode: "power"
+steps_per_trial: 3
+init_val: 2

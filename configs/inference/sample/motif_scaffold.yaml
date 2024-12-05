@@ -1,0 +1,30 @@
+# default conditional sampling config
+
+_target_: plaid.pipeline.SampleLatent
+
+model_id: "5j007z42"
+model_ckpt_dir: "/data/lux70/plaid/checkpoints/plaid-compositional"
+output_root_dir: "/data/lux70/plaid/artifacts/samples/motifs/5tpn"
+
+organism_idx: 1326 
+function_idx: 1224 
+cond_scale: 3.0 
+
+num_samples: 32
+batch_size: 16 
+length: 60
+sampling_timesteps: 500 
+sample_scheduler: ddim
+
+# append the conditioning code to the output folder 
+use_condition_output_suffix: True
+
+# append an unique ID to the output folder 
+use_uid_output_suffix: False
+
+return_all_timesteps: True
+use_compile: False
+
+
+motif_seq: "EVNKIKSALLSTNKAVVSL"   # 5TPN.pdb, A163-181, from RFDiffusion, len=19
+motif_start_pos: 20

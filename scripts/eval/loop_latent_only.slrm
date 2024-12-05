@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+#SBATCH --job-name fid 
+#SBATCH --nodes 1 
+#SBATCH --gpus-per-node 1 
+#SBATCH --partition gpu2
+#SBATCH --cpus-per-gpu 4 
+#SBATCH --mem 100G
+#SBATCH --time=15-00:00:00
+
+eval "$(conda shell.bash hook)"
+
+micromamba activate omegafold
+
+echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
+echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
+echo "SLURMD_NODENAME = ${SLURMD_NODENAME}"
+echo "SLURM_JOB_NUM_NODES = ${SLURM_JOB_NUM_NODES}"
+
+export HYDRA_FULL_ERROR=1
+
+cd /homefs/home/lux70/code/plaid/pipeline
+
+nvidia-smi
+
+organism_idx=$1
+function_idx=2219
+length=80
+
+srun python run_pipeline.py \
+    experiment=loop_conditional \
+    ++run_decode=False \
+    ++sample.num_samples=128 \
+    ++sample.return_all_timesteps=False \
+    ++sample.function_idx=$function_idx \
+    ++sample.organism_idx=$organism_idx \
+    ++sample.length=$length \
+    ++sample.output_root_dir=/data/lux70/plaid/artifacts/samples/5j007z42/organism_cond/f${function_idx}_o${organism_idx}

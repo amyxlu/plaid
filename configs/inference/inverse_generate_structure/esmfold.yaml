@@ -1,0 +1,15 @@
+_target_: plaid.pipeline.FoldPipeline
+
+fasta_file: null 
+outdir: null
+
+num_recycles: 4 
+max_seq_len: 512 
+max_num_batches: null
+shuffle: False
+
+# if batch size is -1, the whole dataset is processed in one go
+batch_size: 4 
+
+# mostly for saving animations, e.g. diffusion progress
+save_as_single_pdb_file: False

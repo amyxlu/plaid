@@ -1,0 +1,7 @@
+_target_: lightning.pytorch.loggers.WandbLogger
+
+project: plaid-compositional-conditioning
+entity: prescient-design
+name: null
+tags: null
+group: null

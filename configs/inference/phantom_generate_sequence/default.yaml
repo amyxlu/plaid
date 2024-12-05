@@ -1,0 +1,19 @@
+_target_: plaid.pipeline.InverseFoldPipeline
+
+pdb_dir: null
+output_fasta_path: null
+
+verbose: true
+model_name: "v_48_002"
+ca_only: true
+num_seq_per_target: 8
+sampling_temp: "0.1"
+designed_chain: "A"
+save_score: false
+save_probs: false
+score_only: false
+conditional_probs_only: false
+conditional_probs_only_backbone: false
+
+max_length: 512 
+batch_size: 1

@@ -1,0 +1,23 @@
+_target_: plaid.datasets.FunctionOrganismDataModule
+
+train_shards: "${paths.data_dir}/pfam/compressed/j1v1wv6w/train/shard{0000..4423}.tar"
+val_shards: "${paths.data_dir}/pfam/compressed/j1v1wv6w/val/shard{0000..0863}.tar"
+
+config_file: "${paths.data_dir}/pfam/compressed/j1v1wv6w/config.json"
+go_metadata_fpath: "${paths.data_dir}/pfam/pfam2go.csv"
+organism_metadata_fpath: "${paths.data_dir}/pfam/organism_counts.csv"
+cache_dir: "${paths.home_dir}/.cache/plaid_data/j1v1wv6w"
+
+# train_epoch_num_batches: 50_000
+# val_epoch_num_batches: 1_000
+
+train_epoch_num_batches: 2_000_000
+val_epoch_num_batches: 10_000
+
+shuffle_buffer: 20_000
+shuffle_initial: 20_000
+
+max_length: 256
+batch_size: 1024
+num_workers: 8 
+prefetch_factor: 4

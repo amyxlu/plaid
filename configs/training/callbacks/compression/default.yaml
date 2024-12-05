@@ -1,0 +1,10 @@
+_target_: plaid.callbacks.CompressionReconstructionCallback
+
+batch_size: 4
+out_dir: ${paths.bucket_dir}/cache
+shard_dir: ${paths.data_dir}/cath/shards
+pdb_dir: ${paths.bucket_dir}/cath/dompdb
+num_samples: 64 
+max_seq_len: 128 
+num_recycles: 1
+run_every_n_steps: 2500

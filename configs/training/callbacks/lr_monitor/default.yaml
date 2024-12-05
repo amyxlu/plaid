@@ -1,0 +1,1 @@
+_target_: lightning.pytorch.callbacks.LearningRateMonitor

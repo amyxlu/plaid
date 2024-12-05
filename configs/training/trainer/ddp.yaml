@@ -1,0 +1,16 @@
+_target_: lightning.pytorch.Trainer
+accelerator: gpu 
+strategy: ddp_find_unused_parameters_true
+devices: -1
+num_nodes: 1 
+precision: bf16-mixed
+
+gradient_clip_val: 1.0 
+log_every_n_steps: 50 
+num_sanity_val_steps: 0
+gradient_clip_algorithm: norm
+
+max_epochs: 20000
+default_root_dir: ${paths.log_dir}
+
+# accumulate_grad_batches: 1

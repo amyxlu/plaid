@@ -1,0 +1,30 @@
+_target_: plaid.pipeline.SampleLatent
+
+
+model_id: "5j007z42"
+model_ckpt_dir: "/data/lux70/plaid/checkpoints/plaid-compositional"
+organism_idx: 3617 
+function_idx: 2219 
+
+cond_scale: 3 
+num_samples: 64 
+beta_scheduler_name: null 
+beta_scheduler_start: null
+beta_scheduler_end: null
+beta_scheduler_tau: null
+
+sampling_timesteps: 20 
+
+batch_size: -1 
+return_all_timesteps: True
+output_root_dir: "/data/lux70/plaid/artifacts/samples/dpm2m"
+
+# length must be divisible by 4.
+# the actual protein length will be 2 * length.
+# length: 128
+length: 32
+
+# DPM-Solver specific parameters
+sample_scheduler: dpmpp_2m_sde
+sigma_min: 1e-2
+sigma_max: 160

@@ -1,0 +1,13 @@
+# only runs the consistency part, and assumes that samples have already been generated.
+# this is used for the baselines and for PLAID pipelines that failed during the consistency step.
+
+samples_dir: "/data/lux70/plaid/artifacts/samples/by_length"
+run_inverse: True
+run_phantom: True
+
+defaults:
+  - _self_
+  - inverse_generate_sequence: default
+  - inverse_generate_structure: esmfold
+  - phantom_generate_sequence: default
+  - experiment: null

@@ -1,0 +1,41 @@
+# Unique experiment ID for logging
+uid: null
+
+# By default, we will run the sampling step to generate latent embedding 
+# from the denoiser, and then decode the embeddings into sequences and 
+# structures. You can disable decoding to structures and sequences by setting
+# run_decode to False.
+run_decode: True
+
+# If enabled, this will run the full pipeline of generating "inverse generated"
+# and "phantom" embeddings, for calculating cross-consistency and self-consistency.
+run_cross_consistency: True
+run_self_consistency: True 
+
+# If enabled, this will run the analysis step, which includes calculating
+# designability scores, novelty and diversity checks (i.e. `easy-search`
+# and `easy-cluster`).
+run_analysis: True 
+
+# If enabled, this will filter out embeddings that are predicted to be 
+# non-designable when running foldseek in the `run_analysis` step.
+use_designability_filter: True
+
+# If enabled, this will log the experiment to Weights & Biases.
+log_to_wandb: False
+
+# specify config groups:
+defaults:
+  - _self_
+  #############################################################################
+  # !! note: this runs unconditional sampling. Override for conditional.      #
+  - sample: ddim_unconditional
+  #############################################################################
+
+  - decode: default
+  - inverse_generate_sequence: default
+  - inverse_generate_structure: esmfold
+  - phantom_generate_sequence: default
+
+  # you can specify an "experiment" group here, like "unconditional" or "baseline".
+  - experiment: null
