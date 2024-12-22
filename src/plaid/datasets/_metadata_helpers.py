@@ -3,6 +3,7 @@ Helpers during training and evaluation for loading GO term and organism metadata
 """
 
 import pandas as pd
+import os
 
 
 NUM_FUNCTION_CLASSES = 2219
@@ -10,11 +11,20 @@ NUM_ORGANISM_CLASSES = 3617
 HUMAN_IDX = 1326
 
 
+GO_METADATA_PATH = os.path.join(
+    os.path.dirname(__file__), "../../../assets", "pfam2go.csv"
+)
+
+ORGANISM_METADATA_PATH = os.path.join(
+    os.path.dirname(__file__), "../../../assets", "organism_counts.csv"
+)
+
+
 class MetadataParser:
     def __init__(
         self,
-        go_metadata_fpath="/data/lux70/data/pfam/pfam2go.csv",
-        organism_metadata_fpath="/data/lux70/data/pfam/organism_counts.csv",
+        go_metadata_fpath=GO_METADATA_PATH,
+        organism_metadata_fpath=ORGANISM_METADATA_PATH,
     ):
         """
         Class to extract relevant information from Pfam headers using specific data structures.

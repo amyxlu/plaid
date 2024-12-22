@@ -1,15 +1,14 @@
 _target_: plaid.pipeline.SampleLatent
 
-model_id: "5j007z42"
-model_ckpt_dir: "/data/lux70/plaid/checkpoints/plaid-compositional"
-output_root_dir: "/data/lux70/plaid/artifacts/samples/" 
+model_id: "PLAID-100M"
+output_root_dir: ???
 
 organism_idx: 3617
 function_idx: 2219
 cond_scale: 1.0 
 
-num_samples: 64 
-batch_size: -1 
+num_samples: 32 
+batch_size: 8
 length: 80 
 sampling_timesteps: 500 
 sample_scheduler: ddim 

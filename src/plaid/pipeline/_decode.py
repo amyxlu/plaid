@@ -8,16 +8,13 @@ import time
 
 import torch
 import numpy as np
-import pandas as pd
-import pickle as pkl
 
 from cheap.proteins import LatentToSequence, LatentToStructure
 from cheap.utils import LatentScaler
 from cheap.pretrained import CHEAP_pfam_shorten_2_dim_32
 
-from plaid.utils import outputs_to_avg_metric, npy, write_pdb_to_disk, write_to_fasta
-from plaid.typed import PathLike
-
+from ..utils import write_pdb_to_disk, write_to_fasta
+from ..typed import PathLike
 
 def ensure_exists(path):
     path = Path(path)
@@ -59,9 +56,8 @@ class DecodeLatent:
 
         self.sequence_constructor = None
         self.structure_constructor = None
-        self.cheap_pipeline = CHEAP_pfam_shorten_2_dim_32()
+        self.hourglass = CHEAP_pfam_shorten_2_dim_32(return_pipeline=False)
         self.latent_scaler = LatentScaler()
-        self.hourglass = self.cheap_pipeline.hourglass_model
         self.hourglass.to(device).eval()
 
     def load_sampled(self, npz_path):
@@ -168,7 +164,7 @@ class DecodeLatent:
         print("Decompressing latent samples")
         start = time.time()
         x_processed = self.process_x(x)
-        del self.cheap_pipeline  # free up memory
+        del self.hourglass  # free up memory
         end = time.time()
         with open(self.time_log_path, "w") as f:
             f.write(f"Decompress time: {end - start:.2f} seconds.\n")

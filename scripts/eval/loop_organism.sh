@@ -10,7 +10,7 @@
 
 for organism in 1326 1357 818 2436 ; do
     sbatch run_pipeline.slrm \
-        sample=sample_latent \
+        sample=sample_conditional \
         ++sample.function_idx=$function_idx \
         ++sample.organism_idx=$organism_idx \
         ++sample.cond_scale=5 \

@@ -30,7 +30,7 @@ cond_scale=$4
 subdir=$5
 
 python run_pipeline.py \
-    sample=sample_latent \
+    sample=sample_conditional \
     ++sample.function_idx=$function_idx \
     ++sample.organism_idx=$organism_idx \
     ++sample.cond_scale=$cond_scale \

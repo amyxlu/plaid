@@ -49,8 +49,6 @@ def create_denoiser_and_cfg_from_id(
     ckpt = _load_state_dict(model_id)
     cfg = _load_config(model_id)
 
-    print(OmegaConf.to_yaml(cfg))
-
     mod_state_dict = {}
     for k, v in ckpt["state_dict"].items():
         if k[:16] == "model._orig_mod.":

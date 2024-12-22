@@ -67,8 +67,9 @@ def run(df, function_idx, organism_idx, n_samples):
     # =============================================================================
 
     # override configs
+    # NOTE(amyxlu 12/24): might need to fix this since now we have ??? or some fields -- look into later if rerunning this.
     sample_cfg = OmegaConf.load(
-        "/homefs/home/lux70/code/plaid/configs/pipeline/sample/sample_latent.yaml"
+        "/homefs/home/lux70/code/plaid/configs/pipeline/sample/sample_conditional.yaml"
     )
     sample_cfg.function_idx = int(function_idx)
     # sample_cfg.organism_idx = int(organism_idx)

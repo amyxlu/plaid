@@ -9,13 +9,14 @@
   - [Environment Setup](#environment-setup)
   - [Model Weights](#model-weights)
   - [Loading Pretrained Models](#loading-pretrained-models)
-- [Usage](#usage)
-  - [Example Quick Start](#example-quick-start)
-  - [Full Pipeline](#full-pipeline)
-  - [Design-Only Inference](#design-only-inference)
-  - [Evaluation](#evaluation)
+- [Basic Usage](#basic-usage)
+  - [Quick Start: Command line](#quick-start-command-line)
+  - [Quick Start: Notebook](#quick-start-notebook)
+- [Full Pipeline](#full-pipeline)
 - [Training](#training)
 - [License](#license)
+
+
 
 ## Demo
 
@@ -67,45 +68,78 @@ The denoiser and diffusion configuration is loaded separately, since in theory, 
 Using the sampling steps below will initialize the discrete diffusion process used in our paper.
 
 
-## Usage
+## Basic Usage
 
-### Example Quick Start
+The full pipeline consists of:
+1. Sampling latent embeddings.
+2. Decoding these embeddings into sequences and structures.
+3. Folding and inverse folding acrobatics to report self-consistency and cross-consistency statics.
+4. Compute analysis metrics, including Foldseek and MMseqs to compare generations to known protein sequence and/or structure.
+
+Steps 1 & 2 are for generation, and 3 & 4 are for evaluation. More details are in the [Full Pipeline](#full-pipeline) section. Some quick example commands for getting started on generation are shown below. n, but some quick example commands for getting started are shown below:
+
+>[!IMPORTANT]
+>The specified length is half the actual protein length and must be divisible by 4. For example, to generate a 200-residue protein, set length=100.
+### Quick Start: Command line
+
+
+The `run_pipeline.py` script offers an entry point to the various stages of the pipeline.
+
+#### Unconditional Sampling
 
 ```bash
-python pipeline/run_pipeline.py experiment=unconditional_no_analysis
+SAMPLE_OUTPUT_DIR=/shared/amyxlu/plaid/artifacts/samples
+python pipeline/run_pipeline.py experiment=generate_unconditional ++sample.output_root_dir=$SAMPLE_OUTPUT_DIR ++sample.length=60 ++sample.num_samples=16
 ```
 
-This experiment is specified in `configs/inference/experiment/unconditional_no_analysis.yaml`, which overrides settings in `configs/inference/full.yaml`.As the YAML name suggests, it runs unconditional sampling (Steps 1 and 2 in the [Design-Only Inference](#design-only-inference) section) without analysis (Step 3 in the [Evaluation](#evaluation) section).
+Note that `++sample.output_root_dir` has no default, and must be defined. Others are optional, and it's good to check `configs/ddim_unconditional.yaml` to make sure.
+
+This will save outputs to `SAMPLE_OUTPUT_DIR/f2219_o3617_l60_s3/`, where `f2219` refers to the unconditional function index, `o3617` refers to the unconditional organism index, and `l60` refers to the latent length.
+
+#### Conditional Sampling
+In this example, we're generating proteins with 6-phosphofructokinase activity from E. coli. The length will be automatically chosen based on known Pfam domains (this auto-length feature only works when conditioning on a function). The conditioning scale of 3.0 determines how strongly to condition - a scale of 0.0 would be equivalent to unconditional sampling.
+```bash
+SAMPLE_OUTPUT_DIR=/shared/amyxlu/plaid/artifacts/samples
+python pipeline/run_pipeline.py experiment=generate_conditional ++sample.output_root_dir=$SAMPLE_OUTPUT_DIR ++sample.function_idx=166  ++sample.organism_idx=1030 ++sample.length=None ++sample.cond_scale=3.0
+```
+
+`++sample.function_idx` and `++sample.organism_idx` are required. Similar to the unconditional case, `++sample.output_root_dir` has no default, and must be defined. The other default values are this time specified in `configs/sample_conditional.yaml`. When `++sample.length=None`, the length is automatically chosen based on the length of known Pfam domains with the function`++sample.function_idx`.
+
+This will save outputs to `SAMPLE_OUTPUT_DIR/f166_o1030_l140_s3/`, where `f166` refers to the conditional function index, `o1030` refers to the conditional organism index, and `s3` refers to the classifier-free guidance conditioning. `l140` is the auto-selected length. This might be different for different runs.
+
+>[!NOTE]
+>To find the mapping between your desired GO term and function index, see `src/plaid/constants.py`. A list of organism indices can be found in `assets/organisms`.
+
+
+### Quick Start: Notebook
+
+You can also call the modular classes directly in a notebook, which affords some flexibilities; for example, here, we can specify the GO term and organism directly as a string. See the [conditional_demo.ipynb](notebooks/conditional_demo.ipynb) notebook for an example.
+
 
 **Most sampling parameters (e.g. GO term, organism, length) are specified in `configs/inference/sample/ddim_unconditional.yaml`. Update this config group for your needs. See Step 1 in the [Design-Only Inference](#design-only-inference) section for more details.**
 
-### Full Pipeline
-The entire `pipeline/run_pipeline.py` script will run the full pipeline, including sampling, decoding, consistency, and analysis (Steps 1-3 in the [Design-Only Inference](#design-only-inference) and [Evaluation](#evaluation) sections). You can turn off Steps 2 and 3, as documented in `configs/inference/full.yaml`. You can also run each of these steps as individual scripts, if you need to resume from a pipeline step after an error.
+## Full Pipeline
+The entire `pipeline/run_pipeline.py` script will run the full pipeline, including sampling, decoding, consistency, and analysis (Steps 1-3 in the [Design-Only Inference](#design-only-inference) and [Evaluation](#evaluation) sections). You can turn off Steps 2 and 3, which is what we've done in the [Basic Usage](#basic-usage) section. See `configs/inference/full.yaml` for more details.
 
-### Design-Only Inference
-PLAID generation consists of:
-1. Sampling latent embeddings.
-2. Decoding these embeddings into sequences and structures.
+You can also run each of these steps as individual scripts, if you need to resume from a pipeline step after an error. Scripts for each step are located in `pipeline`. These scripts are wrappers for the logic defined in `src/plaid/pipeline`.
+
 
 #### Step 1: Sampling Latent Embeddings
 1. Run latent sampling using Hydra-configured scripts in configs/pipeline/sample/. Example commands:
 
 ```bash
+SAMPLE_OUTPUT_DIR=/shared/amyxlu/plaid/artifacts/samples
+
 # Conditional sampling with inferred length
-python pipeline/run_sample.py ++length=null ++function_idx=166 ++organism_idx=1326
+python pipeline/run_sample.py ++length=null ++function_idx=166 ++organism_idx=1326 ++sample.output_root_dir=$SAMPLE_OUTPUT_DIR`
 
 # Conditional sampling with fixed length
-python pipeline/run_sample.py ++length=200 ++function_idx=166 ++organism_idx=1326
+python pipeline/run_sample.py ++length=200 ++function_idx=166 ++organism_idx=1326 ++sample.output_root_dir=$SAMPLE_OUTPUT_DIR`
 
 # Unconditional sampling with specified output directory
-python pipeline/run_sample.py ++length=200 ++function_idx=2219 ++organism_idx=3617 ++output_root_dir=/data/lux70/plaid/samples/unconditional
+python pipeline/run_sample.py ++length=200 ++function_idx=2219 ++organism_idx=3617 ++sample.output_root_dir=$SAMPLE_OUTPUT_DIR
 ```
 
->[!IMPORTANT]
->The specified length is half the actual protein length and must be divisible by 4. For example, to generate a 200-residue protein, set length=100.
-
->[!TIP]
->To find the mapping between your desired GO term and function index, see `src/plaid/constants.py`. A list of organism indices can be found in `assets/organisms`.
 
 >[!TIP]
 >PLAID also supports the DPM++ sampler, which achieves comparable performance with fewer sampling steps. See `configs/inference/sample/dpm2m_sde.yaml` for more details.
@@ -115,17 +149,19 @@ python pipeline/run_sample.py ++length=200 ++function_idx=2219 ++organism_idx=36
 * 2b. Use the CHEAP sequence decoder for sequences.
 * 2c. Use the ESMFold structure encoder for structures.
 
+```bash
+python pipeline/run_pipeline.py experiment=generate_unconditional ++npz_path=$SAMPLE_OUTPUT_DIR/f2219_o3617_l60_s3/latent.npz
+```
 
-## Evaluation
-Reproduce results or perform advanced analyses using the evaluation pipeline. Steps:
+Note that the code in `++npz_path` depends on which specifications were used in Step 1, but this path always ends in `latent.npz`.
 
-3. Generate inverse and phantom sequences/structures:
+#### Step 3: Generate inverse and phantom sequences/structures
 
 ```bash
 python pipeline/run_consistency.py ++samples_dir=/path/to/samples
 ```
 
-4. Analyze metrics (ccRMSD, novelty, diversity, etc.):
+#### Step 4: Analyze metrics (ccRMSD, novelty, diversity, etc.):
 
 ```bash
 python pipeline/run_analysis.py /path/to/samples

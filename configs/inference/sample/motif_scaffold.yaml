@@ -2,9 +2,8 @@
 
 _target_: plaid.pipeline.SampleLatent
 
-model_id: "5j007z42"
-model_ckpt_dir: "/data/lux70/plaid/checkpoints/plaid-compositional"
-output_root_dir: "/data/lux70/plaid/artifacts/samples/motifs/5tpn"
+model_id: "PLAID-100M"
+output_root_dir: ??? 
 
 organism_idx: 1326 
 function_idx: 1224 

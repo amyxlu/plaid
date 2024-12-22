@@ -33,9 +33,6 @@ from plaid.utils import get_pfam_length, round_to_multiple
 from plaid.pretrained import create_denoiser_and_cfg_from_id
 
 
-device = torch.device("cuda")
-
-
 def check_function_is_uncond(idx):
     return (idx is None) or (idx == NUM_FUNCTION_CLASSES)
 
@@ -46,6 +43,9 @@ def check_organism_is_uncond(idx):
 
 def default(x, val):
     return x if x is not None else val
+
+
+PLAID_MODELS = ["PLAID-100M", "PLAID-2B"]
 
 
 AVAILABLE_SAMPLERS = [
@@ -107,24 +107,27 @@ class SampleLatent:
         cheap_encoder: T.Optional[torch.nn.Module] = None,
     ):
         ############################################################
-        # Set up sampling hyperparameters
+        # Set up
         ############################################################
 
         assert (
             sample_scheduler in AVAILABLE_SAMPLERS
         ), f"Invalid sample scheduler: {sample_scheduler}. Must be one of {AVAILABLE_SAMPLERS}."
-        self.model_id = model_id
+        
+        assert model_id in PLAID_MODELS, f"Invalid model ID: {model_id}. Must be one of {PLAID_MODELS}."
+
+        self.model_id = str(model_id)
         self.organism_idx = int(organism_idx)
         self.function_idx = int(function_idx)
         self.cond_scale = float(cond_scale)
         self.num_samples = int(num_samples)
-        self.return_all_timesteps = return_all_timesteps
-        self.output_root_dir = output_root_dir
-        self.sample_scheduler = sample_scheduler
-        self.sigma_min = sigma_min
-        self.sigma_max = sigma_max
+        self.return_all_timesteps = bool(return_all_timesteps)
+        self.output_root_dir = Path(output_root_dir)
+        self.sample_scheduler = str(sample_scheduler)
+        self.sigma_min = float(sigma_min)
+        self.sigma_max = float(sigma_max)
 
-        self.use_compile = use_compile
+        self.use_compile = bool(use_compile)
         self.uid = wandb.util.generate_id()
 
         # default to cuda
@@ -133,8 +136,17 @@ class SampleLatent:
         # if no batch size is provided, sample all at once
         self.batch_size = batch_size if batch_size > 0 else num_samples
 
-        # override sampling timesteps if provided; otherwise, use what was used during training
-        self.diffusion.sampling_timesteps = default(
+        ############################################################
+        # Load pretrained denoiser
+        ############################################################
+        self.denoiser, self.cfg = create_denoiser_and_cfg_from_id(model_id)
+
+        ############################################################
+        # Override sampling hyperparameters
+        ############################################################
+
+        # Override sampling timesteps if provided; otherwise, use what was used during training.
+        self.sampling_timesteps = default(
             sampling_timesteps, self.cfg.diffusion.timesteps
         )
 
@@ -151,20 +163,14 @@ class SampleLatent:
             beta_scheduler_tau, self.cfg.diffusion.beta_scheduler_tau
         )
 
-        ############################################################
-        # Create the diffusion object
-        ############################################################
-
-        # load the pretrained denoiser and the config used to train the diffusion model
-        self.denoiser, self.cfg = create_denoiser_and_cfg_from_id(model_id)
-
-        # create the diffusion object and override the sampling timesteps if needed
-        self.diffusion = self._create_diffusion(self.denoiser)
+        # create the diffusion object
+        self.diffusion = self._create_diffusion()
         self.diffusion = self.diffusion.to(self.device)
 
         ############################################################
         # Set up auto length selection and output paths
         ############################################################
+        
         # if length is not specified and we are using conditional generation, automatically choose length
         self.full_pfam_hmm_file = None
         self.go_to_representative_pfam_df = None
@@ -266,12 +272,15 @@ class SampleLatent:
         self.cheap_encoder = CHEAP_pfam_shorten_2_dim_32()
         self.cheap_encoder = self.cheap_encoder.to(self.device)
 
-    def _create_diffusion(self, denoiser):
+    def _create_diffusion(self):
         diffusion_kwargs = self.cfg.diffusion
         diffusion_kwargs.pop("_target_")
         diffusion_kwargs["sampling_timesteps"] = self.sampling_timesteps
         diffusion_kwargs["beta_scheduler_name"] = self.beta_scheduler_name
-        diffusion = FunctionOrganismDiffusion(model=denoiser, **diffusion_kwargs)
+        diffusion_kwargs["beta_scheduler_start"] = self.beta_scheduler_start
+        diffusion_kwargs["beta_scheduler_end"] = self.beta_scheduler_end
+        diffusion_kwargs["beta_scheduler_tau"] = self.beta_scheduler_tau
+        diffusion = FunctionOrganismDiffusion(model=self.denoiser, **diffusion_kwargs)
         diffusion = diffusion.to(self.device)
         return diffusion
 

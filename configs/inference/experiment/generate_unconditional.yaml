@@ -1,0 +1,16 @@
+# @package _global_
+
+# experiment config that overrides the full pipeline configuration,
+# as specified in configs/inference/full.yaml.
+
+# example unconditional experiment using the DDIM sampler.
+
+defaults:
+  - _self_
+  - override /sample: ddim_unconditional
+
+# set these to False to skip analysis;
+# will only run the sampling and decoding steps.
+run_cross_consistency: False 
+run_self_consistency: False 
+run_analysis: False
