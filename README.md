@@ -1,5 +1,9 @@
 # PLAID (Protein Latent Induced Diffusion)
 
+![Results showing protein design capabilities](assets/results.png)
+
+PLAID is a multimodal generative model that can generate protein sequence and all-atom structure based on conditional function and taxonomic prompts. Please see our [paper](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v1) for more details.
+
 ## Contents
 
 - [Contents](#contents)
@@ -15,7 +19,6 @@
 - [Full Pipeline](#full-pipeline)
 - [Training](#training)
 - [License](#license)
-
 
 
 ## Demo
@@ -70,20 +73,17 @@ Using the sampling steps below will initialize the discrete diffusion process us
 
 ## Basic Usage
 
-The full pipeline consists of:
+The `run_pipeline.py` script offers an entry point to the full pipeline, which consists of:
 1. Sampling latent embeddings.
 2. Decoding these embeddings into sequences and structures.
 3. Folding and inverse folding acrobatics to report self-consistency and cross-consistency statics.
 4. Compute analysis metrics, including Foldseek and MMseqs to compare generations to known protein sequence and/or structure.
 
-Steps 1 & 2 are for generation, and 3 & 4 are for evaluation. More details are in the [Full Pipeline](#full-pipeline) section. Some quick example commands for getting started on generation are shown below. n, but some quick example commands for getting started are shown below:
+**Commands in this Basic Usage section will only run steps 1 & 2**. To run the full pipeline including evaluations, see the [Full Pipeline](#full-pipeline) and [Evaluation](#evaluation) sections.
 
 >[!IMPORTANT]
 >The specified length is half the actual protein length and must be divisible by 4. For example, to generate a 200-residue protein, set length=100.
 ### Quick Start: Command line
-
-
-The `run_pipeline.py` script offers an entry point to the various stages of the pipeline.
 
 #### Unconditional Sampling
 
@@ -92,34 +92,32 @@ SAMPLE_OUTPUT_DIR=/shared/amyxlu/plaid/artifacts/samples
 python pipeline/run_pipeline.py experiment=generate_unconditional ++sample.output_root_dir=$SAMPLE_OUTPUT_DIR ++sample.length=60 ++sample.num_samples=16
 ```
 
-Note that `++sample.output_root_dir` has no default, and must be defined. Others are optional, and it's good to check `configs/ddim_unconditional.yaml` to make sure.
+Note that `++sample.output_root_dir` has no default, and must be defined. Other defaults are defined in `configs/inference/sample/ddim_unconditional.yaml`.
 
 This will save outputs to `SAMPLE_OUTPUT_DIR/f2219_o3617_l60_s3/`, where `f2219` refers to the unconditional function index, `o3617` refers to the unconditional organism index, and `l60` refers to the latent length.
 
 #### Conditional Sampling
-In this example, we're generating proteins with 6-phosphofructokinase activity from E. coli. The length will be automatically chosen based on known Pfam domains (this auto-length feature only works when conditioning on a function). The conditioning scale of 3.0 determines how strongly to condition - a scale of 0.0 would be equivalent to unconditional sampling.
+In this example, we're generating proteins with 6-phosphofructokinase activity from E. coli. 
+
 ```bash
 SAMPLE_OUTPUT_DIR=/shared/amyxlu/plaid/artifacts/samples
 python pipeline/run_pipeline.py experiment=generate_conditional ++sample.output_root_dir=$SAMPLE_OUTPUT_DIR ++sample.function_idx=166  ++sample.organism_idx=1030 ++sample.length=None ++sample.cond_scale=3.0
 ```
 
-`++sample.function_idx` and `++sample.organism_idx` are required. Similar to the unconditional case, `++sample.output_root_dir` has no default, and must be defined. The other default values are this time specified in `configs/sample_conditional.yaml`. When `++sample.length=None`, the length is automatically chosen based on the length of known Pfam domains with the function`++sample.function_idx`.
+`++sample.function_idx` and `++sample.organism_idx` are required. Similar to the unconditional case, `++sample.output_root_dir` has no default, and must be defined. The other default values are this time specified in `configs/sample_conditional.yaml`. When `++sample.length=None`, the length is automatically chosen based on the length of known Pfam domains with the function`++sample.function_idx`. This auto-length feature only works when conditioning on a function. The conditioning scale of 3.0 determines how strongly to condition - a scale of 0.0 would be equivalent to unconditional sampling.
 
 This will save outputs to `SAMPLE_OUTPUT_DIR/f166_o1030_l140_s3/`, where `f166` refers to the conditional function index, `o1030` refers to the conditional organism index, and `s3` refers to the classifier-free guidance conditioning. `l140` is the auto-selected length. This might be different for different runs.
 
->[!NOTE]
->To find the mapping between your desired GO term and function index, see `src/plaid/constants.py`. A list of organism indices can be found in `assets/organisms`.
+>[!TIP]
+>To find the mapping between your desired GO term and function index, see `src/plaid/constants.py`.
 
 
 ### Quick Start: Notebook
 
 You can also call the modular classes directly in a notebook, which affords some flexibilities; for example, here, we can specify the GO term and organism directly as a string. See the [conditional_demo.ipynb](notebooks/conditional_demo.ipynb) notebook for an example.
 
-
-**Most sampling parameters (e.g. GO term, organism, length) are specified in `configs/inference/sample/ddim_unconditional.yaml`. Update this config group for your needs. See Step 1 in the [Design-Only Inference](#design-only-inference) section for more details.**
-
 ## Full Pipeline
-The entire `pipeline/run_pipeline.py` script will run the full pipeline, including sampling, decoding, consistency, and analysis (Steps 1-3 in the [Design-Only Inference](#design-only-inference) and [Evaluation](#evaluation) sections). You can turn off Steps 2 and 3, which is what we've done in the [Basic Usage](#basic-usage) section. See `configs/inference/full.yaml` for more details.
+The entire `pipeline/run_pipeline.py` script will run the full pipeline, including sampling, decoding, consistency, and analysis. See `configs/inference/full.yaml` for the full pipeline config.
 
 You can also run each of these steps as individual scripts, if you need to resume from a pipeline step after an error. Scripts for each step are located in `pipeline`. These scripts are wrappers for the logic defined in `src/plaid/pipeline`.
 
