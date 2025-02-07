@@ -24,7 +24,7 @@ def pdb_path_to_secondary_structure(pdb_path) -> Tuple[float, float, str]:
     structure_atom_array = pdb_path_to_biotite_atom_array(pdb_path)
     out = DsspApp.annotate_sse(structure_atom_array, DSSP_PATH)
     dssp_annotation = "".join(out)
-    alpha_percentage = np.array([x == "C" for x in dssp_annotation]).sum() / len(
+    alpha_percentage = np.array([x == "H" for x in dssp_annotation]).sum() / len(
         dssp_annotation
     )
     beta_percentage = np.array([x == "E" for x in dssp_annotation]).sum() / len(
