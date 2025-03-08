@@ -199,9 +199,7 @@ def main(cfg: DictConfig):
     # Analysis
     # ===========================
 
-    if run_analysis:
-        # TODO: make analysis step also optional
-
+    if cfg.run_analysis:
         # run and save result CSV
         rita_perplexity = RITAPerplexity()
         df = run_analysis(outdir, rita_perplexity=rita_perplexity)
