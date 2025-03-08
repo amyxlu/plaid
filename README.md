@@ -111,7 +111,7 @@ python pipeline/run_pipeline.py experiment=generate_unconditional ++sample.outpu
 
 Note that `++sample.output_root_dir` has no default, and must be defined. Other defaults are defined in `configs/inference/sample/ddim_unconditional.yaml`.
 
-This will save outputs to `SAMPLE_OUTPUT_DIR/f2219_o3617_l60_s3/`, where `f2219` refers to the unconditional function index, `o3617` refers to the unconditional organism index, and `l60` refers to the latent length.
+This will save outputs to `SAMPLE_OUTPUT_DIR/f2219_o3617_l60_s3/`, where `f2219` refers to the unconditional function index, `o3617` refers to the unconditional organism index, and `l60` refers to the latent length. You'll notice that the actual length of the protein sequence and structure is 120; this is because the CHEAP decoder performs a 2x lengthwise decompression.
 
 #### Conditional Sampling
 In this example, we're generating proteins with 6-phosphofructokinase activity from E. coli. 
@@ -125,7 +125,7 @@ python pipeline/run_pipeline.py experiment=generate_conditional ++sample.output_
 
 The conditioning scale of 3.0 determines how strongly to condition - a scale of 0.0 would be equivalent to unconditional sampling.
 
-This will save outputs to `SAMPLE_OUTPUT_DIR/f166_o1030_l140_s3/`, where `f166` refers to the conditional function index, `o1030` refers to the conditional organism index, and `s3` refers to the classifier-free guidance conditioning. `l140` is the auto-selected length. This might be different for different runs.
+This will save outputs to `SAMPLE_OUTPUT_DIR/f166_o1030_l140_s3/`, where `f166` refers to the conditional function index, `o1030` refers to the conditional organism index, and `s3` refers to the classifier-free guidance conditioning. `l140` is the [auto-selected length](#automatic-length-determination), which might be slightly different for different runs.
 
 >[!TIP]
 >To find the mapping between your desired GO term and function index, see `src/plaid/constants.py`.
