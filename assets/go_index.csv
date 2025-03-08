@@ -1,0 +1,2220 @@
+,GO_term,pfam_id,GO_id,GO_level,count,GO_idx
+161,G protein-coupled receptor activity,PF00001,GO:0004930,function,11,0
+54,ATP hydrolysis activity,PF00004,GO:0016887,function,15,1
+52,ATP binding,PF00006,GO:0005524,function,178,2
+174,GTPase activity,PF00009,GO:0003924,function,10,3
+1634,protein dimerization activity,PF00010,GO:0046983,function,22,4
+62,ATP-dependent protein folding chaperone,PF00012,GO:0140662,function,2,5
+247,RNA binding,PF00013,GO:0003723,function,118,6
+1914,serine-type endopeptidase inhibitor activity,PF00014,GO:0004867,function,11,7
+1931,signal transduction,PF00015,GO:0007165,process,34,8
+1889,ribulose-bisphosphate carboxylase activity,PF00016,GO:0016984,function,2,9
+1629,protein binding,PF00018,GO:0005515,function,122,10
+922,growth factor activity,PF00019,GO:0008083,function,17,11
+960,homophilic cell adhesion via plasma membrane adhesion molecules,PF00028,GO:0007156,process,2,12
+687,cysteine-type endopeptidase inhibitor activity,PF00031,GO:0004869,function,3,13
+769,electron transfer activity,PF00032,GO:0009055,function,20,14
+516,calcium ion binding,PF00036,GO:0005509,function,34,15
+826,extracellular region,PF00039,GO:0005576,component,203,16
+929,heme binding,PF00042,GO:0020037,function,26,17
+222,NAD binding,PF00044,GO:0051287,function,13,18
+99,DNA binding,PF00046,GO:0003677,function,320,19
+607,chemokine activity,PF00048,GO:0008009,function,1,20
+961,hormone activity,PF00049,GO:0005179,function,28,21
+1398,oxidoreductase activity,PF00056,GO:0016491,function,68,22
+1074,ligand-gated monoatomic ion channel activity,PF00060,GO:0015276,function,2,23
+1267,myosin complex,PF00063,GO:0016459,component,4,24
+812,exo-alpha-sialidase activity,PF00064,GO:0004308,function,2,25
+1407,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",PF00067,GO:0016705,function,2,26
+1506,phospholipid metabolic process,PF00068,GO:0006644,process,2,27
+1656,protein kinase activity,PF00069,GO:0004672,function,6,28
+1511,phosphorelay signal transduction system,PF00072,GO:0000160,process,16,29
+1995,structural molecule activity,PF00073,GO:0005198,function,90,30
+271,RNA-DNA hybrid ribonuclease activity,PF00075,GO:0004523,function,5,31
+2001,superoxide metabolic process,PF00080,GO:0006801,process,3,32
+1916,serine-type peptidase activity,PF00082,GO:0008236,function,7,33
+2111,transmembrane transporter activity,PF00083,GO:0022857,function,25,34
+1913,serine-type endopeptidase activity,PF00089,GO:0004252,function,29,35
+171,GTP binding,PF00091,GO:0005525,function,26,36
+1437,peptidase inhibitor activity,PF00095,GO:0030414,function,3,37
+1156,metal ion binding,PF00097,GO:0046872,function,48,38
+1346,nucleic acid binding,PF00098,GO:0003676,function,32,39
+1632,protein dephosphorylation,PF00102,GO:0006470,process,3,40
+1908,sequence-specific DNA binding,PF00105,GO:0043565,function,17,41
+375,"acyltransferase activity, transferring groups other than amino-acyl groups",PF00108,GO:0016747,function,13,42
+331,Wnt signaling pathway,PF00110,GO:0016055,process,7,43
+1050,iron-sulfur cluster binding,PF00111,GO:0051536,function,15,44
+690,cysteine-type peptidase activity,PF00112,GO:0008234,function,9,45
+1537,pilus,PF00114,GO:0009289,component,8,46
+387,aerobic respiration,PF00115,GO:0009060,process,1,47
+698,cytochrome-c oxidase activity,PF00116,GO:0004129,function,3,48
+1717,"proton-transporting ATP synthase complex, coupling factor F(o)",PF00119,GO:0045263,component,4,49
+896,glutamine synthetase activity,PF00120,GO:0004356,function,4,50
+2120,triose-phosphate isomerase activity,PF00121,GO:0004807,function,1,51
+1525,photosynthetic electron transport in photosystem II,PF00124,GO:0009772,process,1,52
+138,DNA-binding transcription factor activity,PF00126,GO:0003700,function,60,53
+667,copper ion binding,PF00127,GO:0005507,function,17,54
+532,carbohydrate metabolic process,PF00128,GO:0005975,process,70,55
+2018,tRNA aminoacylation for protein translation,PF00133,GO:0006418,process,10,56
+1365,nucleotide binding,PF00136,GO:0000166,function,30,57
+1722,"proton-transporting two-sector ATPase complex, proton-transporting domain",PF00137,GO:0033177,component,1,58
+528,carbohydrate binding,PF00139,GO:0030246,function,20,59
+1924,sigma factor activity,PF00140,GO:0016987,function,5,60
+1855,response to oxidative stress,PF00141,GO:0006979,process,3,61
+701,cytokine receptor binding,PF00143,GO:0005126,function,2,62
+1178,methyltransferase activity,PF00145,GO:0008168,function,37,63
+1151,membrane,PF00146,GO:0016020,component,541,64
+980,hydrolase activity,PF00149,GO:0016787,function,35,65
+1389,organic substance metabolic process,PF00150,GO:0071704,process,2,66
+1079,lipase activity,PF00151,GO:0016298,function,3,67
+1729,pyridoxal phosphate binding,PF00155,GO:0030170,function,7,68
+2085,transcription factor binding,PF00158,GO:0008134,function,5,69
+1662,protein peptidyl-prolyl isomerization,PF00160,GO:0000413,process,1,70
+1746,rRNA N-glycosylase activity,PF00161,GO:0030598,function,1,71
+1497,phosphoglycerate kinase activity,PF00162,GO:0004618,function,1,72
+1748,rRNA binding,PF00163,GO:0019843,function,6,73
+1885,ribosome,PF00164,GO:0005840,component,86,74
+1638,protein folding chaperone,PF00166,GO:0044183,function,3,75
+139,"DNA-binding transcription factor activity, RNA polymerase II-specific",PF00172,GO:0000981,function,2,76
+59,ATP-dependent chromatin remodeler activity,PF00176,GO:0140658,function,1,77
+614,chitinase activity,PF00182,GO:0004568,function,2,78
+1303,neurohypophyseal hormone activity,PF00184,GO:0005185,function,2,79
+412,amino acid binding,PF00185,GO:0016597,function,1,80
+2043,tetrahydrofolate biosynthetic process,PF00186,GO:0046654,process,1,81
+610,chitin binding,PF00187,GO:0008061,function,4,82
+2099,translation,PF00189,GO:0006412,process,91,83
+522,calcium-dependent phospholipid binding,PF00191,GO:0005544,function,1,84
+977,hyaluronic acid binding,PF00193,GO:0005540,function,1,85
+1771,regulation of DNA-templated transcription,PF00196,GO:0006355,process,182,86
+782,endopeptidase inhibitor activity,PF00197,GO:0004866,function,5,87
+373,acyltransferase activity,PF00198,GO:0016746,function,9,88
+550,catalase activity,PF00199,GO:0004096,function,1,89
+326,UDP-glycosyltransferase activity,PF00201,GO:0008194,function,1,90
+2071,transaminase activity,PF00202,GO:0008483,function,1,91
+131,"DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity",PF00204,GO:0003918,function,4,92
+2049,thiamine pyrophosphate binding,PF00205,GO:0030976,function,3,93
+414,amino acid metabolic process,PF00208,GO:0006520,process,8,94
+841,ferric iron binding,PF00210,GO:0008199,function,3,95
+678,cyclic nucleotide biosynthetic process,PF00211,GO:0009190,process,1,96
+1714,"proton-transporting ATP synthase activity, rotational mechanism",PF00213,GO:0046933,function,3,97
+1392,orotidine-5'-phosphate decarboxylase activity,PF00215,GO:0004590,function,1,98
+1984,structural constituent of chromatin,PF00216,GO:0030527,function,4,99
+2094,"transferase activity, transferring phosphorus-containing groups",PF00217,GO:0016772,function,7,100
+1004,indole-3-glycerol-phosphate synthase activity,PF00218,GO:0004425,function,1,101
+2057,thylakoid,PF00223,GO:0009579,component,2,102
+1738,pyruvate kinase activity,PF00224,GO:0004743,function,1,103
+1186,microtubule motor activity,PF00225,GO:0003777,function,1,104
+1621,proteasome core complex,PF00227,GO:0005839,component,1,105
+2128,tumor necrosis factor receptor binding,PF00229,GO:0005164,function,1,106
+605,channel activity,PF00230,GO:0015267,function,3,107
+1716,"proton-transporting ATP synthase complex, catalytic core F(1)",PF00231,GO:0045261,component,1,108
+991,"hydrolase activity, hydrolyzing O-glycosyl compounds",PF00232,GO:0004553,function,37,109
+18,"3',5'-cyclic-nucleotide phosphodiesterase activity",PF00233,GO:0004114,function,2,110
+357,actin binding,PF00235,GO:0003779,function,13,111
+127,DNA strand exchange activity,PF00239,GO:0000150,function,4,112
+141,DNA-directed DNA polymerase activity,PF00242,GO:0003887,function,20,113
+1934,signaling receptor binding,PF00243,GO:0005102,function,8,114
+1472,phosphatase activity,PF00245,GO:0016791,function,8,115
+1160,metallocarboxypeptidase activity,PF00246,GO:0004181,function,2,116
+1452,peptidyl-prolyl cis-trans isomerase activity,PF00254,GO:0003755,function,4,117
+901,glutathione peroxidase activity,PF00255,GO:0004602,function,1,118
+1862,response to water,PF00257,GO:0009415,process,1,119
+157,FMN binding,PF00258,GO:0010181,function,8,120
+1962,sperm DNA condensation,PF00260,GO:0035092,process,3,121
+2149,unfolded protein binding,PF00262,GO:0051082,function,8,122
+1673,protein secretion,PF00263,GO:0009306,process,11,123
+2060,thymidine kinase activity,PF00265,GO:0004797,function,3,124
+1256,monoatomic ion transmembrane transport,PF00267,GO:0034220,process,3,125
+734,deoxyribonucleotide biosynthetic process,PF00268,GO:0009263,process,1,126
+758,double-stranded DNA binding,PF00269,GO:0003690,function,5,127
+433,antibacterial humoral response,PF00272,GO:0019731,process,2,128
+827,extracellular space,PF00273,GO:0005615,component,21,129
+856,fructose-bisphosphate aldolase activity,PF00274,GO:0004332,function,1,130
+2093,"transferase activity, transferring alkyl or aryl (other than methyl) groups",PF00275,GO:0016765,function,5,131
+551,catalytic activity,PF00278,GO:0003824,function,50,132
+1863,response to wounding,PF00280,GO:0009611,process,1,133
+538,carbon-carbon lyase activity,PF00282,GO:0016830,function,1,134
+1521,photosynthesis,PF00283,GO:0015979,process,41,135
+1529,photosystem II,PF00284,GO:0009523,component,19,136
+374,"acyltransferase activity, acyl groups converted into alkyl on transfer",PF00285,GO:0046912,function,1,137
+2176,viral capsid,PF00286,GO:0019028,component,65,138
+1960,sodium:potassium-exchanging ATPase complex,PF00287,GO:0005890,component,1,139
+2125,tryptophan synthase activity,PF00290,GO:0004834,function,1,140
+1554,polygalacturonase activity,PF00295,GO:0004650,function,1,141
+1046,iron ion binding,PF00301,GO:0005506,function,22,142
+616,chloramphenicol O-acetyltransferase activity,PF00302,GO:0008811,function,1,143
+1412,"oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen",PF00305,GO:0016702,function,5,144
+1712,proton motive force-driven ATP synthesis,PF00306,GO:0015986,process,18,145
+137,DNA-binding transcription activator activity,PF00309,GO:0001216,function,2,146
+1495,phosphoenolpyruvate carboxylase activity,PF00311,GO:0008964,function,2,147
+1880,"ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor",PF00317,GO:0004748,function,2,148
+722,defense response,PF00321,GO:0006952,process,23,149
+1833,regulation of vasoconstriction,PF00322,GO:0019229,process,1,150
+2110,transmembrane transport,PF00324,GO:0055085,process,55,151
+230,NADH dehydrogenase (ubiquinone) activity,PF00329,GO:0008137,function,4,152
+1006,inflammatory response,PF00340,GO:0006954,process,2,153
+884,glucose-6-phosphate isomerase activity,PF00342,GO:0004347,function,3,154
+913,glycogen phosphorylase activity,PF00343,GO:0008184,function,1,155
+1685,protein transport,PF00344,GO:0015031,process,20,156
+576,cell wall organization,PF00345,GO:0071555,process,2,157
+1400,"oxidoreductase activity, acting on NAD(P)H",PF00346,GO:0016651,function,2,158
+1054,isoprenoid biosynthetic process,PF00348,GO:0008299,process,1,159
+1517,"phosphotransferase activity, alcohol group as acceptor",PF00349,GO:0016773,function,8,160
+1409,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced pteridine as one donor, and incorporation of one atom of oxygen",PF00351,GO:0016714,function,1,161
+144,DNA-templated transcription initiation,PF00352,GO:0006352,process,13,162
+7,"2 iron, 2 sulfur cluster binding",PF00355,GO:0051537,function,5,163
+1496,phosphoenolpyruvate-dependent sugar phosphotransferase system,PF00358,GO:0009401,process,15,164
+737,detection of visible light,PF00360,GO:0009584,process,1,165
+41,6-phosphofructokinase activity,PF00365,GO:0003872,function,1,166
+1694,protein-N(PI)-phosphohistidine-sugar phosphotransferase activity,PF00367,GO:0008982,function,8,167
+995,hydroxymethylglutaryl-CoA reductase (NADPH) activity,PF00368,GO:0004420,function,1,168
+1063,kinase activity,PF00370,GO:0016301,function,13,169
+1309,nickel cation binding,PF00374,GO:0016151,function,7,170
+2006,symporter activity,PF00375,GO:0015293,function,1,171
+1644,protein homooligomerization,PF00377,GO:0051260,process,3,172
+304,TBP-class protein binding,PF00382,GO:0017025,function,1,173
+1487,phosphatidylinositol phospholipase C activity,PF00387,GO:0004435,function,2,174
+1419,"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",PF00389,GO:0016616,function,10,175
+1124,malic enzyme activity,PF00390,GO:0004470,function,1,176
+1516,phosphorylation,PF00391,GO:0016310,process,6,177
+1434,pentose-phosphate shunt,PF00393,GO:0006098,process,1,178
+1983,structural constituent of cell wall,PF00399,GO:0005199,function,4,179
+1560,polysaccharide catabolic process,PF00404,GO:0000272,process,4,180
+821,extracellular matrix,PF00413,GO:0031012,component,2,181
+2127,tubulin binding,PF00418,GO:0015631,function,5,182
+1526,photosystem,PF00421,GO:0009521,component,1,183
+973,host cell surface receptor binding,PF00423,GO:0046789,function,6,184
+970,host cell nucleus,PF00424,GO:0042025,component,7,185
+2184,viral life cycle,PF00426,GO:0019058,process,14,186
+1535,phycobilisome,PF00427,GO:0030089,component,5,187
+1668,protein phosphorylation,PF00433,GO:0006468,process,16,188
+1941,single-stranded DNA binding,PF00436,GO:0003697,function,14,189
+282,S-adenosylmethionine biosynthetic process,PF00438,GO:0006556,process,3,190
+1413,"oxidoreductase activity, acting on the CH-CH group of donors",PF00441,GO:0016627,function,6,191
+1633,protein deubiquitination,PF00443,GO:0016579,process,3,192
+1877,ribonuclease T2 activity,PF00445,GO:0033897,function,1,193
+1263,multicellular organism development,PF00446,GO:0007275,process,19,194
+295,SRP-dependent cotranslational protein targeting to membrane,PF00448,GO:0006614,process,8,195
+1912,serine-type carboxypeptidase activity,PF00450,GO:0004185,function,3,196
+1045,ion channel inhibitor activity,PF00451,GO:0008200,function,7,197
+1052,isocitrate lyase activity,PF00463,GO:0004451,function,1,198
+2103,translation release factor activity,PF00472,GO:0003747,function,1,199
+999,imidazoleglycerol-phosphate dehydratase activity,PF00475,GO:0004424,function,1,200
+882,glucose metabolic process,PF00479,GO:0006006,process,2,201
+499,biosynthetic process,PF00483,GO:0009058,process,18,202
+545,carbonate dehydratase activity,PF00484,GO:0004089,function,1,203
+1086,lipid metabolic process,PF00487,GO:0006629,process,14,204
+1193,mismatched DNA binding,PF00488,GO:0030983,function,6,205
+302,T-helper 17 cell lineage commitment,PF00489,GO:0072540,process,1,206
+1566,porphobilinogen synthase activity,PF00490,GO:0004655,function,1,207
+103,DNA duplex unwinding,PF00493,GO:0032508,process,1,208
+164,G-protein beta/gamma-subunit complex binding,PF00503,GO:0031683,function,1,209
+1770,regulation of DNA replication,PF00508,GO:0006275,process,7,210
+1510,phosphorelay sensor kinase activity,PF00512,GO:0000155,function,10,211
+2179,viral envelope,PF00516,GO:0019031,component,33,212
+105,DNA helicase activity,PF00519,GO:0003678,function,8,213
+1255,monoatomic ion channel activity,PF00520,GO:0005216,function,3,214
+864,fusion of virus membrane with host plasma membrane,PF00523,GO:0019064,process,9,215
+981,"hydrolase activity, acting on acid anhydrides",PF00524,GO:0016817,function,13,216
+1988,structural constituent of eye lens,PF00525,GO:0005212,function,1,217
+917,glycosyltransferase activity,PF00534,GO:0016757,function,16,218
+1363,nucleosome assembly,PF00538,GO:0006334,process,2,219
+272,RNA-binding transcription regulator activity,PF00539,GO:0001070,function,1,220
+2197,virion attachment to host cell,PF00541,GO:0019062,process,5,221
+1810,regulation of nitrogen utilization,PF00543,GO:0006808,process,1,222
+251,RNA endonuclease activity,PF00545,GO:0004521,function,6,223
+2150,urea catabolic process,PF00547,GO:0043419,process,2,224
+686,cysteine-type endopeptidase activity,PF00548,GO:0004197,function,28,225
+1541,plasma membrane light-harvesting complex,PF00556,GO:0030077,component,3,226
+1253,monoatomic cation channel activity,PF00558,GO:0005261,function,1,227
+140,DNA-directed 5'-3' RNA polymerase activity,PF00562,GO:0003899,function,31,228
+2218,zinc ion binding,PF00569,GO:0008270,function,101,229
+844,fimbrial usher porin activity,PF00577,GO:0015473,function,1,230
+437,antioxidant activity,PF00578,GO:0016209,function,2,231
+1681,protein targeting,PF00584,GO:0006605,process,3,232
+259,RNA methyltransferase activity,PF00588,GO:0008173,function,2,233
+106,DNA integration,PF00589,GO:0015074,process,12,234
+969,host cell membrane,PF00599,GO:0033644,component,6,235
+811,exit of virus from host cell nucleus through nuclear pore,PF00601,GO:0039675,process,1,236
+2174,viral RNA genome replication,PF00602,GO:0039694,process,4,237
+2075,transcription cis-regulatory region binding,PF00605,GO:0000976,function,3,238
+60,ATP-dependent diacylglycerol kinase activity,PF00609,GO:0004143,function,1,239
+1034,intracellular signal transduction,PF00610,GO:0035556,process,8,240
+1774,regulation of GTPase activity,PF00616,GO:0043087,process,2,241
+1947,small GTPase mediated signal transduction,PF00617,GO:0007264,process,3,242
+1779,regulation of apoptotic process,PF00619,GO:0042981,process,5,243
+924,guanyl-nucleotide exchange factor activity,PF00621,GO:0005085,function,8,244
+847,flocculation,PF00624,GO:0000128,process,1,245
+163,G protein-coupled receptor signaling pathway,PF00631,GO:0007186,process,16,246
+2146,ubiquitin-protein transferase activity,PF00632,GO:0004842,function,8,247
+1874,ribonuclease III activity,PF00636,GO:0004525,function,2,248
+2169,vesicle-mediated transport,PF00637,GO:0016192,process,22,249
+1036,intracellular transport,PF00638,GO:0046907,process,1,250
+224,NAD+ ADP-ribosyltransferase activity,PF00644,GO:0003950,function,3,251
+2104,translational elongation,PF00647,GO:0006414,process,4,252
+521,calcium-dependent cysteine-type endopeptidase activity,PF00648,GO:0004198,function,1,253
+2207,voltage-gated chloride channel activity,PF00654,GO:0005247,function,1,254
+988,"hydrolase activity, acting on ester bonds",PF00657,GO:0016788,function,15,255
+2196,virion assembly,PF00661,GO:0019068,process,8,256
+44,ABC-type transporter activity,PF00664,GO:0140359,function,7,257
+1422,"oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor",PF00676,GO:0016624,function,1,258
+273,RNA-dependent RNA polymerase activity,PF00680,GO:0003968,function,34,259
+710,cytoskeleton,PF00681,GO:0005856,component,6,260
+927,heat shock protein binding,PF00684,GO:0031072,function,1,261
+1999,sulfotransferase activity,PF00685,GO:0008146,function,2,262
+1978,starch binding,PF00686,GO:2001070,function,4,263
+308,TMP biosynthetic process,PF00693,GO:0006230,process,1,264
+2189,viral process,PF00695,GO:0016032,process,29,265
+1514,phosphoribosylanthranilate isomerase activity,PF00697,GO:0004640,function,1,266
+2153,urease complex,PF00699,GO:0035550,component,1,267
+1095,lyase activity,PF00701,GO:0016829,function,20,268
+2105,translational initiation,PF00707,GO:0006413,process,9,269
+381,adenylosuccinate synthase activity,PF00709,GO:0004019,function,1,270
+113,DNA polymerase III complex,PF00712,GO:0009360,component,5,271
+2129,type II interferon receptor binding,PF00714,GO:0005133,function,1,272
+1019,interleukin-2 receptor binding,PF00715,GO:0005134,function,1,273
+1477,phosphate-containing compound metabolic process,PF00719,GO:0006796,process,1,274
+836,fatty acid metabolic process,PF00725,GO:0006631,process,5,275
+1021,interleukin-4 receptor binding,PF00727,GO:0005136,function,1,276
+484,base-excision repair,PF00730,GO:0006284,process,5,277
+0,'de novo' IMP biosynthetic process,PF00731,GO:0006189,process,1,278
+1399,"oxidoreductase activity, acting on CH-OH group of donors",PF00732,GO:0016614,function,3,279
+459,asparagine synthase (glutamine-hydrolyzing) activity,PF00733,GO:0004066,function,1,280
+593,cellulose binding,PF00734,GO:0030248,function,2,281
+1474,phosphate ion binding,PF00737,GO:0042301,function,1,282
+2181,viral genome replication,PF00739,GO:0019079,process,13,283
+2167,vesicle membrane,PF00741,GO:0012506,component,3,284
+215,"N,N-dimethylaniline monooxygenase activity",PF00743,GO:0004499,function,1,285
+899,glutamyl-tRNA reductase activity,PF00745,GO:0008883,function,2,286
+2017,tRNA aminoacylation,PF00749,GO:0043039,process,3,287
+1345,nuclease activity,PF00752,GO:0004518,function,9,288
+930,heme biosynthetic process,PF00762,GO:0006783,process,1,289
+1175,methylenetetrahydrofolate dehydrogenase (NADP+) activity,PF00763,GO:0004488,function,2,290
+2092,transferase activity,PF00765,GO:0016740,function,18,291
+1910,serine-type D-Ala-D-Ala carboxypeptidase activity,PF00768,GO:0009002,function,2,292
+261,RNA nuclease activity,PF00773,GO:0004540,function,7,293
+1921,sialyltransferase activity,PF00777,GO:0008373,function,1,294
+1689,protein tyrosine/serine/threonine phosphatase activity,PF00782,GO:0008138,function,1,295
+1485,phosphatidylinositol binding,PF00787,GO:0035091,function,3,296
+1320,nitrogen compound metabolic process,PF00795,GO:0006807,process,10,297
+1527,photosystem I,PF00796,GO:0009522,component,10,298
+349,acetyltransferase activity,PF00797,GO:0016407,function,3,299
+120,DNA replication,PF00799,GO:0006260,process,57,300
+199,L-phenylalanine biosynthetic process,PF00800,GO:0009094,process,1,301
+2200,virion membrane,PF00802,GO:0055036,component,7,302
+2112,"transport of virus in host, cell to cell",PF00803,GO:0046740,process,6,303
+1725,pteridine-containing compound metabolic process,PF00809,GO:0042558,process,1,304
+1672,protein retention in ER lumen,PF00810,GO:0006621,process,1,305
+580,cell-matrix adhesion,PF00811,GO:0007160,process,2,306
+119,DNA repair,PF00817,GO:0006281,process,37,307
+567,cell outer membrane,PF00818,GO:0009279,component,13,308
+796,envenomation resulting in occlusion of the pore of voltage-gated potassium channel in another organism,PF00819,GO:0044564,process,1,309
+1494,phosphoenolpyruvate carboxykinase activity,PF00821,GO:0004611,function,2,310
+1875,ribonuclease P activity,PF00825,GO:0004526,function,1,311
+1991,structural constituent of ribosome,PF00830,GO:0003735,function,97,312
+1754,"racemase and epimerase activity, acting on carbohydrates and derivatives",PF00834,GO:0016857,function,2,313
+1805,regulation of microtubule polymerization or depolymerization,PF00836,GO:0031110,process,1,314
+2062,thyroxine 5'-deiodinase activity,PF00837,GO:0004800,function,1,315
+1966,spermatid development,PF00841,GO:0007286,process,1,316
+2185,viral nucleocapsid,PF00846,GO:0019013,component,17,317
+583,cellular metabolic process,PF00848,GO:0044237,process,3,318
+260,RNA modification,PF00849,GO:0009451,process,5,319
+859,fucosyltransferase activity,PF00852,GO:0008417,function,2,320
+1955,sodium channel activity,PF00858,GO:0005272,function,1,321
+1996,sucrose metabolic process,PF00862,GO:0005985,process,1,322
+1393,ossification,PF00865,GO:0001503,process,4,323
+581,cellular aromatic compound metabolic process,PF00866,GO:0006725,process,6,324
+1439,peptide cross-linking,PF00868,GO:0018149,process,2,325
+1518,"phosphotransferase activity, carboxyl group as acceptor",PF00871,GO:0016774,function,1,326
+2113,transposase activity,PF00872,GO:0004803,function,10,327
+1099,lysosomal transport,PF00878,GO:0007041,process,1,328
+1159,metalloaminopeptidase activity,PF00883,GO:0070006,function,3,329
+1871,riboflavin synthase complex,PF00885,GO:0009349,component,1,330
+837,fatty-acyl-CoA binding,PF00887,GO:0000062,function,2,331
+2143,ubiquitin protein ligase binding,PF00888,GO:0031625,function,1,332
+240,O-methyltransferase activity,PF00891,GO:0008171,function,2,333
+1217,"mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)",PF00895,GO:0000276,component,8,334
+1057,keratinization,PF00904,GO:0031424,process,1,335
+1433,penicillin binding,PF00905,GO:0008658,function,2,336
+1569,positive regulation of DNA-templated transcription,PF00907,GO:0045893,process,18,337
+716,"dTDP-4-dehydrorhamnose 3,5-epimerase activity",PF00908,GO:0008830,function,1,338
+424,ammonium transmembrane transport,PF00909,GO:0072488,process,1,339
+254,RNA helicase activity,PF00910,GO:0003724,function,4,340
+808,evasion of host immune response,PF00913,GO:0042783,process,1,341
+1177,methylthiotransferase activity,PF00919,GO:0035596,function,1,342
+979,hydro-lyase activity,PF00920,GO:0016836,function,5,343
+21,"3,4-dihydroxy-2-butanone-4-phosphate synthase activity",PF00926,GO:0008686,function,1,344
+1710,proteolysis,PF00930,GO:0006508,process,84,345
+45,ADP binding,PF00931,GO:0043531,function,1,346
+472,bacterial microcompartment,PF00936,GO:0031469,component,2,347
+42,7-methylguanosine mRNA capping,PF00946,GO:0006370,process,3,348
+1436,peptidase activity,PF00947,GO:0008233,function,18,349
+58,ATP-binding cassette (ABC) transporter complex,PF00950,GO:0043190,component,4,350
+1519,"phosphotransferase activity, for other substituted phosphate groups",PF00953,GO:0016780,function,2,351
+1761,recognition of pollen,PF00954,GO:0048544,process,1,352
+1252,monoatomic anion transport,PF00955,GO:0006820,process,2,353
+168,GMP biosynthetic process,PF00958,GO:0006177,process,1,354
+574,cell wall macromolecule catabolic process,PF00959,GO:0016998,process,3,355
+780,endonuclease activity,PF00961,GO:0004519,function,25,356
+721,deaminase activity,PF00962,GO:0019239,function,1,357
+1163,metalloendopeptidase inhibitor activity,PF00965,GO:0008191,function,3,358
+726,defense response to fungus,PF00967,GO:0050832,process,5,359
+208,MHC class II protein complex,PF00969,GO:0042613,component,2,360
+945,histidine biosynthetic process,PF00977,GO:0000105,process,6,361
+2115,trehalose biosynthetic process,PF00982,GO:0005992,process,2,362
+556,cell adhesion,PF00985,GO:0007155,process,28,363
+2123,troponin complex,PF00992,GO:0005861,component,1,364
+166,GDP-dissociation inhibitor activity,PF00996,GO:0005092,function,1,365
+438,antiporter activity,PF00999,GO:0015297,function,3,366
+1879,ribonucleoside triphosphate phosphatase activity,PF01001,GO:0017111,function,10,367
+2199,virion component,PF01002,GO:0044423,component,16,368
+760,double-stranded RNA binding,PF01005,GO:0003725,function,3,369
+705,cytoplasm,PF01021,GO:0005737,component,103,370
+1564,pore-forming activity,PF01024,GO:0140911,function,2,371
+379,adenyl-nucleotide exchange factor activity,PF01025,GO:0000774,function,2,372
+130,"DNA topoisomerase type I (single strand cut, ATP-independent) activity",PF01028,GO:0003917,function,3,373
+1646,protein import,PF01043,GO:0017038,process,3,374
+361,actin filament binding,PF01044,GO:0051015,function,4,375
+1357,nucleoside metabolic process,PF01048,GO:0009116,process,1,376
+1561,polysaccharide metabolic process,PF01050,GO:0005976,process,1,377
+122,DNA replication initiation,PF01051,GO:0006270,process,5,378
+2114,transsulfuration,PF01053,GO:0019346,process,1,379
+570,cell surface,PF01060,GO:0009986,component,3,380
+617,chloride channel activity,PF01062,GO:0005254,function,1,381
+2107,transmembrane receptor protein serine/threonine kinase activity,PF01064,GO:0004675,function,2,382
+107,DNA ligase (ATP) activity,PF01068,GO:0003910,function,4,383
+22,3-beta-hydroxy-delta5-steroid dehydrogenase activity,PF01073,GO:0003854,function,1,384
+406,alpha-mannosidase activity,PF01074,GO:0004559,function,3,385
+118,DNA recombination,PF01076,GO:0006310,process,25,386
+1628,protein autoprocessing,PF01079,GO:0016540,process,2,387
+1670,protein processing,PF01080,GO:0016485,process,2,388
+1408,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced ascorbate as one donor, and incorporation of one atom of oxygen",PF01082,GO:0016715,function,1,389
+579,cell-cell signaling,PF01085,GO:0007267,process,1,390
+649,clathrin coat of coated pit,PF01086,GO:0030132,component,2,391
+324,UDP-glucose:hexose-1-phosphate uridylyltransferase activity,PF01087,GO:0008108,function,2,392
+685,cysteine-type deubiquitinase activity,PF01088,GO:0004843,function,5,393
+575,cell wall modification,PF01095,GO:0042545,process,1,394
+563,cell division,PF01098,GO:0051301,process,9,395
+631,chromatin,PF01101,GO:0000785,component,1,396
+1394,outer membrane,PF01103,GO:0019867,component,22,397
+1049,iron-sulfur cluster assembly,PF01106,GO:0016226,process,5,398
+921,granulocyte macrophage colony-stimulating factor receptor binding,PF01109,GO:0005129,function,1,399
+643,ciliary neurotrophic factor-mediated signaling pathway,PF01110,GO:0070120,process,1,400
+682,cyclin-dependent protein serine/threonine kinase regulator activity,PF01111,GO:0016538,function,1,401
+35,4-hydroxy-tetrahydrodipicolinate reductase,PF01113,GO:0008839,function,2,402
+741,digestion,PF01114,GO:0007586,process,2,403
+153,F-actin capping protein complex,PF01115,GO:0008290,component,2,404
+393,aldehyde-lyase activity,PF01116,GO:0016832,function,3,405
+1421,"oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",PF01118,GO:0016620,function,3,406
+403,alpha-L-fucosidase activity,PF01120,GO:0004560,function,1,407
+736,dephospho-CoA kinase activity,PF01121,GO:0004140,function,1,408
+655,cobalamin transport,PF01122,GO:0015889,process,1,409
+2066,toxin activity,PF01123,GO:0090729,function,13,410
+1369,nucleus,PF01125,GO:0005634,component,149,411
+932,heme oxygenase (decyclizing) activity,PF01126,GO:0004392,function,1,412
+693,cytidylyltransferase activity,PF01128,GO:0070567,function,1,413
+229,NAD+-protein-arginine ADP-ribosyltransferase activity,PF01129,GO:0106274,function,2,414
+129,DNA topoisomerase activity,PF01131,GO:0003916,function,5,415
+256,RNA ligase activity,PF01139,GO:0008452,function,1,416
+1723,pseudouridine synthase activity,PF01142,GO:0009982,function,5,417
+92,CoA-transferase activity,PF01144,GO:0008410,function,2,418
+555,caveola assembly,PF01146,GO:0070836,process,1,419
+98,DNA N-glycosylase activity,PF01149,GO:0019104,function,1,420
+835,fatty acid elongase activity,PF01151,GO:0009922,function,1,421
+1425,oxygen binding,PF01152,GO:0019825,function,2,422
+661,collagen-containing extracellular matrix,PF01153,GO:0062023,component,2,423
+1660,protein maturation,PF01155,GO:0051604,process,2,424
+990,"hydrolase activity, hydrolyzing N-glycosyl compounds",PF01156,GO:0016799,function,3,425
+1307,neuropeptide signaling pathway,PF01160,GO:0007218,process,11,426
+1830,regulation of transcription by RNA polymerase II,PF01166,GO:0006357,process,22,427
+1730,pyridoxal phosphate biosynthetic process,PF01174,GO:0042823,process,1,428
+1753,"racemase activity, acting on amino acids and derivatives",PF01177,GO:0036361,function,1,429
+1611,primary amine oxidase activity,PF01179,GO:0008131,function,3,430
+861,fungal-type cell wall,PF01185,GO:0009277,component,3,431
+1418,"oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor",PF01186,GO:0016641,function,1,432
+420,aminoacyl-tRNA hydrolase activity,PF01195,GO:0004045,function,2,433
+1674,protein secretion by the type II secretion system,PF01203,GO:0015628,process,5,434
+2117,trehalose metabolic process,PF01204,GO:0005991,process,1,435
+2156,uroporphyrinogen decarboxylase activity,PF01208,GO:0004853,function,1,436
+906,glycerol-3-phosphate catabolic process,PF01210,GO:0046168,process,1,437
+711,cytoskeleton organization,PF01213,GO:0007010,process,4,438
+1655,protein kinase CK2 complex,PF01214,GO:0005956,component,1,439
+1201,mitochondrial envelope,PF01215,GO:0005740,component,2,440
+670,coproporphyrinogen oxidase activity,PF01218,GO:0004109,function,1,441
+1504,phospholipid biosynthetic process,PF01219,GO:0008654,process,6,442
+23,3-dehydroquinate dehydratase activity,PF01220,GO:0003855,function,2,443
+762,dynein complex,PF01221,GO:0030286,component,2,444
+1414,"oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor",PF01222,GO:0016628,function,1,445
+351,acid-amino acid ligase activity,PF01225,GO:0016881,function,3,446
+919,glycylpeptide N-tetradecanoyltransferase activity,PF01233,GO:0004379,function,2,447
+417,amino acid:sodium symporter activity,PF01235,GO:0005283,function,1,448
+1081,lipid binding,PF01237,GO:0008289,function,11,449
+1669,protein prenylation,PF01239,GO:0018342,process,1,450
+1161,metallodipeptidase activity,PF01244,GO:0070573,function,1,451
+463,aspartic-type endopeptidase activity,PF01252,GO:0004190,function,9,452
+1362,nucleosome,PF01254,GO:0000786,component,4,453
+1053,isomerase activity,PF01263,GO:0016853,function,9,454
+629,chorismate synthase activity,PF01264,GO:0004107,function,1,455
+959,holocytochrome-c synthase activity,PF01265,GO:0004408,function,1,456
+851,formate-tetrahydrofolate ligase activity,PF01268,GO:0004329,function,1,457
+1752,rRNA processing,PF01269,GO:0006364,process,23,458
+1897,secretory granule,PF01271,GO:0030141,component,2,459
+1772,regulation of DNA-templated transcription elongation,PF01272,GO:0032784,process,2,460
+1122,malate synthase activity,PF01274,GO:0004474,function,1,461
+1259,monolayer-surrounded lipid storage body,PF01277,GO:0012511,component,1,462
+781,endopeptidase activity,PF01278,GO:0004175,function,1,463
+1594,positive regulation of translational termination,PF01287,GO:0045905,process,1,464
+849,folic acid-containing compound biosynthetic process,PF01288,GO:0009396,process,1,465
+622,cholesterol binding,PF01289,GO:0015485,function,1,466
+365,actin monomer binding,PF01290,GO:0003785,function,1,467
+699,cytokine activity,PF01291,GO:0005125,function,10,468
+1493,phosphoenolpyruvate carboxykinase (ATP) activity,PF01293,GO:0004612,function,1,469
+512,cAMP biosynthetic process,PF01295,GO:0006171,process,3,470
+1158,metal ion transport,PF01297,GO:0030001,process,5,471
+1936,single fertilization,PF01303,GO:0007338,process,1,472
+873,gas vesicle,PF01304,GO:0031411,component,3,473
+537,carbohydrate:proton symporter activity,PF01306,GO:0005351,function,1,474
+1565,porin activity,PF01308,GO:0015288,function,8,475
+940,hexon binding,PF01310,GO:0031423,function,2,476
+1423,"oxidoreductase activity, acting on the aldehyde or oxo group of donors, iron-sulfur protein as acceptor",PF01314,GO:0016625,function,2,477
+449,arginine metabolic process,PF01316,GO:0006525,process,2,478
+2065,toxic substance binding,PF01320,GO:0015643,function,6,479
+1440,peptide deformylase activity,PF01327,GO:0042586,function,1,480
+1454,peroxidase activity,PF01328,GO:0004601,function,3,481
+33,4-alpha-hydroxytetrahydrobiopterin dehydratase activity,PF01329,GO:0008124,function,1,482
+853,four-way junction helicase activity,PF01330,GO:0009378,function,4,483
+1109,mRNA guanylyltransferase activity,PF01331,GO:0004484,function,2,484
+2058,thylakoid membrane,PF01333,GO:0042651,component,3,485
+1702,protein-glutamate methylesterase activity,PF01339,GO:0008984,function,1,486
+1169,methionine metabolic process,PF01340,GO:0006555,process,2,487
+595,cellulose catabolic process,PF01341,GO:0030245,process,4,488
+1637,protein folding,PF01346,GO:0006457,process,14,489
+1089,lipid transporter activity,PF01347,GO:0005319,function,4,490
+1112,mRNA processing,PF01348,GO:0006397,process,11,491
+257,RNA metabolic process,PF01350,GO:0016070,process,4,492
+497,bioluminescence,PF01353,GO:0008218,process,3,493
+386,aerobic electron transport chain,PF01355,GO:0019646,process,2,494
+405,alpha-amylase inhibitor activity,PF01356,GO:0015066,function,1,495
+518,calcium ion transmembrane transport,PF01365,GO:0070588,process,1,496
+2171,viral DNA genome packaging,PF01366,GO:0019073,process,5,497
+1764,regulation of ARF protein signal transduction,PF01369,GO:0032012,process,1,498
+1658,protein kinase inhibitor activity,PF01372,GO:0004860,function,2,499
+487,beta-amylase activity,PF01373,GO:0016161,function,1,500
+615,chitosanase activity,PF01374,GO:0016977,function,2,501
+572,cell wall,PF01378,GO:0005618,component,7,502
+994,hydroxymethylbilane synthase activity,PF01379,GO:0004418,function,2,503
+531,carbohydrate derivative binding,PF01380,GO:0097367,function,2,504
+500,biotin binding,PF01382,GO:0009374,function,1,505
+1009,inorganic phosphate transmembrane transporter activity,PF01384,GO:0005315,function,1,506
+1371,odorant binding,PF01395,GO:0005549,function,2,507
+635,chromosome,PF01396,GO:0005694,component,4,508
+2040,terpene synthase activity,PF01397,GO:0010333,function,2,509
+1164,metallopeptidase activity,PF01398,GO:0008237,function,5,510
+1162,metalloendopeptidase activity,PF01400,GO:0004222,function,25,511
+1449,peptidyl-dipeptidase activity,PF01401,GO:0008241,function,1,512
+1532,photosystem II reaction center,PF01405,GO:0009539,component,6,513
+824,extracellular matrix structural constituent,PF01410,GO:0005201,function,4,514
+390,alanyl-tRNA aminoacylation,PF01411,GO:0006419,process,1,515
+173,GTPase activator activity,PF01412,GO:0005096,function,9,516
+660,collagen trimer,PF01413,GO:0005581,component,1,517
+559,cell communication,PF01414,GO:0007154,process,4,518
+1023,interleukin-7 receptor binding,PF01415,GO:0005139,function,1,519
+632,chromatin binding,PF01426,GO:0003682,function,4,520
+745,dipeptidase activity,PF01427,GO:0016805,function,2,521
+61,ATP-dependent peptidase activity,PF01434,GO:0004176,function,3,522
+1092,lipoprotein metabolic process,PF01442,GO:0042157,process,5,523
+1060,ketol-acid reductoisomerase activity,PF01450,GO:0004455,function,1,524
+1211,mitochondrial outer membrane,PF01459,GO:0005741,component,4,525
+2144,ubiquitin-dependent protein catabolic process,PF01466,GO:0006511,process,9,526
+25,3-deoxy-7-phosphoheptulonate synthase activity,PF01474,GO:0003849,function,1,527
+1985,structural constituent of cuticle,PF01484,GO:0042302,function,4,528
+154,FAD binding,PF01494,GO:0071949,function,4,529
+1719,"proton-transporting V-type ATPase, V0 domain",PF01496,GO:0033179,component,2,530
+2180,viral genome packaging,PF01499,GO:0019072,process,2,531
+1056,keratin filament,PF01500,GO:0045095,component,3,532
+1512,phosphoribosyl-AMP cyclohydrolase activity,PF01502,GO:0004635,function,1,533
+1486,phosphatidylinositol kinase activity,PF01504,GO:0052742,function,1,534
+269,RNA processing,PF01509,GO:0006396,process,18,535
+216,N-acetylmuramoyl-L-alanine amidase activity,PF01510,GO:0008745,function,2,536
+233,NADP biosynthetic process,PF01513,GO:0006741,process,1,537
+2178,viral entry into host cell,PF01517,GO:0046718,process,6,538
+1942,single-stranded RNA binding,PF01518,GO:0003727,function,1,539
+984,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds",PF01522,GO:0016810,function,1,540
+1287,negative regulation of gene silencing by regulatory ncRNA,PF01524,GO:0060967,process,1,541
+964,host cell cytoplasm,PF01525,GO:0030430,component,5,542
+1428,palmitoyltransferase activity,PF01529,GO:0016409,function,1,543
+866,galactoside 2-alpha-L-fucosyltransferase activity,PF01531,GO:0008107,function,2,544
+1132,"mannosyl-oligosaccharide 1,2-alpha-mannosidase activity",PF01532,GO:0004571,function,1,545
+571,cell surface receptor signaling pathway,PF01534,GO:0007166,process,3,546
+1157,metal ion transmembrane transporter activity,PF01544,GO:0046873,function,3,547
+1254,monoatomic cation transmembrane transporter activity,PF01545,GO:0008324,function,5,548
+2213,xenobiotic transmembrane transporter activity,PF01554,GO:0042910,function,2,549
+110,DNA methylation,PF01555,GO:0006306,process,2,550
+1420,"oxidoreductase activity, acting on the aldehyde or oxo group of donors",PF01558,GO:0016903,function,2,551
+1370,nutrient reservoir activity,PF01559,GO:0045735,function,3,552
+2203,virus-mediated perturbation of host defense response,PF01561,GO:0019049,process,7,553
+846,flavin adenine dinucleotide binding,PF01565,GO:0050660,function,11,554
+1248,molybdopterin cofactor binding,PF01568,GO:0043546,function,1,555
+968,host cell junction,PF01573,GO:0044156,component,1,556
+697,cytochrome complex assembly,PF01578,GO:0017004,process,6,557
+609,chemotaxis,PF01584,GO:0006935,process,7,558
+2019,tRNA binding,PF01588,GO:0000049,function,4,559
+855,fructose metabolic process,PF01591,GO:0006000,process,1,560
+1759,receptor-mediated virion attachment to host cell,PF01601,GO:0046813,process,1,561
+1152,membrane coat,PF01602,GO:0030117,component,2,562
+1667,protein phosphatase type 2A complex,PF01603,GO:0000159,component,1,563
+1348,nucleobase-containing compound metabolic process,PF01612,GO:0006139,process,3,564
+1445,peptide-methionine (S)-S-oxide reductase activity,PF01625,GO:0008113,function,1,565
+978,hyalurononglucosaminidase activity,PF01630,GO:0004415,function,2,566
+56,ATP phosphoribosyltransferase activity,PF01634,GO:0003879,function,2,567
+1994,structural constituent of virion,PF01635,GO:0039660,function,1,568
+1444,peptide-methionine (R)-S-oxide reductase activity,PF01641,GO:0033743,function,1,569
+1043,intramolecular transferase activity,PF01642,GO:0016866,function,1,570
+2053,thiolester hydrolase activity,PF01643,GO:0016790,function,2,571
+611,chitin biosynthetic process,PF01644,GO:0006031,process,1,572
+888,glutamate biosynthetic process,PF01645,GO:0006537,process,1,573
+958,holo-[acyl-carrier-protein] synthase activity,PF01648,GO:0008897,function,2,574
+108,DNA ligase (NAD+) activity,PF01653,GO:0003911,function,3,575
+696,cytochrome complex,PF01654,GO:0070069,component,1,576
+1110,mRNA methyltransferase activity,PF01660,GO:0008174,function,1,577
+1989,structural constituent of myelin sheath,PF01669,GO:0019911,function,1,578
+2034,taxis,PF01671,GO:0042330,process,1,579
+1083,lipid catabolic process,PF01674,GO:0016042,process,9,580
+740,diaminopimelate epimerase activity,PF01678,GO:0008837,function,1,581
+303,T=25 icosahedral viral capsid,PF01686,GO:0039623,component,1,582
+1870,riboflavin kinase activity,PF01687,GO:0008531,function,1,583
+963,host cell,PF01688,GO:0043657,component,1,584
+2002,suppression by virus of host apoptotic process,PF01691,GO:0019050,process,2,585
+1435,pentosyltransferase activity,PF01702,GO:0016763,function,3,586
+2155,uridylyltransferase activity,PF01704,GO:0070569,function,1,587
+1426,oxygen evolving activity,PF01716,GO:0010242,function,1,588
+39,5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase activity,PF01717,GO:0003871,function,2,589
+828,extrachromosomal circular DNA,PF01719,GO:0005727,component,1,590
+725,defense response to bacterium,PF01721,GO:0042742,process,23,591
+1987,structural constituent of egg chorion,PF01723,GO:0005213,function,4,592
+1360,nucleoside triphosphate catabolic process,PF01725,GO:0009143,process,2,593
+1174,methylation,PF01728,GO:0032259,process,3,594
+1313,nicotinate-nucleotide diphosphorylase (carboxylating) activity,PF01729,GO:0004514,function,1,595
+456,arylesterase activity,PF01731,GO:0004064,function,1,596
+1358,nucleoside transmembrane transport,PF01733,GO:1901642,process,1,597
+1505,phospholipid catabolic process,PF01735,GO:0009395,process,1,598
+1534,photosystem II stabilization,PF01737,GO:0042549,process,3,599
+1368,nucleotidyltransferase activity,PF01743,GO:0016779,function,8,600
+1998,sulfate adenylyltransferase (ATP) activity,PF01747,GO:0004781,function,1,601
+1334,nuclear import signal receptor activity,PF01749,GO:0061608,function,1,602
+797,enzyme activator activity,PF01750,GO:0008047,function,5,603
+832,fatty acid beta-oxidation,PF01756,GO:0006635,process,1,604
+942,hexosyltransferase activity,PF01762,GO:0016758,function,8,605
+637,chromosome organization,PF01763,GO:0051276,process,9,606
+2206,vitamin transport,PF01770,GO:0051180,process,1,607
+1070,large ribosomal subunit,PF01783,GO:0015934,component,2,608
+408,alternative oxidase activity,PF01786,GO:0009916,function,1,609
+830,extrinsic component of membrane,PF01789,GO:0019898,component,3,610
+1480,phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity,PF01790,GO:0008961,function,1,611
+1134,mannosyltransferase activity,PF01793,GO:0000030,function,4,612
+434,antibiotic biosynthetic process,PF01804,GO:0017000,process,3,613
+116,DNA primase activity,PF01807,GO:0003896,function,4,614
+1513,phosphoribosylaminoimidazolecarboxamide formyltransferase activity,PF01808,GO:0004643,function,1,615
+416,amino acid transport,PF01810,GO:0006865,process,2,616
+1718,"proton-transporting ATPase activity, rotational mechanism",PF01813,GO:0046961,function,9,617
+628,chorismate metabolic process,PF01817,GO:0046417,process,1,618
+893,glutamic-type endopeptidase activity,PF01828,GO:0070007,function,1,619
+409,amidase activity,PF01832,GO:0004040,function,1,620
+1937,single strand break repair,PF01834,GO:0000012,process,1,621
+1678,protein serine/threonine kinase activator activity,PF01840,GO:0043539,function,2,622
+132,"DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) inhibitor activity",PF01845,GO:0008657,function,1,623
+952,histone acetyltransferase activity,PF01853,GO:0004402,function,4,624
+1786,regulation of cell cycle,PF01857,GO:0051726,process,5,625
+448,arginine decarboxylase activity,PF01862,GO:0008792,function,1,626
+1642,protein histidyl modification to diphthamide,PF01866,GO:0017183,process,1,627
+728,defense response to virus,PF01867,GO:0051607,process,4,628
+1876,ribonuclease P complex,PF01868,GO:0030677,component,3,629
+37,5-amino-6-(5-phosphoribosylamino)uracil reductase activity,PF01872,GO:0008703,function,1,630
+2121,triphosphoribosyl-dephospho-CoA synthase activity,PF01874,GO:0046917,function,1,631
+2023,tRNA processing,PF01876,GO:0008033,process,8,632
+653,cobalamin biosynthetic process,PF01888,GO:0009236,process,9,633
+2098,transition metal ion transport,PF01891,GO:0000041,process,1,634
+125,"DNA replication, synthesis of RNA primer",PF01896,GO:0006269,process,4,635
+715,cytosolic ribosome assembly,PF01912,GO:0042256,process,1,636
+1380,one-carbon metabolic process,PF01913,GO:0006730,process,4,637
+1451,peptidyl-lysine modification to peptidyl-hypusine,PF01916,GO:0008612,process,1,638
+444,archaeal or bacterial-type flagellum-dependent cell motility,PF01917,GO:0097588,process,2,639
+1608,prefoldin complex,PF01920,GO:0016272,component,1,640
+1103,lysyl-tRNA aminoacylation,PF01921,GO:0006430,process,1,641
+1928,signal recognition particle,PF01922,GO:0048500,component,3,642
+203,LPPG:FO 2-phospho-L-lactate transferase activity,PF01933,GO:0043743,function,1,643
+2070,toxin-antitoxin complex,PF01934,GO:0110001,component,3,644
+460,aspartate dehydrogenase activity,PF01958,GO:0033735,function,1,645
+24,3-dehydroquinate synthase activity,PF01959,GO:0003856,function,1,646
+447,arginine biosynthetic process,PF01960,GO:0006526,process,1,647
+2047,thiamine biosynthetic process,PF01964,GO:0009228,process,2,648
+213,Mo-molybdopterin cofactor biosynthetic process,PF01967,GO:0006777,process,4,649
+2028,tRNA-intron endonuclease activity,PF01974,GO:0000213,function,2,650
+1498,phospholactate guanylyltransferase activity,PF01983,GO:0043814,function,1,651
+1031,intracellular manganese ion homeostasis,PF01988,GO:0030026,process,1,652
+1721,"proton-transporting two-sector ATPase complex, catalytic domain",PF01991,GO:0033178,component,2,653
+840,ferredoxin hydrogenase activity,PF01993,GO:0008901,function,1,654
+2022,tRNA nucleoside ribose methylation,PF01994,GO:0002128,process,1,655
+2013,tRNA (guanine(10)-N2)-methyltransferase activity,PF02005,GO:0160102,function,1,656
+592,cellulase activity,PF02015,GO:0008810,function,6,657
+442,apoptotic process,PF02017,GO:0006915,process,10,658
+989,"hydrolase activity, acting on glycosyl bonds",PF02018,GO:0016798,function,3,659
+1022,interleukin-5 receptor binding,PF02025,GO:0005137,function,1,660
+1321,nitrogen compound transport,PF02028,GO:0071705,process,2,661
+935,hemolymph coagulation,PF02035,GO:0042381,process,3,662
+1809,regulation of monoatomic ion transport,PF02038,GO:0043269,process,1,663
+454,arsenite transport,PF02040,GO:0015700,process,1,664
+469,auxin binding,PF02041,GO:0010011,function,1,665
+1223,mitochondrial respiratory chain complex IV,PF02046,GO:0005751,component,6,666
+474,bacterial-type flagellum,PF02049,GO:0009288,component,4,667
+925,guanylate cyclase activator activity,PF02058,GO:0030250,function,1,668
+1020,interleukin-3 receptor binding,PF02059,GO:0005135,function,1,669
+2209,voltage-gated potassium channel activity,PF02060,GO:0005249,function,3,670
+525,calmodulin binding,PF02063,GO:0005516,function,10,671
+1823,regulation of smooth muscle contraction,PF02070,GO:0006940,process,1,672
+838,feeding behavior,PF02072,GO:0007631,process,2,673
+423,aminopeptidase activity,PF02073,GO:0004177,function,3,674
+104,DNA endonuclease activity,PF02075,GO:0004520,function,1,675
+1139,mating-type factor pheromone receptor activity,PF02076,GO:0004932,function,2,676
+505,blood vessel diameter maintenance,PF02083,GO:0097746,process,1,677
+863,fusion of sperm to egg plasma membrane involved in single fertilization,PF02084,GO:0007342,process,6,678
+111,DNA methylation on adenine,PF02086,GO:0032775,process,2,679
+944,histamine binding,PF02087,GO:0051381,function,1,680
+1782,regulation of blood coagulation,PF02088,GO:0030193,process,1,681
+918,glycyl-tRNA aminoacylation,PF02091,GO:0006426,process,2,682
+911,glycine-tRNA ligase activity,PF02092,GO:0004820,function,2,683
+410,amine binding,PF02098,GO:0043176,function,1,684
+1391,ornithine decarboxylase inhibitor activity,PF02100,GO:0008073,function,1,685
+2138,tyrosine binding,PF02101,GO:0072545,function,1,686
+1026,interstrand cross-link repair,PF02106,GO:0036297,process,4,687
+477,"bacterial-type flagellum basal body, distal rod, L ring",PF02107,GO:0009427,component,1,688
+1378,oligosaccharyltransferase complex,PF02109,GO:0008250,component,2,689
+993,hydroxyethylthiazole kinase activity,PF02110,GO:0004417,function,1,690
+17,"3',5'-cyclic-AMP phosphodiesterase activity",PF02112,GO:0004115,function,1,691
+281,Rho protein signal transduction,PF02115,GO:0007266,process,1,692
+1903,sensory perception of chemical stimulus,PF02117,GO:0007606,process,4,693
+478,"bacterial-type flagellum basal body, distal rod, P ring",PF02119,GO:0009428,component,1,694
+1507,phospholipid transporter activity,PF02121,GO:0005548,function,1,695
+549,catabolic process,PF02126,GO:0009056,process,1,696
+376,adenosine deaminase activity,PF02137,GO:0004000,function,1,697
+101,DNA damage checkpoint signaling,PF02144,GO:0000077,process,5,698
+1822,regulation of small GTPase mediated signal transduction,PF02145,GO:0051056,process,1,699
+225,NAD+ binding,PF02146,GO:0070403,function,3,700
+143,DNA-templated transcription,PF02150,GO:0006351,process,53,701
+850,folic acid-containing compound metabolic process,PF02152,GO:0006760,process,1,702
+476,bacterial-type flagellum basal body,PF02154,GO:0009425,component,2,703
+878,glucocorticoid receptor signaling pathway,PF02155,GO:0042921,process,1,704
+1330,nuclear estrogen receptor activity,PF02159,GO:0030284,function,1,705
+1343,nuclear steroid receptor activity,PF02161,GO:0003707,function,1,706
+431,androgen receptor signaling pathway,PF02166,GO:0030521,process,1,707
+2077,transcription coregulator activity,PF02172,GO:0003712,function,25,708
+938,heparin binding,PF02177,GO:0008201,function,3,709
+1701,protein-folding chaperone binding,PF02179,GO:0051087,function,4,710
+2087,transcription initiation at RNA polymerase II promoter,PF02186,GO:0006367,process,9,711
+1182,microtubule binding,PF02187,GO:0008017,function,17,712
+175,GTPase regulator activity,PF02188,GO:0030695,function,1,713
+2031,tachykinin receptor signaling pathway,PF02202,GO:0007217,process,2,714
+1002,immunoglobulin binding,PF02216,GO:0019865,function,2,715
+123,DNA replication origin binding,PF02217,GO:0003688,function,2,716
+1176,methylenetetrahydrofolate reductase (NAD(P)H) activity,PF02219,GO:0004489,function,1,717
+692,cytidylate kinase activity,PF02224,GO:0004127,function,1,718
+681,cyclin-dependent protein serine/threonine kinase inhibitor activity,PF02234,GO:0004861,function,2,719
+134,DNA unwinding involved in DNA replication,PF02236,GO:0006268,process,1,720
+1661,protein modification process,PF02237,GO:0036211,process,6,721
+658,coenzyme-B sulfoethylthiotransferase activity,PF02240,GO:0050524,function,5,722
+396,alkylbase DNA N-glycosylase activity,PF02245,GO:0003905,function,1,723
+971,host cell plasmodesma,PF02248,GO:0044219,component,1,724
+1619,proteasome activator complex,PF02251,GO:0008537,component,2,725
+1501,phospholipase activity,PF02253,GO:0004620,function,3,726
+1603,potassium ion transport,PF02254,GO:0006813,process,11,727
+936,hemolysis by symbiont of host erythrocytes,PF02258,GO:0019836,process,6,728
+389,alanine biosynthetic process,PF02261,GO:0006523,process,1,729
+533,carbohydrate transmembrane transport,PF02264,GO:0034219,process,2,730
+100,DNA catabolic process,PF02265,GO:0006308,process,2,731
+226,NAD+ nucleosidase activity,PF02267,GO:0003953,function,1,732
+2082,transcription factor TFIIA complex,PF02268,GO:0005672,component,3,733
+2073,transcription by RNA polymerase II,PF02269,GO:0006366,process,3,734
+1200,"mitochondrial electron transport, ubiquinol to cytochrome c",PF02271,GO:0006122,process,5,735
+1314,nicotinate-nucleotide-dimethylbenzimidazole phosphoribosyltransferase activity,PF02277,GO:0008939,function,1,736
+377,adenosylcobinamide kinase activity,PF02283,GO:0043752,function,1,737
+1199,"mitochondrial electron transport, cytochrome c to oxygen",PF02284,GO:0006123,process,6,738
+652,cobalamin binding,PF02286,GO:0031419,function,4,739
+1168,methenyltetrahydromethanopterin cyclohydrolase activity,PF02289,GO:0018759,function,1,740
+1930,"signal recognition particle, endoplasmic reticulum targeting",PF02290,GO:0005786,component,2,741
+759,double-stranded RNA adenosine deaminase activity,PF02295,GO:0003726,function,1,742
+648,clathrin adaptor complex,PF02296,GO:0030131,component,2,743
+2177,viral capsid assembly,PF02304,GO:0019069,process,9,744
+1242,modulation by virus of host process,PF02306,GO:0019048,process,6,745
+2076,transcription coactivator activity,PF02312,GO:0003713,function,5,746
+860,fumarate metabolic process,PF02313,GO:0006106,process,1,747
+391,alcohol dehydrogenase (NAD+) activity,PF02315,GO:0004022,function,1,748
+2089,transcription regulator complex,PF02319,GO:0005667,component,1,749
+767,efflux transmembrane transporter activity,PF02321,GO:0015562,function,1,750
+876,glucan biosynthetic process,PF02324,GO:0009250,process,1,751
+946,histidine decarboxylase activity,PF02329,GO:0004398,function,1,752
+1209,mitochondrial matrix,PF02330,GO:0005759,component,2,753
+688,cysteine-type endopeptidase inhibitor activity involved in apoptotic process,PF02331,GO:0043027,function,1,754
+30,3-phytase activity,PF02333,GO:0016158,function,1,755
+124,DNA replication termination,PF02334,GO:0006274,process,2,756
+1318,"nitrite reductase (cytochrome, ammonia-forming) activity",PF02335,GO:0042279,function,1,757
+1888,ribulose bisphosphate carboxylase complex assembly,PF02341,GO:0110102,process,1,758
+2081,transcription elongation-coupled chromatin remodeling,PF02357,GO:0140673,process,1,759
+4,"1,3-beta-D-glucan synthase complex",PF02364,GO:0000148,component,1,760
+1626,protein O-linked glycosylation,PF02366,GO:0006493,process,1,761
+2025,tRNA threonylcarbamoyladenosine modification,PF02367,GO:0002949,process,1,762
+1544,plasmid maintenance,PF02387,GO:0006276,process,4,763
+421,aminoacyltransferase activity,PF02388,GO:0016755,function,3,764
+2015,tRNA (guanine(46)-N7)-methyltransferase activity,PF02390,GO:0008176,function,1,765
+1017,interleukin-1 receptor binding,PF02394,GO:0005149,function,1,766
+742,dimethylallyl diphosphate biosynthetic process,PF02401,GO:0050992,process,1,767
+703,cytolysis,PF02402,GO:0019835,process,1,768
+1979,stem cell factor receptor binding,PF02404,GO:0005173,function,1,769
+1260,monooxygenase activity,PF02406,GO:0004497,function,4,770
+779,"endodeoxyribonuclease activity, producing 5'-phosphomonoesters",PF02407,GO:0016888,function,2,771
+1154,mercury ion transmembrane transporter activity,PF02411,GO:0015097,function,3,772
+630,chromate transmembrane transporter activity,PF02417,GO:0015109,function,1,773
+1024,intermediate filament,PF02422,GO:0005882,component,2,774
+1636,protein flavinylation,PF02424,GO:0017013,process,1,775
+1528,photosystem I reaction center,PF02427,GO:0009538,component,5,776
+1078,light-harvesting complex,PF02429,GO:0030076,component,1,777
+536,carbohydrate utilization,PF02435,GO:0009758,process,1,778
+2003,suppression by virus of host gene expression,PF02438,GO:0039657,process,1,779
+1740,quinolinate synthetase A activity,PF02445,GO:0008987,function,1,780
+32,4-alpha-glucanotransferase activity,PF02446,GO:0004134,function,1,781
+880,gluconate transmembrane transporter activity,PF02447,GO:0015128,function,1,782
+491,beta-galactosidase complex,PF02449,GO:0009341,component,2,783
+239,O-acyltransferase activity,PF02450,GO:0008374,function,2,784
+479,bacterial-type flagellum hook,PF02465,GO:0009424,component,1,785
+714,cytosol,PF02474,GO:0005829,component,1,786
+1800,regulation of gene expression,PF02479,GO:0010468,process,3,787
+142,DNA-mediated transformation,PF02481,GO:0009294,process,1,788
+1612,primary metabolic process,PF02482,GO:0044238,process,1,789
+834,fatty acid biosynthetic process,PF02504,GO:0006633,process,8,790
+1166,methanogenesis,PF02505,GO:0015948,process,11,791
+1355,nucleoside diphosphate kinase activity,PF02509,GO:0004550,function,1,792
+717,dTMP biosynthetic process,PF02511,GO:0006231,process,1,793
+869,gamete generation,PF02513,GO:0007276,process,2,794
+78,CAAX-box protein processing,PF02517,GO:0071586,process,1,795
+1849,response to auxin,PF02519,GO:0009733,process,1,796
+422,aminoglycoside 3-N-acetyltransferase activity,PF02522,GO:0046353,function,1,797
+1750,rRNA methyltransferase activity,PF02527,GO:0008649,function,3,798
+694,cytochrome b6f complex,PF02529,GO:0009512,component,4,799
+11,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase activity",PF02542,GO:0008685,function,1,800
+1361,nucleoside triphosphate diphosphatase activity,PF02545,GO:0047429,function,3,801
+28,3-methyl-2-oxobutanoate hydroxymethyltransferase activity,PF02548,GO:0003864,function,1,802
+1167,"methanogenesis, from acetate",PF02552,GO:0019385,process,1,803
+656,cobalt ion transmembrane transporter activity,PF02553,GO:0015087,function,1,804
+590,cellular response to starvation,PF02554,GO:0009267,process,2,805
+1683,protein tetramerization,PF02556,GO:0051262,process,3,806
+677,cyanate metabolic process,PF02560,GO:0009439,process,1,807
+475,bacterial-type flagellum assembly,PF02561,GO:0044780,process,4,808
+79,CCA tRNA nucleotidyltransferase activity,PF02568,GO:0004810,function,2,809
+1429,pantoate-beta-alanine ligase activity,PF02569,GO:0004592,function,1,810
+1607,precorrin-8X methylmutase activity,PF02570,GO:0016993,function,1,811
+1606,precorrin-6A reductase activity,PF02571,GO:0016994,function,1,812
+672,corrinoid adenosyltransferase activity,PF02572,GO:0008817,function,1,813
+96,D-aminoacyl-tRNA deacylase activity,PF02580,GO:0051499,function,2,814
+1692,protein-DNA covalent cross-linking,PF02586,GO:0018142,process,3,815
+1739,queuosine salvage,PF02592,GO:1990397,process,1,816
+1384,organic acid phosphorylation,PF02595,GO:0031388,process,1,817
+1784,regulation of carbohydrate metabolic process,PF02599,GO:0006109,process,3,818
+1700,protein-disulfide reductase activity,PF02600,GO:0015035,function,3,819
+815,exodeoxyribonuclease VII activity,PF02601,GO:0008855,function,2,820
+2157,uroporphyrinogen-III synthase activity,PF02602,GO:0004852,function,1,821
+2041,tetraacyldisaccharide 4'-kinase activity,PF02606,GO:0009029,function,1,822
+1540,plasma membrane,PF02608,GO:0005886,component,39,823
+816,exodeoxyribonuclease VII complex,PF02609,GO:0009318,component,1,824
+193,L-arabinose isomerase activity,PF02610,GO:0008733,function,1,825
+81,CDP-diacylglycerol diphosphatase activity,PF02611,GO:0008715,function,1,826
+887,glucuronate isomerase activity,PF02614,GO:0008880,function,1,827
+1630,protein catabolic process,PF02617,GO:0030163,process,2,828
+1455,peroxiredoxin activity,PF02627,GO:0051920,function,2,829
+1401,"oxidoreductase activity, acting on NAD(P)H, heme protein as acceptor",PF02628,GO:0016653,function,1,830
+1769,regulation of DNA repair,PF02631,GO:0006282,process,2,831
+502,biotin transport,PF02632,GO:0015878,process,1,832
+2000,sulfurtransferase activity,PF02634,GO:0016783,function,1,833
+540,"carbon-nitrogen ligase activity, with glutamine as amido-N-donor",PF02637,GO:0016884,function,1,834
+172,GTP cyclohydrolase activity,PF02649,GO:0003933,function,2,835
+1068,lactate transport,PF02652,GO:0015727,process,1,836
+378,adenosylcobinamide-GDP ribazoletransferase activity,PF02654,GO:0051073,function,1,837
+372,acyl-phosphate glycerol-3-phosphate acyltransferase activity,PF02660,GO:0043772,function,1,838
+284,S-ribosylhomocysteine lyase activity,PF02664,GO:0043768,function,1,839
+1492,phosphatidylserine decarboxylase activity,PF02666,GO:0004609,function,1,840
+242,P-type potassium transmembrane transporter activity,PF02669,GO:0008556,function,3,841
+234,NADPH binding,PF02670,GO:0070402,function,1,842
+2148,undecaprenyl-diphosphatase activity,PF02673,GO:0050380,function,1,843
+2067,toxin biosynthetic process,PF02674,GO:0009403,process,1,844
+1968,spermidine biosynthetic process,PF02675,GO:0008295,process,1,845
+1090,lipid-A-disaccharide synthase activity,PF02684,GO:0008915,function,2,846
+879,glucokinase activity,PF02685,GO:0004340,function,1,847
+1832,regulation of translational fidelity,PF02686,GO:0006450,process,1,848
+928,helicase activity,PF02689,GO:0004386,function,6,849
+1959,sodium-dependent phosphate transport,PF02690,GO:0044341,process,1,850
+1641,protein histidine kinase activity,PF02702,GO:0004673,function,8,851
+1602,potassium ion transmembrane transporter activity,PF02705,GO:0015079,function,2,852
+810,exit of virus from host cell nucleus by nuclear egress,PF02718,GO:0046802,process,1,853
+2175,viral budding from Golgi membrane,PF02723,GO:0046760,process,1,854
+547,carboxyl- or carbamoyltransferase activity,PF02729,GO:0016743,function,3,855
+1971,spliceosomal complex,PF02731,GO:0005681,component,4,856
+908,glycerone kinase activity,PF02733,GO:0004371,function,2,857
+756,double-strand break repair via nonhomologous end joining,PF02735,GO:0006303,process,5,858
+2097,transition metal ion binding,PF02742,GO:0046914,function,4,859
+641,"chromosome, telomeric region",PF02765,GO:0000781,component,3,860
+413,amino acid biosynthetic process,PF02774,GO:0008652,process,2,861
+883,glucose-6-phosphate dehydrogenase activity,PF02781,GO:0004345,function,1,862
+770,electron transport chain,PF02790,GO:0022900,process,6,863
+817,exon-exon junction complex,PF02792,GO:0035145,component,2,864
+2068,toxin metabolic process,PF02794,GO:0009404,process,1,865
+554,cation binding,PF02806,GO:0043169,function,1,866
+1546,plasminogen activation,PF02821,GO:0031639,process,1,867
+1296,negative regulation of protein kinase activity,PF02827,GO:0006469,process,1,868
+1949,small molecule binding,PF02829,GO:0036094,function,1,869
+1736,pyrophosphatase activity,PF02833,GO:0016462,function,1,870
+270,RNA splicing,PF02840,GO:0008380,process,3,871
+1726,purine nucleobase biosynthetic process,PF02843,GO:0009113,process,2,872
+2141,ubiquitin binding,PF02845,GO:0043130,function,8,873
+446,arginine binding,PF02863,GO:0034618,function,1,874
+1173,methylated-DNA-[protein]-cysteine S-methyltransferase activity,PF02870,GO:0003908,function,1,875
+1366,nucleotide catabolic process,PF02872,GO:0009166,process,1,876
+319,UDP-N-acetylmuramate dehydrogenase activity,PF02873,GO:0008762,function,1,877
+55,ATP metabolic process,PF02874,GO:0046034,process,1,878
+1042,intramolecular phosphotransferase activity,PF02878,GO:0016868,function,3,879
+520,calcium-activated potassium channel activity,PF02888,GO:0015269,function,2,880
+1317,nitric oxide biosynthetic process,PF02898,GO:0006809,process,1,881
+842,ferrous iron binding,PF02900,GO:0008198,function,1,882
+2095,transformation of host cell by virus,PF02907,GO:0019087,process,2,883
+1270,negative regulation of DNA-templated transcription,PF02909,GO:0045892,process,15,884
+1465,phenylalanine-tRNA ligase activity,PF02912,GO:0004826,function,2,885
+1015,integrase activity,PF02920,GO:0008907,function,2,886
+2139,ubiquinol-cytochrome-c reductase activity,PF02921,GO:0008121,function,3,887
+2188,viral procapsid maturation,PF02925,GO:0046797,process,1,888
+820,extracellular ligand-gated monoatomic ion channel activity,PF02931,GO:0005230,function,1,889
+1258,monoatomic ion transport,PF02932,GO:0006811,process,6,890
+1075,ligase activity,PF02934,GO:0016874,function,1,891
+1557,polynucleotide 5'-phosphatase activity,PF02940,GO:0004651,function,2,892
+1406,"oxidoreductase activity, acting on iron-sulfur proteins as donors",PF02943,GO:0016730,function,1,893
+1904,sensory perception of smell,PF02949,GO:0007608,process,2,894
+903,glutathione synthase activity,PF02951,GO:0004363,function,4,895
+857,fucose metabolic process,PF02952,GO:0006004,process,3,896
+38,5-carboxymethyl-2-hydroxymuconate delta-isomerase activity,PF02962,GO:0008704,function,1,897
+2132,type II site-specific deoxyribonuclease activity,PF02963,GO:0009036,function,24,898
+1165,methane monooxygenase activity,PF02964,GO:0015049,function,1,899
+1170,methionine synthase activity,PF02965,GO:0008705,function,1,900
+314,U4/U6 x U5 tri-snRNP complex,PF02966,GO:0046540,component,2,901
+1595,post-chaperonin tubulin folding pathway,PF02970,GO:0007023,process,1,902
+848,folic acid binding,PF02971,GO:0005542,function,2,903
+1417,"oxidoreductase activity, acting on the CH-NH2 group of donors",PF02975,GO:0016638,function,3,904
+126,DNA restriction-modification system,PF02980,GO:0009307,process,25,905
+1147,melanin metabolic process,PF02982,GO:0006582,process,1,906
+1502,phospholipase inhibitor activity,PF02988,GO:0004859,function,1,907
+1097,lysis of host organelle involved in viral entry into host cell,PF02993,GO:0039664,process,1,908
+739,diacylglycerol O-acyltransferase activity,PF03007,GO:0004144,function,1,909
+1515,phosphoric diester hydrolase activity,PF03009,GO:0008081,function,2,910
+2195,viral transcription,PF03012,GO:0019083,process,6,911
+1191,minus-end-directed microtubule motor activity,PF03028,GO:0008569,function,1,912
+747,diphosphate hydrolysis-driven proton transmembrane transporter activity,PF03030,GO:0009678,function,1,913
+1085,lipid glycosylation,PF03033,GO:0030259,process,1,914
+202,L-serine-phosphatidylethanolamine phosphatidyltransferase activity,PF03034,GO:0106245,function,1,915
+1577,positive regulation of cell population proliferation,PF03037,GO:0008284,process,3,916
+1018,interleukin-12 receptor binding,PF03039,GO:0005143,function,1,917
+1467,pheromone activity,PF03047,GO:0005186,function,3,918
+684,cysteine-type aminopeptidase activity,PF03051,GO:0070005,function,1,919
+1311,nicotianamine biosynthetic process,PF03059,GO:0030418,process,1,920
+1324,nitronate monooxygenase activity,PF03060,GO:0018580,function,1,921
+1696,protein-arginine deiminase activity,PF03068,GO:0004668,function,2,922
+987,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides",PF03069,GO:0016811,function,2,923
+348,acetylglucosaminyltransferase activity,PF03071,GO:0008375,function,1,924
+891,glutamate-cysteine ligase activity,PF03074,GO:0004357,function,3,925
+352,acireductone dioxygenase [iron(II)-requiring] activity,PF03079,GO:0010309,function,1,926
+1490,"phosphatidylinositol-4,5-bisphosphate binding",PF03081,GO:0005546,function,1,927
+1135,mating,PF03082,GO:0007618,process,2,928
+1890,root development,PF03087,GO:0048364,process,1,929
+1981,strictosidine synthase activity,PF03088,GO:0016844,function,1,930
+1853,response to metal ion,PF03091,GO:0010038,process,3,931
+1471,phosphatase activator activity,PF03095,GO:0019211,function,1,932
+1705,protein-heme linkage,PF03100,GO:0017003,process,1,933
+529,carbohydrate biosynthetic process,PF03102,GO:0016051,process,3,934
+2194,viral tegument,PF03117,GO:0019033,component,2,935
+1618,proteasomal protein catabolic process,PF03136,GO:0010498,process,2,936
+1323,nitrogenase activity,PF03139,GO:0016163,function,1,937
+1069,laminin binding,PF03146,GO:0043236,function,1,938
+818,exonuclease activity,PF03159,GO:0004527,function,1,939
+1375,oligopeptide transmembrane transporter activity,PF03169,GO:0035673,function,1,940
+322,UDP-glucose metabolic process,PF03170,GO:0006011,process,1,941
+2158,vacuolar proton-transporting V-type ATPase complex,PF03179,GO:0016471,component,1,942
+2055,threonine-phosphate decarboxylase activity,PF03186,GO:0048472,function,1,943
+1711,proton channel activity,PF03189,GO:0015252,function,2,944
+1113,mRNA splice site recognition,PF03194,GO:0006376,process,1,945
+1155,mercury ion transport,PF03203,GO:0015694,process,3,946
+1322,nitrogen fixation,PF03206,GO:0009399,process,7,947
+1431,pectate lyase activity,PF03211,GO:0030570,function,2,948
+64,ATP:ADP antiporter activity,PF03219,GO:0005471,function,1,949
+415,amino acid transmembrane transport,PF03222,GO:0003333,process,1,950
+1720,"proton-transporting V-type ATPase, V1 domain",PF03223,GO:0033180,component,1,951
+2160,"vacuolar proton-transporting V-type ATPase, V1 domain",PF03224,GO:0000221,component,2,952
+1405,"oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor",PF03227,GO:0016671,function,1,953
+1657,protein kinase binding,PF03234,GO:0019901,function,4,954
+943,high-affinity iron permease complex,PF03239,GO:0033573,component,1,955
+397,alkylmercury lyase activity,PF03243,GO:0018836,function,1,956
+2192,viral release from host cell by cytolysis,PF03245,GO:0044659,process,4,957
+2122,tropomyosin binding,PF03250,GO:0005523,function,1,958
+2152,urea transmembrane transporter activity,PF03253,GO:0015204,function,1,959
+343,acetyl-CoA carboxylase complex,PF03255,GO:0009317,component,1,960
+1653,protein kinase 5 complex,PF03261,GO:0016533,component,1,961
+731,deoxyribonuclease II activity,PF03265,GO:0004531,function,1,962
+320,UDP-galactopyranose mutase activity,PF03275,GO:0008767,function,1,963
+974,host cytoskeleton,PF03276,GO:0044163,component,1,964
+1789,regulation of cell shape,PF03285,GO:0008360,process,4,965
+1549,poly(A) RNA polymerase activity,PF03296,GO:1990817,function,3,966
+2124,"tryptophan 2,3-dioxygenase activity",PF03301,GO:0004833,function,1,967
+1145,meiotic drive,PF03303,GO:0110134,process,1,968
+341,acetolactate decarboxylase activity,PF03306,GO:0047605,function,1,969
+1430,pantothenate kinase activity,PF03309,GO:0004594,function,2,970
+201,L-serine ammonia-lyase activity,PF03315,GO:0003941,function,1,971
+854,"fructose 1,6-bisphosphate 1-phosphatase activity",PF03320,GO:0042132,function,2,972
+1974,spore germination,PF03323,GO:0009847,process,4,973
+115,DNA polymerase processivity factor activity,PF03325,GO:0030337,function,1,974
+318,UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase activity,PF03331,GO:0008759,function,1,975
+167,GDP-mannose biosynthetic process,PF03332,GO:0009298,process,1,976
+1008,inorganic cation transmembrane transport,PF03334,GO:0098662,process,1,977
+1847,response to antibiotic,PF03340,GO:0046677,process,10,978
+1114,"mRNA splicing, via spliceosome",PF03343,GO:0000398,process,12,979
+1625,protein N-linked glycosylation via asparagine,PF03345,GO:0018279,process,1,980
+136,DNA-3-methyladenine glycosylase activity,PF03352,GO:0008725,function,1,981
+2161,vacuolar transport,PF03357,GO:0007034,process,2,982
+1932,signaling,PF03359,GO:0023052,process,1,983
+868,galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity,PF03360,GO:0015018,function,1,984
+252,"RNA endonuclease activity, producing 5'-phosphomonoesters",PF03368,GO:0016891,function,1,985
+1946,small GTPase binding,PF03378,GO:0031267,function,7,986
+933,heme transmembrane transporter activity,PF03379,GO:0015232,function,2,987
+1385,organic anion transport,PF03390,GO:0015711,process,1,988
+1469,pheromone receptor activity,PF03402,GO:0016503,function,1,989
+1247,molybdenum ion binding,PF03404,GO:0030151,function,3,990
+370,acyl-[acyl-carrier-protein] desaturase activity,PF03405,GO:0045300,function,1,991
+1395,outer membrane-bounded periplasmic space,PF03411,GO:0030288,component,5,992
+1707,protein-phosphatidylethanolamide deconjugating activity,PF03416,GO:0019786,function,1,993
+458,asexual sporulation,PF03419,GO:0030436,process,6,994
+612,chitin catabolic process,PF03427,GO:0006032,process,3,995
+338,[protein-PII] uridylyltransferase activity,PF03445,GO:0008773,function,1,996
+232,NADP binding,PF03446,GO:0050661,function,7,997
+1249,molybdopterin cofactor biosynthetic process,PF03453,GO:0032324,process,2,998
+2106,translational termination,PF03462,GO:0006415,process,2,999
+1836,regulatory ncRNA-mediated gene silencing,PF03468,GO:0031047,process,3,1000
+1466,phenylalanyl-tRNA aminoacylation,PF03484,GO:0006432,process,2,1001
+450,arginyl-tRNA aminoacylation,PF03485,GO:0006420,process,2,1002
+1917,serotonin:sodium:chloride symporter activity,PF03491,GO:0005335,function,1,1003
+519,calcium- and calmodulin-responsive adenylate cyclase activity,PF03497,GO:0008294,function,1,1004
+594,cellulose biosynthetic process,PF03500,GO:0030244,process,3,1005
+665,connexin complex,PF03509,GO:0005922,component,1,1006
+2214,"xylan 1,4-beta-xylosidase activity",PF03512,GO:0009044,function,1,1007
+2210,voltage-gated potassium channel complex,PF03521,GO:0008076,component,1,1008
+1758,receptor-mediated endocytosis,PF03523,GO:0006898,process,1,1009
+1760,reciprocal meiotic recombination,PF03525,GO:0007131,process,5,1010
+1948,small conductance calcium-activated potassium channel activity,PF03530,GO:0016286,function,1,1011
+1570,positive regulation of GTPase activity,PF03542,GO:0043547,process,1,1012
+597,cellulose synthase (UDP-forming) activity,PF03552,GO:0016760,function,1,1013
+398,allantoicase activity,PF03561,GO:0004037,function,1,1014
+939,heterocyst development,PF03574,GO:0043158,process,1,1015
+689,cysteine-type exopeptidase activity,PF03577,GO:0070004,function,1,1016
+2119,triglyceride lipase activity,PF03583,GO:0004806,function,2,1017
+719,deNEDDylase activity,PF03586,GO:0019784,function,1,1018
+1744,rRNA (pseudouridine) methyltransferase activity,PF03587,GO:0070037,function,1,1019
+1073,leucyl-tRNA--protein transferase activity,PF03588,GO:0008914,function,1,1020
+461,aspartate-ammonia ligase activity,PF03590,GO:0004071,function,1,1021
+485,benzoate transmembrane transporter activity,PF03594,GO:0042925,function,1,1022
+539,carbon-monoxide dehydrogenase (acceptor) activity,PF03598,GO:0018492,function,1,1023
+20,3'-5' exonuclease activity,PF03603,GO:0008408,function,6,1024
+77,C4-dicarboxylate transmembrane transporter activity,PF03605,GO:0015556,function,1,1025
+892,glutamate:sodium symporter activity,PF03616,GO:0015501,function,1,1026
+1687,protein tyrosine kinase activity,PF03623,GO:0004713,function,1,1027
+1868,"retromer, cargo-selective complex",PF03635,GO:0030906,component,1,1028
+1033,intracellular protein transport,PF03643,GO:0006886,process,31,1029
+1131,mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase activity,PF03644,GO:0033925,function,1,1030
+2216,xylan catabolic process,PF03648,GO:0045493,process,3,1031
+1218,mitochondrial pyruvate transmembrane transport,PF03650,GO:0006850,process,1,1032
+877,"glucan endo-1,3-alpha-glucosidase activity",PF03659,GO:0051118,function,1,1033
+194,L-arabinose metabolic process,PF03664,GO:0046373,process,3,1034
+150,EMC complex,PF03665,GO:0072546,component,1,1035
+1272,negative regulation of TOR signaling,PF03666,GO:0032007,process,2,1036
+1651,protein insertion into ER membrane,PF03669,GO:0045048,process,2,1037
+1691,protein ufmylation,PF03671,GO:0071569,process,3,1038
+418,amino sugar metabolic process,PF03702,GO:0006040,process,1,1039
+546,carboxy-lyase activity,PF03709,GO:0016831,function,2,1040
+335,[glutamate-ammonia-ligase] adenylyltransferase activity,PF03710,GO:0008882,function,1,1041
+1731,pyridoxine 5'-phosphate synthase activity,PF03740,GO:0033856,function,1,1042
+771,"electron transporter, transferring electrons within cytochrome b6/f complex of photosystem II activity",PF03742,GO:0045158,function,1,1043
+501,biotin biosynthetic process,PF03744,GO:0009102,process,1,1044
+775,embryo development ending in seed dormancy,PF03760,GO:0009793,process,1,1045
+1013,inositol phosphate biosynthetic process,PF03770,GO:0032958,process,1,1046
+565,cell morphogenesis,PF03775,GO:0000902,process,2,1047
+1794,regulation of division septum assembly,PF03776,GO:0032955,process,1,1048
+1127,mannonate dehydratase activity,PF03786,GO:0008927,function,1,1049
+237,Ndc80 complex,PF03800,GO:0031262,component,3,1050
+465,attachment of mitotic spindle microtubules to kinetochore,PF03801,GO:0051315,process,1,1051
+1617,prosthetic group biosynthetic process,PF03802,GO:0051191,process,1,1052
+1543,plasma membrane phospholipid scrambling,PF03803,GO:0017121,process,1,1053
+384,adhesion of symbiont to microvasculature,PF03805,GO:0020035,process,1,1054
+1427,p-aminobenzoyl-glutamate transmembrane transport,PF03806,GO:1902604,process,1,1055
+133,DNA transposition,PF03811,GO:0006313,process,13,1056
+14,2-keto-3-deoxygluconate:proton symporter activity,PF03812,GO:0015649,function,1,1057
+1257,monoatomic ion transmembrane transporter activity,PF03820,GO:0015075,function,2,1058
+1310,nickel cation transmembrane transporter activity,PF03824,GO:0015099,function,1,1059
+1359,nucleoside transport,PF03825,GO:0015858,process,1,1060
+1382,orexin receptor activity,PF03827,GO:0016499,function,1,1061
+109,DNA metabolic process,PF03837,GO:0006259,process,3,1062
+787,endoplasmic reticulum membrane,PF03839,GO:0005789,component,19,1063
+1709,protein-transporting ATPase activity,PF03840,GO:0015450,function,1,1064
+1935,silicic acid import across plasma membrane,PF03842,GO:0015708,process,1,1065
+1278,negative regulation of cell division,PF03846,GO:0051782,process,1,1066
+2083,transcription factor TFIID complex,PF03847,GO:0005669,component,3,1067
+65,ATPase activator activity,PF03849,GO:0001671,function,3,1068
+2084,transcription factor TFIIH core complex,PF03850,GO:0000439,component,3,1069
+1845,response to UV,PF03851,GO:0009411,process,1,1070
+1192,mismatch repair,PF03852,GO:0006298,process,8,1071
+1137,mating pheromone activity,PF03855,GO:0000772,function,5,1072
+2198,virion attachment to host cell pilus,PF03863,GO:0039666,process,1,1073
+1925,sigma factor antagonist activity,PF03872,GO:0016989,function,1,1074
+267,RNA polymerase complex,PF03874,GO:0030880,component,1,1075
+1783,regulation of bone mineralization,PF03875,GO:0030500,process,1,1076
+789,endoplasmic reticulum to Golgi vesicle-mediated transport,PF03878,GO:0006888,process,7,1077
+1840,rescue of stalled ribosome,PF03889,GO:0072344,process,1,1078
+428,anaerobic respiration,PF03892,GO:0009061,process,1,1079
+1666,protein phosphatase regulator activity,PF03907,GO:0019888,function,3,1080
+292,SNAP receptor activity,PF03908,GO:0005484,function,1,1081
+1531,photosystem II oxygen evolving complex,PF03912,GO:0009654,component,6,1082
+1116,mRNA transport,PF03943,GO:0051028,process,2,1083
+1061,killing by symbiont of host cells,PF03945,GO:0001907,process,2,1084
+894,glutamine biosynthetic process,PF03951,GO:0006542,process,2,1085
+198,L-lysine efflux transmembrane transporter activity,PF03956,GO:0015661,function,1,1086
+768,egg chorion,PF03964,GO:0042600,component,6,1087
+772,"electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity",PF03967,GO:0045156,function,3,1088
+1051,isocitrate dehydrogenase (NADP+) activity,PF03971,GO:0004450,function,1,1089
+1460,perturbation of host defenses by symbiont,PF03973,GO:0030682,process,2,1090
+1704,protein-glutamine glutaminase activity,PF03975,GO:0050568,function,1,1091
+1958,sodium ion transport,PF03977,GO:0006814,process,11,1092
+210,MIS12/MIND type complex,PF03980,GO:0000444,component,2,1093
+1706,protein-macromolecule adaptor activity,PF03983,GO:0030674,function,2,1094
+91,Cdc73/Paf1 complex,PF03985,GO:0016593,component,2,1095
+2145,ubiquitin-like protein transferase activity,PF03987,GO:0019787,function,1,1096
+790,endosome transport via multivesicular body sorting pathway,PF03997,GO:0032509,process,2,1097
+1950,small-subunit processome,PF03998,GO:0032040,component,5,1098
+606,checkpoint clamp complex,PF04005,GO:0030896,component,2,1099
+214,Mpp10 complex,PF04006,GO:0034457,component,1,1100
+2021,tRNA methyltransferase activity,PF04013,GO:0008175,function,2,1101
+657,coenzyme A biosynthetic process,PF04019,GO:0015937,process,3,1102
+1976,sporulation resulting in formation of a cellular spore,PF04026,GO:0030435,process,4,1103
+16,2-phosphosulfolactate phosphatase activity,PF04029,GO:0050532,function,1,1104
+97,"D-arabinono-1,4-lactone oxidase activity",PF04030,GO:0003885,function,1,1105
+204,Las1 complex,PF04031,GO:0090730,component,1,1106
+798,enzyme inhibitor activity,PF04043,GO:0004857,function,3,1107
+359,actin cytoskeleton,PF04045,GO:0015629,component,3,1108
+2165,vesicle docking involved in exocytosis,PF04048,GO:0006904,process,1,1109
+429,anaphase-promoting complex,PF04049,GO:0005680,component,8,1110
+1453,periplasmic space,PF04052,GO:0042597,component,13,1111
+68,Arp2/3 protein complex,PF04062,GO:0005885,component,4,1112
+419,aminoacyl-tRNA editing activity,PF04073,GO:0002161,function,3,1113
+2026,tRNA wobble position uridine thiolation,PF04077,GO:0002143,process,1,1114
+80,CCR4-NOT complex,PF04078,GO:0030014,component,2,1115
+639,chromosome separation,PF04079,GO:0051304,process,1,1116
+169,GPI anchor biosynthetic process,PF04080,GO:0006506,process,10,1117
+128,DNA synthesis involved in DNA repair,PF04081,GO:0000731,process,1,1118
+1390,origin recognition complex,PF04084,GO:0000808,component,1,1119
+1929,signal recognition particle receptor complex,PF04086,GO:0005785,component,1,1120
+1649,"protein import into peroxisome matrix, docking",PF04088,GO:0016560,process,1,1121
+262,RNA polymerase I core promoter sequence-specific DNA binding,PF04090,GO:0001164,function,1,1122
+1349,nucleocytoplasmic transport,PF04096,GO:0006913,process,1,1123
+1990,structural constituent of nuclear pore,PF04097,GO:0017056,function,4,1124
+310,TRAPP complex,PF04099,GO:0030008,component,1,1125
+584,cellular modified amino acid biosynthetic process,PF04107,GO:0042398,process,1,1126
+468,autophagy,PF04109,GO:0006914,process,5,1127
+467,autophagosome assembly,PF04110,GO:0000045,process,1,1128
+236,NatC complex,PF04112,GO:0031417,component,1,1129
+464,attachment of GPI anchor to protein,PF04113,GO:0016255,process,2,1130
+170,GPI-anchor transamidase complex,PF04114,GO:0042765,component,3,1131
+2154,ureidoglycolate lyase activity,PF04115,GO:0050385,function,1,1132
+1082,lipid biosynthetic process,PF04116,GO:0008610,process,2,1133
+179,Golgi transport complex,PF04124,GO:0017119,component,2,1134
+871,gamma-tubulin binding,PF04130,GO:0043015,function,2,1135
+218,N-acylglucosamine-6-phosphate 2-epimerase activity,PF04131,GO:0047465,function,1,1136
+1954,snoRNA binding,PF04135,GO:0030515,function,3,1137
+1639,protein folding in endoplasmic reticulum,PF04137,GO:0034975,process,1,1138
+1559,polysaccharide biosynthetic process,PF04138,GO:0000271,process,2,1139
+76,C-terminal protein methylation,PF04140,GO:0006481,process,1,1140
+1735,pyrimidine nucleotide-sugar transmembrane transporter activity,PF04142,GO:0015165,function,1,1141
+669,copper ion transmembrane transport,PF04145,GO:0035434,process,1,1142
+86,COPII receptor activity,PF04148,GO:0097020,function,1,1143
+753,double-strand break repair,PF04152,GO:0006302,process,5,1144
+1035,intracellular sterol transport,PF04161,GO:0032366,process,1,1145
+1055,karyogamy involved in conjugation with cellular fusion,PF04163,GO:0000742,process,1,1146
+1813,regulation of phosphoprotein phosphatase activity,PF04176,GO:0043666,process,3,1147
+1821,regulation of signal transduction,PF04177,GO:0009966,process,6,1148
+1884,ribosomal small subunit biogenesis,PF04180,GO:0042274,process,2,1149
+1922,siderophore biosynthetic process,PF04183,GO:0019290,process,1,1150
+402,"alpha-1,6-mannosyltransferase activity",PF04188,GO:0000009,function,1,1151
+2016,tRNA (m1A) methyltransferase complex,PF04189,GO:0031515,component,1,1152
+457,arylformamidase activity,PF04199,GO:0004061,function,1,1153
+2044,tetrahydromethanopterin S-methyltransferase activity,PF04210,GO:0030269,function,6,1154
+63,ATP-independent citrate lyase complex,PF04223,GO:0009346,component,1,1155
+1446,peptidoglycan binding,PF04225,GO:0042834,function,2,1156
+1724,pseudouridylate synthase activity,PF04227,GO:0004730,function,1,1157
+1850,response to copper ion,PF04234,GO:0046688,process,1,1158
+1350,nucleoid,PF04245,GO:0009295,component,2,1159
+462,"aspartic endopeptidase activity, intramembrane cleaving",PF04258,GO:0042500,function,2,1160
+2048,thiamine diphosphokinase activity,PF04263,GO:0004788,function,1,1161
+2046,thiamine binding,PF04265,GO:0030975,function,1,1162
+1894,sarcosine oxidase activity,PF04267,GO:0008115,function,1,1163
+1766,regulation of ATPase-coupled calcium transmembrane transporter activity,PF04272,GO:1901894,process,1,1164
+623,cholesterol biosynthetic process,PF04275,GO:0006695,process,1,1165
+1957,sodium ion transmembrane transporter activity,PF04277,GO:0015081,function,1,1166
+636,chromosome condensation,PF04288,GO:0030261,process,3,1167
+904,glycerol metabolic process,PF04309,GO:0006071,process,4,1168
+112,DNA modification,PF04313,GO:0006304,process,3,1169
+333,[acyl-carrier-protein] phosphodiesterase activity,PF04336,GO:0008770,function,1,1170
+1790,regulation of chemotaxis,PF04344,GO:0050920,process,1,1171
+627,chorismate lyase activity,PF04345,GO:0008813,function,1,1172
+804,ethanolamine transport,PF04346,GO:0034229,process,1,1173
+480,bacterial-type flagellum organization,PF04347,GO:0044781,process,3,1174
+2136,type IV pilus-dependent motility,PF04350,GO:0043107,process,1,1175
+569,cell septum assembly,PF04354,GO:0090529,process,3,1176
+1728,putrescine biosynthetic process,PF04371,GO:0009446,process,1,1177
+451,arginyl-tRNA--protein transferase activity,PF04376,GO:0004057,function,2,1178
+1627,protein arginylation,PF04377,GO:0016598,process,2,1179
+1747,rRNA base methylation,PF04378,GO:0070475,process,3,1180
+673,cortical actin cytoskeleton organization,PF04382,GO:0030866,process,1,1181
+181,Gram-negative-bacterium-type cell outer membrane assembly,PF04390,GO:0043165,process,1,1182
+1887,ribosome biogenesis,PF04410,GO:0042254,process,7,1183
+209,MICOS complex,PF04418,GO:0061617,component,4,1184
+2032,tail-anchored membrane protein insertion into ER membrane,PF04420,GO:0071816,process,1,1185
+191,K48-linked deubiquitinase activity,PF04424,GO:1990380,function,1,1186
+148,Dsl1/NZR complex,PF04437,GO:0070939,component,1,1187
+1093,long-chain fatty acid luciferin component ligase activity,PF04443,GO:0047474,function,1,1188
+552,"catechol 1,2-dioxygenase activity",PF04444,GO:0018576,function,1,1189
+1749,rRNA methylation,PF04445,GO:0031167,process,1,1190
+2020,tRNA guanylyltransferase activity,PF04446,GO:0008193,function,1,1191
+1854,response to organic substance,PF04453,GO:0010033,process,1,1192
+82,CDP-glycerol glycerophosphotransferase activity,PF04464,GO:0047355,function,1,1193
+1664,protein phosphatase binding,PF04499,GO:0019903,function,1,1194
+749,dolichol-linked oligosaccharide biosynthetic process,PF04506,GO:0006488,process,3,1195
+1241,modulation by virus of host cellular process,PF04517,GO:0019054,process,1,1196
+2193,viral release via pore formation in host cell membrane,PF04550,GO:0044660,process,1,1197
+34,4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase activity,PF04551,GO:0046429,function,1,1198
+1539,plant-type cell wall organization,PF04554,GO:0009664,process,1,1199
+898,glutaminyl-tRNA aminoacylation,PF04557,GO:0006425,process,1,1200
+1268,negative regulation of ATP-dependent activity,PF04568,GO:0032780,process,1,1201
+1926,signal peptidase complex,PF04573,GO:0005787,component,3,1202
+1640,protein glycosylation,PF04597,GO:0006486,process,9,1203
+67,Actinobacterium-type cell wall biogenesis,PF04602,GO:0071766,process,1,1204
+923,guanosine tetraphosphate metabolic process,PF04607,GO:0015969,process,1,1205
+1481,phosphatidylglycerophosphatase activity,PF04608,GO:0008962,function,2,1206
+1676,protein secretion by the type IV secretion system,PF04610,GO:0030255,process,1,1207
+1918,sexual reproduction,PF04611,GO:0019953,process,3,1208
+1080,lipid A biosynthetic process,PF04613,GO:0009245,process,5,1209
+1456,peroxisome,PF04614,GO:0005777,component,4,1210
+626,chorion-containing eggshell formation,PF04624,GO:0007304,process,4,1211
+1216,"mitochondrial proton-transporting ATP synthase complex, catalytic sector F(1)",PF04627,GO:0000275,component,2,1212
+1819,regulation of response to reactive oxygen species,PF04636,GO:1901031,process,1,1213
+1741,quorum sensing,PF04647,GO:0009372,process,5,1214
+1895,secondary metabolic process,PF04655,GO:0019748,process,1,1215
+1463,phenol 2-monooxygenase activity,PF04663,GO:0018662,function,1,1216
+1933,signaling receptor activity,PF04664,GO:0038023,function,8,1217
+1555,polyketide biosynthetic process,PF04673,GO:0030639,process,1,1218
+634,chromatin remodeling,PF04684,GO:0006338,process,11,1219
+1273,negative regulation of Wnt signaling pathway,PF04706,GO:0030178,process,1,1220
+920,gonad development,PF04709,GO:0008406,process,1,1221
+1755,radial spoke,PF04712,GO:0001534,component,1,1222
+1844,respiratory electron transport chain,PF04716,GO:0022904,process,1,1223
+916,glycoprotein catabolic process,PF04721,GO:0006516,process,1,1224
+1508,phosphoprotein phosphatase activity,PF04722,GO:0004721,function,5,1225
+910,glycine reductase complex,PF04723,GO:0030700,component,1,1226
+486,"beta-1,4-mannosylglycoprotein 4-beta-N-acetylglucosaminyltransferase activity",PF04724,GO:0003830,function,1,1227
+633,chromatin organization,PF04729,GO:0006325,process,2,1228
+765,"ecdysis, chitin-based cuticle",PF04736,GO:0018990,process,1,1229
+902,glutathione specific gamma-glutamylcyclotransferase activity,PF04752,GO:0061928,function,1,1230
+992,hydrotropism,PF04759,GO:0010274,process,1,1231
+773,elongator holoenzyme complex,PF04762,GO:0033588,component,4,1232
+2190,viral protein processing,PF04767,GO:0019082,process,7,1233
+1138,mating type determination,PF04769,GO:0007531,process,1,1234
+1005,induction by virus of host apoptotic process,PF04771,GO:0019051,process,1,1235
+1713,proton transmembrane transport,PF04772,GO:1902600,process,15,1236
+2052,thiol oxidase activity,PF04777,GO:0016972,function,3,1237
+1893,sarcoglycan complex,PF04790,GO:0016012,component,1,1238
+190,Ino80 complex,PF04795,GO:0031011,component,4,1239
+1203,mitochondrial fusion,PF04799,GO:0008053,process,2,1240
+87,COPII vesicle coat,PF04810,GO:0030127,component,3,1241
+2012,tRNA (adenine(22)-N1)-methyltransferase activity,PF04816,GO:0160105,function,1,1242
+544,carbon-sulfur lyase activity,PF04828,GO:0016846,function,3,1243
+596,cellulose microfibril organization,PF04833,GO:0010215,process,1,1244
+1727,purine-rich negative regulatory element binding,PF04845,GO:0032422,function,1,1245
+524,calcium-mediated signaling,PF04847,GO:0019722,process,1,1246
+852,four-way junction DNA binding,PF04848,GO:0000400,function,1,1247
+1329,nuclear chromosome,PF04855,GO:0000228,component,2,1248
+2205,visual perception,PF04868,GO:0007601,process,1,1249
+2166,vesicle fusion with Golgi apparatus,PF04869,GO:0048280,process,1,1250
+1128,mannose binding,PF04881,GO:0005537,function,2,1251
+1458,peroxisome organization,PF04882,GO:0007031,process,2,1252
+890,glutamate synthase activity,PF04898,GO:0015930,function,2,1253
+1773,regulation of G protein-coupled receptor signaling pathway,PF04901,GO:0008277,process,1,1254
+1190,microtubule-based process,PF04912,GO:0007017,process,2,1255
+750,"dolichyl pyrophosphate Glc2Man9GlcNAc2 alpha-1,2-glucosyltransferase activity",PF04922,GO:0106073,function,1,1256
+2063,tissue regeneration,PF04923,GO:0042246,process,2,1257
+1973,spliceosomal snRNP assembly,PF04938,GO:0000387,process,2,1258
+506,blue light photoreceptor activity,PF04940,GO:0009882,function,1,1259
+1835,regulation of viral transcription,PF04947,GO:0046782,process,3,1260
+445,arginine N-succinyltransferase activity,PF04958,GO:0008791,function,1,1261
+895,glutamine metabolic process,PF04960,GO:0006541,process,1,1262
+1041,"intramolecular oxidoreductase activity, interconverting aldoses and ketoses",PF04962,GO:0016861,function,1,1263
+535,carbohydrate transport,PF04966,GO:0008643,process,4,1264
+1312,nicotinamide riboside transport,PF04973,GO:0034258,process,1,1265
+426,anaerobic electron transport chain,PF04976,GO:0019645,process,1,1266
+1665,protein phosphatase inhibitor activity,PF04979,GO:0004864,function,2,1267
+934,heme transport,PF04995,GO:0015886,process,3,1268
+219,N-succinylarginine dihydrolase activity,PF04996,GO:0009015,function,1,1269
+1582,positive regulation of growth,PF05003,GO:0045927,process,2,1270
+399,"alpha-1,4-mannosyltransferase activity",PF05007,GO:0051751,function,1,1271
+2140,ubiquinone biosynthetic process,PF05019,GO:0006744,process,2,1272
+900,glutathione gamma-glutamylcysteinyltransferase activity,PF05023,GO:0016756,function,2,1273
+1261,monosaccharide binding,PF05025,GO:0048029,function,1,1274
+1552,poly(ADP-ribose) glycohydrolase activity,PF05028,GO:0004649,function,1,1275
+957,histone methyltransferase activity,PF05033,GO:0042054,function,2,1276
+12,2-dehydro-3-deoxygalactonokinase activity,PF05035,GO:0008671,function,1,1277
+962,hormone-mediated signaling pathway,PF05039,GO:0009755,process,2,1278
+666,copper chaperone activity,PF05051,GO:0016531,function,1,1279
+400,"alpha-1,6-mannosylglycoprotein 2-beta-N-acetylglucosaminyltransferase activity",PF05060,GO:0008455,function,1,1280
+1221,mitochondrial respiratory chain complex I assembly,PF05071,GO:0032981,process,2,1281
+889,glutamate catabolic process to 2-oxoglutarate,PF05088,GO:0019551,process,1,1282
+870,gamma-glutamyl carboxylase activity,PF05090,GO:0008488,function,1,1283
+806,eukaryotic translation initiation factor 3 complex,PF05091,GO:0005852,component,4,1284
+897,glutaminyl-peptide cyclotransferase activity,PF05096,GO:0016603,function,1,1285
+1120,maintenance of CRISPR repeat elements,PF05107,GO:0043571,process,4,1286
+1993,structural constituent of tooth enamel,PF05111,GO:0030345,function,1,1287
+1448,peptidyl-amino acid modification,PF05118,GO:0018193,process,1,1288
+874,gas vesicle organization,PF05121,GO:0031412,process,5,1289
+266,RNA polymerase III complex,PF05132,GO:0005666,component,2,1290
+1464,phenylacetate catabolic process,PF05138,GO:0010124,process,1,1291
+1441,peptide modification,PF05147,GO:0031179,process,1,1292
+1262,motile cilium,PF05149,GO:0031514,component,2,1293
+1523,"photosynthesis, light reaction",PF05151,GO:0019684,process,6,1294
+1011,inositol catabolic process,PF05153,GO:0019310,process,1,1295
+1562,polysaccharide transport,PF05159,GO:0015774,process,1,1296
+1623,"proteasome regulatory particle, lid subcomplex",PF05160,GO:0008541,component,1,1297
+1048,iron ion transport,PF05171,GO:0006826,process,3,1298
+380,adenylate kinase activity,PF05191,GO:0004017,function,1,1299
+2151,urea metabolic process,PF05194,GO:0019627,process,1,1300
+1601,potassium ion transmembrane transport,PF05197,GO:0071805,process,3,1301
+1680,protein splicing,PF05203,GO:0030908,process,2,1302
+1787,regulation of cell division,PF05209,GO:0051302,process,1,1303
+1693,protein-L-histidine N-pros-methyltransferase activity,PF05219,GO:0106370,function,1,1304
+2072,transcription by RNA polymerase I,PF05234,GO:0006360,process,3,1305
+83,CENP-A containing chromatin assembly,PF05238,GO:0034080,process,3,1306
+1377,oligosaccharyltransferase I complex,PF05251,GO:0034998,component,1,1307
+1029,intracellular copper ion homeostasis,PF05275,GO:0006878,process,1,1308
+1781,regulation of bacterial-type flagellum assembly,PF05280,GO:1902208,process,1,1309
+1125,malonyl-CoA decarboxylase activity,PF05292,GO:0050080,function,1,1310
+503,bitter taste receptor activity,PF05296,GO:0033038,function,1,1311
+2126,tubulin N-acetyltransferase activity,PF05301,GO:0019799,function,1,1312
+2086,transcription initiation at RNA polymerase I promoter,PF05327,GO:0006361,process,2,1313
+1956,sodium channel inhibitor activity,PF05353,GO:0019871,function,8,1314
+642,chylomicron,PF05355,GO:0042627,component,2,1315
+1814,regulation of phosphorylation,PF05361,GO:0042325,process,1,1316
+799,enzyme regulator activity,PF05366,GO:0030234,function,6,1317
+732,deoxyribonuclease IV (phage-T4-induced) activity,PF05367,GO:0008833,function,1,1318
+15,2-oxoglutarate-dependent dioxygenase activity,PF05373,GO:0016706,function,3,1319
+2162,vacuole,PF05388,GO:0005773,component,1,1320
+2,(1->6)-beta-D-glucan biosynthetic process,PF05390,GO:0006078,process,1,1321
+1219,mitochondrial respirasome,PF05392,GO:0005746,component,1,1322
+481,bacteriochlorophyll biosynthetic process,PF05398,GO:0030494,process,2,1323
+1376,oligosaccharide biosynthetic process,PF05401,GO:0009312,process,3,1324
+783,endoplasmic reticulum,PF05404,GO:0005783,component,13,1325
+674,corticotropin-releasing hormone binding,PF05428,GO:0051424,function,1,1326
+1416,"oxidoreductase activity, acting on the CH-NH group of donors",PF05430,GO:0016645,function,1,1327
+1098,lysosomal membrane,PF05434,GO:0005765,component,1,1328
+2061,thyrotropin-releasing hormone activity,PF05438,GO:0008437,function,1,1329
+764,dystrophin-associated glycoprotein complex,PF05454,GO:0016010,component,1,1330
+805,eukaryotic initiation factor 4E binding,PF05456,GO:0008190,function,1,1331
+1337,nuclear origin of replication recognition complex,PF05460,GO:0005664,component,1,1332
+2101,translation initiation factor binding,PF05470,GO:0031369,function,1,1333
+651,coagulation,PF05474,GO:0050817,process,1,1334
+1585,positive regulation of mitochondrial translation,PF05476,GO:0070131,process,1,1335
+591,cellularization,PF05482,GO:0007349,process,1,1336
+2008,synaptonemal complex,PF05483,GO:0000795,component,2,1337
+1102,lysozyme activity,PF05497,GO:0003796,function,4,1338
+761,dynactin complex,PF05502,GO:0005869,component,3,1339
+2173,viral RNA genome packaging,PF05505,GO:0019074,process,1,1340
+1500,phospholipase C activity,PF05506,GO:0004629,function,1,1341
+1179,microfibril,PF05507,GO:0001527,component,1,1342
+1189,microtubule polymerization,PF05517,GO:0046785,process,1,1343
+510,branched-chain amino acid transmembrane transporter activity,PF05525,GO:0015658,function,1,1344
+2186,viral occlusion body,PF05531,GO:0039679,component,1,1345
+332,Z disc,PF05556,GO:0030018,component,1,1346
+1240,mitotic spindle assembly checkpoint signaling,PF05557,GO:0007094,process,1,1347
+1861,response to unfolded protein,PF05571,GO:0006986,process,1,1348
+1915,serine-type exopeptidase activity,PF05577,GO:0070008,function,6,1349
+305,THO complex part of transcription export complex,PF05615,GO:0000445,component,1,1350
+707,cytoplasmic microtubule organization,PF05622,GO:0031122,process,2,1351
+1245,molybdate ion transmembrane transporter activity,PF05631,GO:0015098,function,2,1352
+1671,protein pupylation,PF05639,GO:0070490,process,1,1353
+1457,peroxisome fission,PF05648,GO:0016559,process,1,1354
+720,deadenylation-dependent decapping of nuclear-transcribed mRNA,PF05652,GO:0000290,process,2,1355
+1118,magnesium ion transport,PF05653,GO:0015693,process,1,1356
+1183,microtubule cytoskeleton,PF05672,GO:0015630,component,2,1357
+1227,mitochondrion,PF05676,GO:0005739,component,27,1358
+177,Golgi cisterna membrane,PF05679,GO:0032580,component,1,1359
+912,glycogen biosynthetic process,PF05693,GO:0005978,process,1,1360
+1899,selenium binding,PF05694,GO:0008430,function,1,1361
+2007,synapse,PF05715,GO:0045202,component,1,1362
+1491,phosphatidylinositol-4-phosphate binding,PF05719,GO:0070273,function,1,1363
+283,S-adenosylmethionine-dependent methyltransferase activity,PF05724,GO:0008757,function,4,1364
+659,collagen binding,PF05737,GO:0005518,function,1,1365
+1136,mating behavior,PF05777,GO:0007617,process,1,1366
+1234,mitotic chromosome condensation,PF05786,GO:0007076,process,1,1367
+1593,positive regulation of transcription elongation by RNA polymerase II,PF05793,GO:0032968,process,1,1368
+1545,plasmid partitioning,PF05797,GO:0030541,process,1,1369
+36,5'-nucleotidase activity,PF05822,GO:0008253,function,3,1370
+1148,melanin-concentrating hormone activity,PF05824,GO:0030354,function,1,1371
+2011,syntaxin binding,PF05835,GO:0019905,function,2,1372
+1066,kinetochore assembly,PF05837,GO:0051382,process,4,1373
+430,anaphase-promoting complex-dependent catabolic process,PF05841,GO:0031145,process,3,1374
+1387,organic phosphonate metabolic process,PF05845,GO:0019634,process,3,1375
+27,3-keto-5-aminohexanoate cleavage activity,PF05853,GO:0043720,function,1,1376
+117,DNA protection,PF05854,GO:0042262,process,2,1377
+364,actin filament polymerization,PF05856,GO:0030041,process,1,1378
+1232,mitotic cell cycle,PF05859,GO:0000278,process,5,1379
+1264,multivesicular body sorting pathway,PF05871,GO:0071985,process,1,1380
+1468,pheromone biosynthetic process,PF05874,GO:0042811,process,1,1381
+602,ceramide metabolic process,PF05875,GO:0006672,process,1,1382
+8,"2',3'-cyclic-nucleotide 3'-phosphodiesterase activity",PF05881,GO:0004113,function,1,1383
+220,N-terminal protein amino acid methylation,PF05891,GO:0006480,process,1,1384
+369,acyl-CoA dehydrogenase activity,PF05893,GO:0003995,function,2,1385
+1403,"oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",PF05896,GO:0016655,function,6,1386
+488,beta-catenin binding,PF05924,GO:0008013,function,5,1387
+1675,protein secretion by the type III secretion system,PF05932,GO:0030254,process,3,1388
+455,aryl sulfotransferase activity,PF05935,GO:0004062,function,1,1389
+825,extracellular organelle,PF05946,GO:0043230,component,1,1390
+1306,neuropeptide hormone activity,PF05953,GO:0005184,function,7,1391
+2037,telomere maintenance,PF05970,GO:0000723,process,3,1392
+803,ethanolamine ammonia-lyase activity,PF05985,GO:0008851,function,2,1393
+1442,peptide transmembrane transporter activity,PF05992,GO:1904680,function,1,1394
+2187,viral outer capsid,PF05993,GO:0039624,component,1,1395
+1776,regulation of actin filament polymerization,PF05994,GO:0030833,process,1,1396
+1415,"oxidoreductase activity, acting on the CH-CH group of donors, iron-sulfur protein as acceptor",PF05996,GO:0016636,function,1,1397
+1610,"preribosome, small subunit precursor",PF05997,GO:0030688,component,2,1398
+159,FtsZ-dependent cytokinesis,PF06005,GO:0043093,process,1,1399
+1386,organic phosphonate catabolic process,PF06007,GO:0019700,process,1,1400
+1796,regulation of embryonic development,PF06008,GO:0045995,process,1,1401
+909,glycine N-acyltransferase activity,PF06021,GO:0047961,function,1,1402
+1883,ribose-5-phosphate isomerase activity,PF06026,GO:0004751,function,1,1403
+1121,malate dehydrogenase (quinone) activity,PF06039,GO:0008924,function,1,1404
+813,exocyst,PF06046,GO:0000145,component,4,1405
+504,blood coagulation,PF06049,GO:0007596,process,3,1406
+26,"3-hydroxyanthranilate 3,4-dioxygenase activity",PF06052,GO:0000334,function,1,1407
+733,deoxyribonuclease inhibitor activity,PF06064,GO:0060703,function,1,1408
+1037,intracellular transport of virus,PF06072,GO:0075733,process,1,1409
+1356,nucleoside diphosphate phosphatase activity,PF06079,GO:0017110,function,1,1410
+1012,inositol pentakisphosphate 2-kinase activity,PF06090,GO:0035299,function,1,1411
+1372,oleate hydratase activity,PF06100,GO:0050151,function,1,1412
+1575,positive regulation of catalytic activity,PF06105,GO:0043085,process,2,1413
+937,hemolysis in another organism,PF06109,GO:0044179,process,2,1414
+74,BRCA1-A complex,PF06113,GO:0070531,component,1,1415
+200,L-rhamnose isomerase activity,PF06134,GO:0008740,function,1,1416
+2033,taste receptor activity,PF06151,GO:0008527,function,1,1417
+1580,positive regulation of cytoskeleton organization,PF06154,GO:0051495,process,1,1418
+1907,septin ring assembly,PF06160,GO:0000921,process,1,1419
+2027,tRNA-(2-methylthio-N-6-(cis-hydroxy)isopentenyl adenosine)-hydroxylase activity,PF06175,GO:0045301,function,1,1420
+425,anaerobic cobalamin biosynthetic process,PF06180,GO:0019251,process,1,1421
+1367,nucleotide metabolic process,PF06189,GO:0009117,process,2,1422
+1708,protein-phycocyanobilin linkage,PF06206,GO:0017009,process,2,1423
+1096,lymphocyte activation,PF06214,GO:0046649,process,1,1424
+1146,melanin biosynthetic process,PF06236,GO:0042438,process,1,1425
+1872,riboflavin transport,PF06237,GO:0032218,process,1,1426
+875,generation of catalytic spliceosome for second transesterification step,PF06246,GO:0000350,process,1,1427
+2100,translation initiation factor activity,PF06273,GO:0003743,function,12,1428
+1126,manganese ion binding,PF06298,GO:0030145,function,7,1429
+337,[isocitrate dehydrogenase (NADP+)] kinase activity,PF06315,GO:0008772,function,1,1430
+975,host outer membrane,PF06316,GO:0044384,component,1,1431
+1852,response to light stimulus,PF06324,GO:0009416,process,1,1432
+542,"carbon-oxygen lyase activity, acting on phosphates",PF06330,GO:0016838,function,1,1433
+802,establishment of competence for transformation,PF06338,GO:0030420,process,1,1434
+766,ectoine biosynthetic process,PF06339,GO:0019491,process,1,1435
+624,cholesterol metabolic process,PF06350,GO:0008203,process,2,1436
+514,calcium channel inhibitor activity,PF06357,GO:0019855,function,3,1437
+582,cellular component organization,PF06367,GO:0016043,process,1,1438
+427,anaerobic glutamate catabolic process,PF06368,GO:0019670,process,1,1439
+1563,pore complex,PF06369,GO:0046930,component,1,1440
+360,actin cytoskeleton organization,PF06371,GO:0030036,process,3,1441
+385,adult feeding behavior,PF06373,GO:0008343,process,1,1442
+1198,"mitochondrial electron transport, NADH to ubiquinone",PF06374,GO:0006120,process,3,1443
+47,AP-3 adaptor complex,PF06375,GO:0030123,component,1,1444
+941,hexose transmembrane transport,PF06379,GO:0008645,process,1,1445
+650,clathrin light chain binding,PF06387,GO:0032051,function,1,1446
+1856,response to parathyroid hormone,PF06390,GO:0071107,process,1,1447
+1846,response to acidic pH,PF06392,GO:0010447,process,1,1448
+1573,positive regulation of apoptotic process,PF06393,GO:0043065,process,4,1449
+432,angiotensin-activated signaling pathway,PF06396,GO:0038166,process,1,1450
+1277,negative regulation of biosynthetic process,PF06399,GO:0009890,process,1,1451
+1094,low-density lipoprotein particle receptor binding,PF06401,GO:0050750,function,1,1452
+568,cell population proliferation,PF06404,GO:0008283,process,1,1453
+1763,red chlorophyll catabolite reductase activity,PF06405,GO:0051743,function,1,1454
+881,glucose catabolic process,PF06415,GO:0006007,process,1,1455
+496,biological process involved in symbiotic interaction,PF06416,GO:0044403,process,1,1456
+1734,pyrimidine nucleotide biosynthetic process,PF06418,GO:0006221,process,1,1457
+1195,mitochondrial chromosome,PF06420,GO:0000262,component,1,1458
+66,ATPase-coupled transmembrane transporter activity,PF06422,GO:0042626,function,2,1459
+1909,serine O-acetyltransferase activity,PF06426,GO:0009001,function,1,1460
+323,UDP-glucose:glycoprotein glucosyltransferase activity,PF06427,GO:0003980,function,1,1461
+411,amine dehydrogenase activity,PF06433,GO:0030058,function,1,1462
+353,aconitate hydratase activity,PF06434,GO:0003994,function,2,1463
+187,IMP 5'-nucleotidase activity,PF06437,GO:0050483,function,1,1464
+1864,response to xenobiotic stimulus,PF06442,GO:0009410,process,1,1465
+1030,intracellular iron ion homeostasis,PF06446,GO:0006879,process,1,1466
+1961,sodium:proton antiporter activity,PF06450,GO:0015385,function,2,1467
+530,carbohydrate catabolic process,PF06452,GO:0016052,process,3,1468
+1635,protein domain specific binding,PF06456,GO:0019904,function,2,1469
+1892,ryanodine-sensitive calcium-release channel activity,PF06459,GO:0005219,function,1,1470
+1250,molybdopterin synthase complex,PF06463,GO:0019008,component,1,1471
+253,RNA exonuclease activity,PF06471,GO:0004532,function,1,1472
+695,cytochrome bo3 ubiquinol oxidase activity,PF06481,GO:0009486,function,1,1473
+839,female sex differentiation,PF06495,GO:0046660,process,1,1474
+1509,phosphorelay response regulator activity,PF06506,GO:0000156,function,2,1475
+1851,response to hormone,PF06507,GO:0009725,process,1,1476
+2211,voltage-gated sodium channel activity,PF06512,GO:0005248,function,1,1477
+483,bacteriocin transport,PF06519,GO:0043213,process,1,1478
+646,circadian rhythm,PF06529,GO:0007623,process,3,1479
+1299,negative regulation of termination of DNA-templated transcription,PF06530,GO:0060567,process,1,1480
+2102,translation regulator activity,PF06558,GO:0045182,function,2,1481
+9,2'-deoxyribonucleotide metabolic process,PF06559,GO:0009394,process,1,1482
+156,FMN adenylyltransferase activity,PF06574,GO:0003919,function,1,1483
+1797,regulation of exit from mitosis,PF06581,GO:0007096,process,1,1484
+192,L-amino acid efflux transmembrane transporter activity,PF06610,GO:0034639,function,1,1485
+1801,regulation of growth,PF06614,GO:0040008,process,1,1486
+1576,positive regulation of cell cycle G2/M phase transition,PF06617,GO:1902751,process,1,1487
+436,antigen processing and presentation,PF06623,GO:0019882,process,5,1488
+757,double-stranded DNA 5'-3' exodeoxyribonuclease activity,PF06630,GO:0051908,function,1,1489
+1698,protein-containing complex assembly,PF06644,GO:0065003,process,2,1490
+1461,phage shock,PF06667,GO:0009271,process,1,1491
+976,hyaluronan metabolic process,PF06668,GO:0030212,process,1,1492
+1826,regulation of store-operated calcium entry,PF06682,GO:2001256,process,1,1493
+1185,microtubule minus-end binding,PF06694,GO:0051011,function,1,1494
+1986,structural constituent of cytoskeleton,PF06705,GO:0005200,function,4,1495
+482,bacteriocin immunity,PF06713,GO:0030153,process,8,1496
+2172,viral DNA genome replication,PF06720,GO:0039693,process,4,1497
+1447,peptidoglycan turnover,PF06725,GO:0009254,process,2,1498
+1352,nucleolus,PF06732,GO:0005730,component,5,1499
+1184,microtubule cytoskeleton organization,PF06740,GO:0000226,process,5,1500
+1806,regulation of mitochondrial mRNA stability,PF06743,GO:0044528,process,1,1501
+1243,modulation of process of another organism,PF06753,GO:0035821,process,1,1502
+1388,organic phosphonate transport,PF06754,GO:0015716,process,1,1503
+250,RNA catabolic process,PF06769,GO:0006401,process,2,1504
+1087,lipid storage,PF06775,GO:0019915,process,3,1505
+534,carbohydrate transmembrane transporter activity,PF06800,GO:0015144,function,1,1506
+1104,mRNA 3'-end processing,PF06807,GO:0031124,process,2,1507
+276,RNA-templated DNA biosynthetic process,PF06815,GO:0006278,process,2,1508
+562,cell differentiation,PF06816,GO:0030154,process,4,1509
+2078,transcription corepressor activity,PF06825,GO:0003714,function,3,1510
+135,DNA-(apurinic or apyrimidinic site) endonuclease activity,PF06831,GO:0003906,function,3,1511
+1076,"ligase activity, forming carbon-nitrogen bonds",PF06849,GO:0016879,function,4,1512
+313,U3 snoRNA binding,PF06862,GO:0034511,function,1,1513
+774,elongin complex,PF06881,GO:0070449,component,1,1514
+794,enterobacterial common antigen biosynthetic process,PF06899,GO:0009246,process,2,1515
+1275,negative regulation of apoptotic process,PF06905,GO:0043066,process,4,1516
+1432,pectin catabolic process,PF06917,GO:0045490,process,2,1517
+914,glycolipid biosynthetic process,PF06925,GO:0009247,process,2,1518
+1105,mRNA 5'-cap (guanine-N7-)-methyltransferase activity,PF06929,GO:0004482,function,3,1519
+735,deoxyribonucleotide catabolic process,PF06941,GO:0009264,process,1,1520
+1499,phospholipase A2 activity,PF06951,GO:0004623,function,3,1521
+1848,response to arsenic-containing substance,PF06953,GO:0046685,process,1,1522
+440,apoplast,PF06955,GO:0048046,component,1,1523
+85,COPI vesicle coat,PF06957,GO:0030126,component,3,1524
+1047,iron ion transmembrane transporter activity,PF06963,GO:0005381,function,2,1525
+1812,regulation of pH,PF06965,GO:0006885,process,1,1526
+1859,response to redox state,PF06971,GO:0051775,process,1,1527
+1224,mitochondrial ribosome,PF06984,GO:0005761,component,2,1528
+867,galactosylceramide sulfotransferase activity,PF06990,GO:0001733,function,1,1529
+1059,keratinocyte differentiation,PF06994,GO:0030216,process,1,1530
+1459,perturbation by virus of host apoptosis,PF07038,GO:0039526,process,1,1531
+982,"hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides",PF07057,GO:0016818,function,6,1532
+788,endoplasmic reticulum organization,PF07086,GO:0007029,process,1,1533
+1119,magnesium protoporphyrin IX methyltransferase activity,PF07109,GO:0046406,function,1,1534
+621,chloroplast,PF07123,GO:0009507,component,3,1535
+2170,violaxanthin de-epoxidase activity,PF07137,GO:0046422,function,1,1536
+2130,type II interferon-mediated signaling pathway,PF07140,GO:0060333,process,1,1537
+1609,prenylcysteine catabolic process,PF07156,GO:0030328,process,1,1538
+638,chromosome segregation,PF07160,GO:0007059,process,6,1539
+1650,protein import into peroxisome membrane,PF07163,GO:0045046,process,1,1540
+1553,poly-hydroxybutyrate biosynthetic process,PF07167,GO:0042619,process,1,1541
+822,extracellular matrix binding,PF07174,GO:0050840,function,1,1542
+498,biomineral tissue development,PF07175,GO:0031214,process,1,1543
+1896,secretion,PF07201,GO:0046903,process,1,1544
+1482,phosphatidylinositol 3-kinase binding,PF07213,GO:0043548,function,1,1545
+679,cyclic-di-GMP binding,PF07238,GO:0035438,function,2,1546
+1001,immune system process,PF07240,GO:0002376,process,1,1547
+1286,negative regulation of endopeptidase activity,PF07259,GO:0010951,process,3,1548
+1475,phosphate ion transmembrane transport,PF07260,GO:0035435,process,1,1549
+823,extracellular matrix organization,PF07263,GO:0030198,process,1,1550
+383,adhesion of symbiont to host cell,PF07271,GO:0044650,process,1,1551
+1522,"photosynthesis, dark reaction",PF07284,GO:0019685,process,1,1552
+72,BBSome,PF07289,GO:0034464,component,2,1553
+1171,methylamine metabolic process,PF07291,GO:0030416,process,1,1554
+748,dolichol metabolic process,PF07297,GO:0019348,process,1,1555
+1153,menaquinone biosynthetic process,PF07307,GO:0009234,process,1,1556
+146,DNA-templated viral transcription,PF07340,GO:0039695,process,1,1557
+57,ATP synthesis coupled electron transport,PF07347,GO:0042773,process,1,1558
+708,cytoplasmic side of plasma membrane,PF07348,GO:0009898,component,1,1559
+1404,"oxidoreductase activity, acting on X-H and Y-H to form an X-Y bond, with a disulfide as acceptor",PF07355,GO:0050485,function,3,1560
+227,NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity,PF07357,GO:0030701,function,1,1561
+346,acetylcholine receptor inhibitor activity,PF07365,GO:0030550,function,3,1562
+1556,polyketide metabolic process,PF07366,GO:0030638,process,1,1563
+1276,negative regulation of bacterial-type flagellum assembly,PF07378,GO:1902209,process,1,1564
+1281,negative regulation of cell population proliferation,PF07392,GO:0008285,process,2,1565
+2183,viral latency,PF07415,GO:0019042,process,1,1566
+712,cytoskeleton-dependent cytokinesis,PF07426,GO:0061640,process,1,1567
+1265,mycotoxin biosynthetic process,PF07428,GO:0043386,process,2,1568
+858,fucosylation,PF07429,GO:0036065,process,1,1569
+507,bone remodeling,PF07448,GO:0046849,process,1,1570
+1088,lipid transport,PF07464,GO:0006869,process,10,1571
+95,D-alanine-D-alanine ligase activity,PF07478,GO:0008716,function,1,1572
+907,glycerol-3-phosphate dehydrogenase [NAD(P)+] activity,PF07479,GO:0047952,function,1,1573
+366,activation of GTPase activity,PF07487,GO:0090630,process,1,1574
+1295,negative regulation of phosphoprotein phosphatase activity,PF07491,GO:0032515,process,1,1575
+2116,trehalose catabolic process,PF07492,GO:0005993,process,1,1576
+145,DNA-templated transcription termination,PF07497,GO:0006353,process,2,1577
+185,Holliday junction helicase complex,PF07499,GO:0009379,component,1,1578
+1715,proton-transporting ATP synthase complex assembly,PF07542,GO:0043461,process,1,1579
+1975,spore wall,PF07552,GO:0031160,component,1,1580
+1144,meiotic chromosome segregation,PF07557,GO:0045132,process,1,1581
+1251,monoatomic anion transmembrane transporter activity,PF07565,GO:0008509,function,1,1582
+1315,nitrate assimilation,PF07573,GO:0042128,process,1,1583
+300,Smc5-Smc6 complex,PF07574,GO:0030915,component,1,1584
+1503,phospholipid binding,PF07651,GO:0005543,function,2,1585
+1538,pilus assembly,PF07655,GO:0009297,process,2,1586
+238,Notch signaling pathway,PF07657,GO:0007219,process,5,1587
+843,ferrous iron transmembrane transporter activity,PF07664,GO:0015093,function,1,1588
+1869,rhythmic process,PF07689,GO:0048511,process,1,1589
+926,guanylate cyclase activity,PF07701,GO:0004383,function,1,1590
+452,aromatic amino acid family catabolic process,PF07706,GO:0009074,process,1,1591
+279,Rab geranylgeranyltransferase activity,PF07711,GO:0004663,function,1,1592
+998,identical protein binding,PF07721,GO:0042802,function,4,1593
+1631,protein complex oligomerization,PF07743,GO:0051259,process,3,1594
+885,glucosidase activity,PF07745,GO:0015926,function,1,1595
+1129,mannose metabolic process,PF07748,GO:0006013,process,3,1596
+1886,ribosome binding,PF07766,GO:0043022,function,4,1597
+600,centromere complex assembly,PF07778,GO:0034508,process,2,1598
+1297,negative regulation of signal transduction,PF07809,GO:0009968,process,1,1599
+1550,poly(A)+ mRNA export from nucleus,PF07817,GO:0016973,process,1,1600
+404,alpha-amylase activity,PF07821,GO:0004556,function,2,1601
+680,cyclic-nucleotide phosphodiesterase activity,PF07823,GO:0004112,function,1,1602
+188,IMP cyclohydrolase activity,PF07826,GO:0003937,function,2,1603
+1733,pyrimidine nucleoside metabolic process,PF07831,GO:0006213,process,1,1604
+1424,oxo-acid-lyase activity,PF07836,GO:0016833,function,1,1605
+1798,regulation of fatty acid metabolic process,PF07840,GO:0019217,process,1,1606
+513,cadmium ion binding,PF07846,GO:0046870,function,2,1607
+2191,viral release from host cell,PF07880,GO:0019076,process,4,1608
+197,L-fucose isomerase activity,PF07881,GO:0008736,function,3,1609
+182,H4/H2A histone acetyltransferase complex,PF07904,GO:0043189,component,1,1610
+786,endoplasmic reticulum lumen,PF07912,GO:0005788,component,1,1611
+248,RNA biosynthetic process,PF07925,GO:0032774,process,1,1612
+1648,protein import into nucleus,PF07926,GO:0006606,process,2,1613
+1106,mRNA binding,PF07927,GO:0003729,function,6,1614
+1866,"retrograde transport, endosome to Golgi",PF07928,GO:0042147,process,2,1615
+778,endocytosis,PF07933,GO:0006897,process,3,1616
+1397,oxidized purine nucleobase lesion DNA N-glycosylase activity,PF07934,GO:0008534,function,1,1617
+1301,nematocyst,PF07936,GO:0042151,component,2,1618
+1600,potassium ion binding,PF07941,GO:0030955,function,2,1619
+784,endoplasmic reticulum calcium ion homeostasis,PF07946,GO:0032469,process,1,1620
+1684,protein transmembrane transporter activity,PF07952,GO:0008320,function,1,1621
+1652,protein insertion into mitochondrial inner membrane from matrix,PF07961,GO:0032979,process,1,1622
+1839,replication fork processing,PF07962,GO:0031297,process,2,1623
+704,cytolysis in another organism,PF07968,GO:0051715,process,2,1624
+1187,microtubule organizing center,PF07989,GO:0005815,component,2,1625
+1010,inositol biosynthetic process,PF07994,GO:0006021,process,1,1626
+967,host cell endoplasmic reticulum membrane,PF08001,GO:0044167,component,1,1627
+727,defense response to other organism,PF08018,GO:0098542,process,4,1628
+1647,protein import into mitochondrial matrix,PF08038,GO:0030150,process,3,1629
+1737,pyrroloquinoline quinone biosynthetic process,PF08042,GO:0018189,process,1,1630
+564,cell junction,PF08043,GO:0030054,component,1,1631
+509,branched-chain amino acid biosynthetic process,PF08046,GO:0009082,process,2,1632
+1732,pyrimidine nucleobase biosynthetic process,PF08052,GO:0019856,process,1,1633
+2091,transcriptional attenuation by ribosome,PF08053,GO:0031556,process,2,1634
+1072,leucine biosynthetic process,PF08054,GO:0009098,process,2,1635
+1679,protein serine/threonine kinase activity,PF08064,GO:0004674,function,18,1636
+1331,nuclear exosome (RNase complex),PF08066,GO:0000176,component,1,1637
+1860,response to toxic substance,PF08085,GO:0009636,process,2,1638
+1598,potassium channel inhibitor activity,PF08086,GO:0019870,function,3,1639
+1007,innate immune response,PF08104,GO:0045087,process,3,1640
+435,antifungal humoral response,PF08105,GO:0019732,process,1,1641
+1785,regulation of catalytic activity,PF08114,GO:0050790,process,2,1642
+1229,mitochondrion inheritance,PF08118,GO:0000001,process,1,1643
+949,histone H3K79 methyltransferase activity,PF08123,GO:0031151,function,1,1644
+1834,regulation of viral process,PF08133,GO:0050792,process,1,1645
+1799,"regulation of female receptivity, post-mating",PF08138,GO:0046008,process,1,1646
+791,endospore-forming forespore,PF08141,GO:0042601,component,4,1647
+1027,intra-Golgi vesicle-mediated transport,PF08172,GO:0006891,process,2,1648
+1591,positive regulation of single-species biofilm formation,PF08181,GO:1900192,process,1,1649
+986,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines",PF08210,GO:0016814,function,1,1650
+691,cytidine deaminase activity,PF08211,GO:0004126,function,1,1651
+334,[citrate (pro-3S)-lyase] ligase activity,PF08218,GO:0008771,function,1,1652
+956,histone lysine methylation,PF08236,GO:0034968,process,2,1653
+1325,nodulation,PF08247,GO:0009877,process,1,1654
+2054,threonine biosynthetic process,PF08254,GO:0009088,process,1,1655
+1970,spindle microtubule,PF08287,GO:0005876,component,2,1656
+307,TIM23 mitochondrial import inner membrane translocase complex,PF08294,GO:0005744,component,1,1657
+255,RNA ligase (ATP) activity,PF08302,GO:0003972,function,3,1658
+1867,"retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum",PF08314,GO:0006890,process,4,1659
+342,acetyl-CoA carboxylase activity,PF08326,GO:0003989,function,3,1660
+221,"N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity",PF08328,GO:0004018,function,1,1661
+526,calmodulin-dependent protein kinase activity,PF08332,GO:0004683,function,1,1662
+1613,procollagen-proline 4-dioxygenase activity,PF08336,GO:0004656,function,1,1663
+1901,semaphorin receptor activity,PF08337,GO:0017154,function,2,1664
+1443,peptide transport,PF08352,GO:0015833,process,2,1665
+793,enoyl-[acyl-carrier-protein] reductase (NADH) activity,PF08354,GO:0004318,function,1,1666
+619,chlorophyll biosynthetic process,PF08369,GO:0015995,process,2,1667
+1817,regulation of protein catabolic process,PF08375,GO:0042176,process,1,1668
+1906,sensory perception of taste,PF08395,GO:0050909,process,2,1669
+1542,plasma membrane organization,PF08397,GO:0007009,process,1,1670
+495,biological process involved in interspecies interaction between organisms,PF08405,GO:0044419,process,2,1671
+613,chitin synthase activity,PF08407,GO:0004100,function,2,1672
+1939,single-stranded DNA 3'-5' DNA exonuclease activity,PF08411,GO:0008310,function,1,1673
+1402,"oxidoreductase activity, acting on NAD(P)H, oxygen as acceptor",PF08414,GO:0050664,function,1,1674
+620,chlorophyllide a oxygenase [overall] activity,PF08417,GO:0010277,function,1,1675
+1091,lipopolysaccharide 3-alpha-galactosyltransferase activity,PF08437,GO:0008918,function,1,1676
+275,RNA-protein covalent cross-linking,PF08440,GO:0018144,process,1,1677
+809,excinuclease ABC activity,PF08459,GO:0009381,function,1,1678
+1743,rRNA (guanine-N2-)-methyltransferase activity,PF08468,GO:0008990,function,2,1679
+1997,sucrose-phosphate phosphatase activity,PF08472,GO:0050307,function,1,1680
+321,UDP-glucose 4-epimerase activity,PF08485,GO:0003978,function,1,1681
+1977,squalene monooxygenase activity,PF08491,GO:0004506,function,1,1682
+388,aflatoxin biosynthetic process,PF08493,GO:0045122,process,1,1683
+1980,steroid biosynthetic process,PF08498,GO:0006694,process,2,1684
+1919,shikimate 3-dehydrogenase (NADP+) activity,PF08501,GO:0004764,function,1,1685
+13,2-isopropylmalate synthase activity,PF08502,GO:0003852,function,1,1686
+2042,tetrahydrodipicolinate N-acetyltransferase activity,PF08503,GO:0047200,function,1,1687
+121,DNA replication factor C complex,PF08519,GO:0005663,component,1,1688
+1828,regulation of termination of DNA-templated transcription,PF08529,GO:0031554,process,3,1689
+746,dipeptidyl-peptidase activity,PF08530,GO:0008239,function,3,1690
+490,beta-galactosidase activity,PF08532,GO:0004565,function,4,1691
+865,galactose metabolic process,PF08533,GO:0006012,process,3,1692
+996,hydroxymethylglutaryl-CoA synthase activity,PF08540,GO:0004421,function,1,1693
+29,3-oxoacyl-[acyl-carrier-protein] synthase activity,PF08545,GO:0004315,function,1,1694
+1014,inositol phosphoceramide metabolic process,PF08552,GO:0006673,process,1,1695
+1643,protein homodimerization activity,PF08558,GO:0042803,function,3,1696
+1339,nuclear protein quality control by the ubiquitin-proteasome system,PF08559,GO:0071630,process,1,1697
+244,"PAM complex, Tim23 associated import motor",PF08566,GO:0001405,component,1,1698
+277,RSC-type complex,PF08586,GO:0016586,component,2,1699
+1228,mitochondrion autophagosome adaptor activity,PF08589,GO:0140580,function,1,1700
+1205,mitochondrial inner membrane,PF08602,GO:0005743,component,15,1701
+1792,regulation of cyclin-dependent protein serine/threonine kinase activity,PF08613,GO:0000079,process,1,1702
+1873,ribonuclease H2 complex,PF08615,GO:0032299,component,1,1703
+1143,meiotic cell cycle,PF08631,GO:0051321,process,2,1704
+1194,mitochondrial RNA metabolic process,PF08634,GO:0000959,process,1,1705
+2159,vacuolar proton-transporting V-type ATPase complex assembly,PF08636,GO:0070072,process,4,1706
+1140,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",PF08640,GO:0000462,process,2,1707
+1237,mitotic sister chromatid segregation,PF08641,GO:0000070,process,1,1708
+955,histone deacetylation,PF08642,GO:0016575,process,2,1709
+1238,mitotic spindle,PF08649,GO:0072686,component,7,1710
+466,attachment of spindle microtubules to kinetochore,PF08650,GO:0008608,process,6,1711
+1551,poly(A)-specific ribonuclease activity,PF08675,GO:0004535,function,1,1712
+327,UFM1 conjugating enzyme activity,PF08694,GO:0061657,function,1,1713
+1547,platelet activation,PF08702,GO:0030168,process,1,1714
+541,carbon-nitrogen lyase activity,PF08714,GO:0016840,function,1,1715
+1379,omega peptidase activity,PF08717,GO:0008242,function,1,1716
+1025,intermembrane lipid transfer,PF08718,GO:0120009,process,1,1717
+588,cellular response to iron ion starvation,PF08731,GO:0010106,process,1,1718
+1333,nuclear export signal receptor activity,PF08767,GO:0005049,function,1,1719
+1825,regulation of sporulation resulting in formation of a cellular spore,PF08769,GO:0042173,process,1,1720
+1699,protein-containing complex binding,PF08771,GO:0044877,function,2,1721
+289,SMAD binding,PF08782,GO:0046332,function,1,1722
+1340,nuclear receptor binding,PF08815,GO:0016922,function,1,1723
+235,NEDD8 activating enzyme activity,PF08825,GO:0019781,function,1,1724
+207,MHC class II protein binding,PF08831,GO:0042289,function,2,1725
+1338,nuclear pore,PF08911,GO:0005643,component,7,1726
+2056,threonine-tRNA ligase activity,PF08915,GO:0004829,function,1,1727
+2096,"transforming growth factor beta receptor activity, type II",PF08917,GO:0005026,function,1,1728
+1450,peptidyl-histidine phosphorylation,PF08918,GO:0018106,process,2,1729
+1326,non-membrane spanning protein tyrosine kinase activity,PF08919,GO:0004715,function,1,1730
+1775,regulation of TOR signaling,PF08923,GO:0032006,process,1,1731
+997,icosahedral viral capsid,PF08935,GO:0019030,component,1,1732
+2142,ubiquitin protein ligase activity,PF08941,GO:0061630,function,7,1733
+1410,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, with 2-oxoglutarate as one donor, and the other dehydrogenated",PF08943,GO:0050498,function,1,1734
+577,cell-cell adhesion,PF08964,GO:0098609,process,1,1735
+1279,negative regulation of cell killing,PF08998,GO:0031342,process,1,1736
+228,NAD+-diphthamide ADP-ribosyltransferase activity,PF09009,GO:0047286,function,1,1737
+1703,protein-glutamine gamma-glutamyltransferase activity,PF09017,GO:0003810,function,3,1738
+1293,negative regulation of phagocytosis,PF09020,GO:0050765,process,1,1739
+2133,type III protein secretion system complex,PF09025,GO:0030257,component,1,1740
+1568,porphyrin-containing compound metabolic process,PF09029,GO:0006778,process,1,1741
+953,histone acetyltransferase complex,PF09030,GO:0000123,component,2,1742
+1574,positive regulation of canonical NF-kappaB signal transduction,PF09034,GO:0043123,process,2,1743
+243,P-type potassium:proton transporter activity,PF09040,GO:0008900,function,1,1744
+367,activation of cysteine-type endopeptidase activity involved in apoptotic process,PF09057,GO:0006919,process,2,1745
+2109,transmembrane signaling receptor activity,PF09064,GO:0004888,function,4,1746
+663,condensed nuclear chromosome,PF09074,GO:0000794,component,2,1747
+2202,"virus tail, fiber",PF09089,GO:0098024,component,1,1748
+2201,"virus tail, baseplate",PF09096,GO:0098025,component,1,1749
+755,double-strand break repair via homologous recombination,PF09103,GO:0000724,process,2,1750
+1900,selenocysteine incorporation,PF09106,GO:0001514,process,2,1751
+1364,nucleosome binding,PF09110,GO:0031491,function,1,1752
+1289,negative regulation of growth,PF09117,GO:0045926,process,1,1753
+2024,tRNA thio-modification,PF09138,GO:0034227,process,2,1754
+1478,phosphatidate cytidylyltransferase activity,PF09139,GO:0004605,function,1,1755
+1891,ruffle,PF09141,GO:0001726,component,1,1756
+1077,light absorption,PF09150,GO:0016037,process,1,1757
+1108,mRNA export from nucleus,PF09162,GO:0006406,process,4,1758
+931,heme catabolic process,PF09166,GO:0042167,process,1,1759
+1300,negative regulation of transcription by RNA polymerase III,PF09174,GO:0016480,process,1,1760
+180,Golgi vesicle transport,PF09177,GO:0048193,process,1,1761
+1615,prolyl-tRNA aminoacylation,PF09180,GO:0006433,process,2,1762
+1663,protein phosphatase 4 complex,PF09184,GO:0030289,component,1,1763
+1768,regulation of DNA methylation,PF09187,GO:0044030,process,1,1764
+683,cysteine-tRNA ligase activity,PF09190,GO:0004817,function,1,1765
+807,evasion by virus of host restriction-modification system,PF09198,GO:0099018,process,1,1766
+443,arabinan metabolic process,PF09206,GO:0031221,process,1,1767
+561,cell death,PF09207,GO:0008219,process,1,1768
+608,chemokine binding,PF09213,GO:0019956,function,1,1769
+382,adhesion of symbiont to host,PF09222,GO:0044406,process,1,1770
+441,apoptotic DNA fragmentation,PF09230,GO:0006309,process,1,1771
+801,erythrocyte differentiation,PF09236,GO:0030218,process,1,1772
+1614,production of molecular mediator involved in inflammatory response,PF09238,GO:0002532,process,1,1773
+1802,regulation of immune system process,PF09259,GO:0002682,process,1,1774
+1920,sialic acid binding,PF09264,GO:0033691,function,1,1775
+702,cytokinin metabolic process,PF09265,GO:0009690,process,1,1776
+264,RNA polymerase II cis-regulatory region sequence-specific DNA binding,PF09270,GO:0000978,function,1,1777
+1624,proteasome-mediated ubiquitin-dependent protein catabolic process,PF09280,GO:0043161,process,1,1778
+1354,nucleoside binding,PF09281,GO:0001882,function,1,1779
+543,"carbon-oxygen lyase activity, acting on polysaccharides",PF09284,GO:0016837,function,2,1780
+1438,peptide biosynthetic process,PF09285,GO:0043043,process,1,1781
+339,acetaldehyde dehydrogenase (acetylating) activity,PF09290,GO:0008774,function,1,1782
+453,aromatic amino acid metabolic process,PF09298,GO:0009072,process,1,1783
+833,fatty acid beta-oxidation using acyl-CoA dehydrogenase,PF09317,GO:0033539,process,1,1784
+1536,phytochelatin biosynthetic process,PF09328,GO:0046938,process,2,1785
+1032,intracellular membrane-bounded organelle,PF09360,GO:0043231,component,2,1786
+19,3'-5' DNA helicase activity,PF09382,GO:0043138,function,2,1787
+1824,regulation of sporulation,PF09388,GO:0043937,process,1,1788
+1181,microtubule anchoring,PF09398,GO:0034453,process,1,1789
+1344,"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay",PF09416,GO:0000184,process,3,1790
+294,SREBP signaling pathway,PF09427,GO:0032933,process,1,1791
+1353,nucleoplasmic THO complex,PF09432,GO:0000446,component,1,1792
+258,RNA methylation,PF09445,GO:0001510,process,1,1793
+1065,kinetochore,PF09447,GO:0000776,component,7,1794
+1133,mannosylglycerate biosynthetic process,PF09488,GO:0051479,process,1,1795
+299,Slx1-Slx4 complex,PF09494,GO:0033557,component,1,1796
+886,glucosylglycerol 3-phosphatase activity,PF09506,GO:0050530,function,1,1797
+729,delta DNA polymerase complex,PF09507,GO:0043625,component,1,1798
+297,SWI/SNF complex,PF09510,GO:0016514,component,1,1799
+2050,thiamine transmembrane transporter activity,PF09515,GO:0015234,function,1,1800
+1347,nucleic acid phosphodiester bond hydrolysis,PF09564,GO:0090305,process,3,1801
+1342,nuclear speck,PF09596,GO:0016607,component,1,1802
+1765,regulation of ATP-dependent activity,PF09604,GO:0043462,process,1,1803
+985,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides",PF09663,GO:0016812,function,1,1804
+50,ARC complex,PF09692,GO:0033167,component,1,1805
+93,Ctf18 RFC-like complex,PF09696,GO:0031390,component,2,1806
+1305,neuronal signal transduction,PF09726,GO:0023041,process,1,1807
+709,cytoskeletal anchor activity,PF09730,GO:0008093,function,1,1808
+328,UFM1 ligase activity,PF09743,GO:0061666,function,1,1809
+1777,"regulation of alternative mRNA splicing, via spliceosome",PF09745,GO:0000381,process,2,1810
+316,U6 snRNA 3'-end processing,PF09749,GO:0034477,process,1,1811
+814,exocytosis,PF09763,GO:0006887,process,4,1812
+675,cristae formation,PF09769,GO:0042407,process,2,1813
+1588,positive regulation of protein dephosphorylation,PF09771,GO:0035307,process,1,1814
+211,MKS complex,PF09773,GO:0036038,component,1,1815
+1207,mitochondrial intermembrane space,PF09774,GO:0005758,component,2,1816
+1208,mitochondrial large ribosomal subunit,PF09776,GO:0005762,component,3,1817
+178,Golgi organization,PF09787,GO:0007030,process,1,1818
+1489,"phosphatidylinositol-4,5-bisphosphate 4-phosphatase activity",PF09788,GO:0034597,function,1,1819
+1462,phagophore assembly site,PF09795,GO:0000407,component,1,1820
+1596,"post-translational protein targeting to membrane, translocation",PF09802,GO:0031204,process,1,1821
+1197,mitochondrial cytochrome c oxidase assembly,PF09803,GO:0033617,process,4,1822
+1940,single-stranded DNA 5'-3' DNA exonuclease activity,PF09810,GO:0045145,function,1,1823
+278,RZZ complex,PF09817,GO:1990423,component,1,1824
+51,ATP adenylyltransferase activity,PF09830,GO:0003877,function,1,1825
+1067,lactate racemase activity,PF09861,GO:0050043,function,1,1826
+1479,phosphatidate phosphatase activity,PF09949,GO:0008195,function,1,1827
+744,dioxygenase activity,PF10014,GO:0051213,function,1,1828
+1682,protein targeting to ER,PF10032,GO:0045047,process,1,1829
+69,Atg1/ULK1 kinase complex,PF10033,GO:1990316,component,1,1830
+147,DRM complex,PF10044,GO:0070176,component,1,1831
+1697,protein-arginine rhamnosyltransferase activity,PF10093,GO:0106361,function,1,1832
+1336,nuclear membrane,PF10104,GO:0031965,component,1,1833
+2051,thiamine-phosphate diphosphorylase activity,PF10120,GO:0004789,function,1,1834
+223,NAD glycohydrolase activity,PF10137,GO:0061810,function,2,1835
+10,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase activity",PF10143,GO:0046537,function,1,1836
+330,WASH complex,PF10152,GO:0071203,component,2,1837
+1101,lysosome localization,PF10158,GO:0032418,process,1,1838
+515,calcium import into the mitochondrion,PF10161,GO:0036444,process,1,1839
+285,SAGA complex,PF10163,GO:0000124,component,1,1840
+1587,positive regulation of plasminogen activation,PF10166,GO:0010756,process,1,1841
+306,TIM22 mitochondrial import inner membrane insertion complex,PF10171,GO:0042721,component,1,1842
+1620,proteasome assembly,PF10178,GO:0043248,process,7,1843
+1857,response to pheromone,PF10192,GO:0019236,process,1,1844
+1571,positive regulation of SREBP signaling pathway,PF10218,GO:2000640,process,1,1845
+1816,regulation of protein ADP-ribosylation,PF10228,GO:0010835,process,1,1846
+654,cobalamin metabolic process,PF10229,GO:0009235,process,1,1847
+1084,lipid droplet,PF10230,GO:0005811,component,1,1848
+1044,intrinsic apoptotic signaling pathway,PF10231,GO:0097193,process,2,1849
+152,ESCRT I complex,PF10240,GO:0000813,component,3,1850
+371,acyl-coenzyme A diphosphatase activity,PF10261,GO:0106399,function,1,1851
+246,RNA 7-methylguanosine cap binding,PF10309,GO:0000340,function,1,1852
+160,G protein-coupled peptide receptor activity,PF10324,GO:0008528,function,1,1853
+2038,telomere maintenance via telomerase,PF10341,GO:0007004,process,1,1854
+1236,mitotic sister chromatid cohesion,PF10345,GO:0007064,process,3,1855
+1745,rRNA (uridine-N3-)-methyltransferase activity,PF10354,GO:0070042,function,1,1856
+1820,regulation of ribosomal protein gene transcription by RNA polymerase II,PF10380,GO:0060962,process,1,1857
+954,histone binding,PF10384,GO:0042393,function,5,1858
+2080,transcription elongation factor complex,PF10390,GO:0008023,component,2,1859
+114,DNA polymerase activity,PF10391,GO:0034061,function,1,1860
+2147,ubiquitin-ubiquitin ligase activity,PF10408,GO:0034450,function,1,1861
+1567,porphyrin-containing compound biosynthetic process,PF10414,GO:0006779,process,3,1862
+2118,tricarboxylic acid cycle,PF10415,GO:0006099,process,9,1863
+2108,transmembrane receptor protein tyrosine kinase signaling pathway,PF10430,GO:0007169,process,1,1864
+1130,mannose-6-phosphate isomerase activity,PF10432,GO:0004476,function,2,1865
+819,exosome (RNase complex),PF10447,GO:0000178,component,1,1866
+309,TORC1 complex,PF10452,GO:0031931,component,1,1867
+2164,valine-tRNA ligase activity,PF10458,GO:0004832,function,1,1868
+1911,serine-type aminopeptidase activity,PF10459,GO:0070009,function,1,1869
+102,DNA damage response,PF10461,GO:0006974,process,7,1870
+1335,nuclear inner membrane,PF10476,GO:0005637,component,1,1871
+1483,"phosphatidylinositol 3-kinase complex, class IB",PF10486,GO:0005944,component,1,1872
+1927,signal peptide processing,PF10502,GO:0006465,process,4,1873
+312,TTT Hsp90 cochaperone complex,PF10521,GO:0110078,component,1,1874
+972,host cell postsynaptic membrane,PF10550,GO:0035792,component,1,1875
+287,SAM complex,PF10568,GO:0001401,component,1,1876
+1274,negative regulation of actin nucleation,PF10574,GO:0051126,process,1,1877
+31,"4 iron, 4 sulfur cluster binding",PF10576,GO:0051539,function,7,1878
+345,acetylcholine receptor binding,PF10579,GO:0033130,function,1,1879
+1622,"proteasome core complex, alpha-subunit complex",PF10584,GO:0019773,component,1,1880
+317,U6 snRNA binding,PF10596,GO:0017070,function,1,1881
+315,U5 snRNA binding,PF10597,GO:0030623,function,1,1882
+511,butyrate metabolic process,PF10605,GO:0019605,process,1,1883
+195,L-ascorbic acid binding,PF10637,GO:0031418,function,1,1884
+494,biogenic amine metabolic process,PF10662,GO:0006576,process,1,1885
+1,'de novo' protein folding,PF10681,GO:0006458,process,1,1886
+1815,regulation of proteasomal protein catabolic process,PF10759,GO:0061136,process,1,1887
+2212,xenobiotic detoxification by transmembrane export across the plasma membrane,PF10766,GO:1990961,process,1,1888
+983,"hydrolase activity, acting on acid halide bonds, in C-halide compounds",PF10778,GO:0019120,function,1,1889
+586,cellular response to acidic pH,PF10798,GO:0071468,process,1,1890
+792,energy reserve metabolic process,PF10843,GO:0006112,process,1,1891
+43,90S preribosome,PF10863,GO:0030686,component,2,1892
+1842,respirasome,PF10890,GO:0070469,component,1,1893
+1214,mitochondrial oxoglutarate dehydrogenase complex,PF10937,GO:0009353,component,1,1894
+265,RNA polymerase II general transcription initiation factor activity,PF11035,GO:0016251,function,1,1895
+1791,regulation of cilium movement,PF11069,GO:0003352,process,1,1896
+2182,viral inner membrane,PF11087,GO:0039641,component,1,1897
+1206,mitochondrial inner membrane peptidase complex,PF11093,GO:0042720,component,1,1898
+291,SMN-Sm protein complex,PF11095,GO:0034719,component,1,1899
+1381,orexigenic neuropeptide QRFP receptor binding,PF11109,GO:0031854,function,1,1900
+394,alginic acid biosynthetic process,PF11182,GO:0042121,process,1,1901
+1530,photosystem II assembly,PF11264,GO:0010207,process,3,1902
+392,aldehyde decarbonylase activity,PF11266,GO:0071771,function,1,1903
+1141,mediator complex,PF11277,GO:0016592,component,26,1904
+2204,virus-mediated pore formation in host cell membrane,PF11289,GO:0039707,process,2,1905
+231,NADH dehydrogenase complex (plastoquinone) assembly,PF11347,GO:0010258,process,1,1906
+1578,positive regulation of cyclin-dependent protein serine/threonine kinase activity,PF11357,GO:0045737,process,1,1907
+1780,regulation of autophagy,PF11365,GO:0010506,process,1,1908
+668,copper ion homeostasis,PF11382,GO:0055070,process,1,1909
+738,detoxification of cadmium ion,PF11403,GO:0071585,process,1,1910
+53,ATP biosynthetic process,PF11421,GO:0006754,process,1,1911
+184,HDA1 complex,PF11496,GO:0070823,component,1,1912
+723,defense response to Gram-negative bacterium,PF11504,GO:0050829,process,3,1913
+2039,termination of RNA polymerase II transcription,PF11526,GO:0006369,process,1,1914
+706,cytoplasmic dynein complex,PF11540,GO:0005868,component,1,1915
+845,flap-structured DNA binding,PF11561,GO:0070336,function,1,1916
+1488,phosphatidylinositol-3-phosphate binding,PF11605,GO:0032266,function,1,1917
+2217,"xylan endo-1,3-beta-xylosidase activity",PF11606,GO:0033905,function,1,1918
+1064,kinase binding,PF11610,GO:0019900,function,1,1919
+1202,mitochondrial fission,PF11615,GO:0000266,process,1,1920
+948,histone H3K27 methyltransferase activity,PF11616,GO:0046976,function,1,1921
+1524,photosynthetic electron transport chain,PF11623,GO:0009767,process,2,1922
+165,G-quadruplex RNA binding,PF11633,GO:0002151,function,1,1923
+2074,transcription by RNA polymerase III,PF11705,GO:0006383,process,3,1924
+1123,malate transport,PF11744,GO:0015743,process,1,1925
+718,damaged DNA binding,PF11799,GO:0003684,function,5,1926
+325,UDP-glucuronate decarboxylase activity,PF11803,GO:0048040,function,1,1927
+795,enterochelin esterase activity,PF11806,GO:0008849,function,1,1928
+489,beta-fructofuranosidase activity,PF11837,GO:0004564,function,1,1929
+1597,potassium channel activity,PF11956,GO:0005267,function,3,1930
+1411,"oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water",PF11960,GO:0016717,function,1,1931
+1117,magnesium chelatase activity,PF11965,GO:0016851,function,1,1932
+395,alkaloid metabolic process,PF11991,GO:0009820,process,1,1933
+274,RNA-directed DNA polymerase activity,PF12009,GO:0003964,function,3,1934
+336,[heparan sulfate]-glucosamine N-sulfotransferase activity,PF12062,GO:0015016,function,1,1935
+2014,tRNA (guanine(18)-2'-O)-methyltransferase activity,PF12105,GO:0141100,function,1,1936
+700,cytokine binding,PF12109,GO:0019955,function,1,1937
+966,host cell endoplasmic reticulum,PF12133,GO:0044165,component,1,1938
+553,catechol oxidase activity,PF12142,GO:0004097,function,2,1939
+189,IkappaB kinase activity,PF12179,GO:0008384,function,1,1940
+1292,negative regulation of peptidase activity,PF12190,GO:0010466,process,1,1941
+662,complement binding,PF12199,GO:0001848,function,1,1942
+777,"endo-alpha-(2,8)-sialidase activity",PF12217,GO:0016996,function,1,1943
+573,cell wall macromolecule biosynthetic process,PF12249,GO:0044038,process,3,1944
+604,cerebral cortex development,PF12258,GO:0021987,process,1,1945
+1982,structural constituent of carboxysome shell,PF12288,GO:0043886,function,1,1946
+1951,smoothened signaling pathway,PF12297,GO:0007224,process,2,1947
+1038,intraciliary transport,PF12317,GO:0042073,process,1,1948
+589,cellular response to oxidative stress,PF12326,GO:0034599,process,1,1949
+1351,nucleolar ribonuclease P complex,PF12328,GO:0005655,component,1,1950
+1793,regulation of cytokinesis,PF12356,GO:0032465,process,1,1951
+241,P-type calcium transporter activity,PF12424,GO:0005388,function,1,1952
+94,Cul4A-RING E3 ubiquitin ligase complex,PF12463,GO:0031464,component,1,1953
+1383,organelle organization,PF12483,GO:0006996,process,1,1954
+1476,phosphate ion transport,PF12501,GO:0006817,process,2,1955
+151,ERMES complex,PF12519,GO:0032865,component,1,1956
+2137,tyrosine 3-monooxygenase activity,PF12549,GO:0004511,function,1,1957
+872,gamma-tubulin complex localization,PF12554,GO:0033566,process,1,1958
+301,T cell receptor signaling pathway,PF12567,GO:0050852,process,2,1959
+1742,rRNA (guanine) methyltransferase activity,PF12589,GO:0016435,function,1,1960
+206,MCM complex,PF12619,GO:0042555,component,1,1961
+1266,myosin binding,PF12632,GO:0017022,function,1,1962
+829,extrinsic component of intraperoxisomal membrane,PF12634,GO:0005780,component,1,1963
+2036,telomere capping,PF12658,GO:0016233,process,2,1964
+311,TRAPPII protein complex,PF12735,GO:1990071,component,1,1965
+286,SAGA-type complex,PF12767,GO:0070461,component,1,1966
+560,cell cortex,PF12814,GO:0005938,component,1,1967
+1204,mitochondrial genome maintenance,PF12829,GO:0000002,process,4,1968
+676,cullin family protein binding,PF12861,GO:0097602,function,1,1969
+1645,protein homotetramerization,PF12884,GO:0051289,process,1,1970
+196,L-aspartate:2-oxoglutarate aminotransferase activity,PF12897,GO:0004069,function,1,1971
+915,glycopeptide alpha-N-acetylgalactosaminidase activity,PF12899,GO:0033926,function,2,1972
+517,calcium ion import across plasma membrane,PF12929,GO:0098703,process,1,1973
+329,V(D)J recombination,PF12940,GO:0033151,process,1,1974
+344,acetyl-CoA transmembrane transporter activity,PF13000,GO:0008521,function,1,1975
+1244,molecular adaptor activity,PF13001,GO:0060090,function,1,1976
+1804,regulation of miRNA-mediated gene silencing,PF13017,GO:0060964,process,1,1977
+212,Mis6-Sim4 complex,PF13093,GO:0031511,component,1,1978
+5,1-deoxy-D-xylulose-5-phosphate synthase activity,PF13292,GO:0008661,function,1,1979
+1533,photosystem II repair,PF13326,GO:0010206,process,1,1980
+492,beta-lactamase activity,PF13354,GO:0008800,function,1,1981
+473,bacterial-type RNA polymerase core enzyme binding,PF13397,GO:0001000,function,1,1982
+1881,ribonucleoside-triphosphate reductase activity,PF13597,GO:0008998,function,1,1983
+1225,mitochondrial small ribosomal subunit,PF13741,GO:0005763,component,3,1984
+1878,ribonucleoprotein complex,PF13762,GO:1990904,component,1,1985
+1319,nitrite reductase [NAD(P)H] activity,PF13806,GO:0008942,function,1,1986
+1616,propionyl-CoA carboxylase activity,PF13822,GO:0004658,function,1,1987
+566,cell motility,PF13851,GO:0048870,process,1,1988
+1373,olfactory receptor activity,PF13853,GO:0004984,function,2,1989
+1111,mRNA polyadenylation,PF13869,GO:0006378,process,2,1990
+1473,phosphatase binding,PF13914,GO:0019902,function,2,1991
+1115,mRNA stabilization,PF13929,GO:0048255,process,2,1992
+752,dormancy process,PF13939,GO:0022611,process,1,1993
+1558,polysaccharide binding,PF13947,GO:0030247,function,3,1994
+1142,meiotic DNA double-strand break formation,PF13971,GO:0042138,process,4,1995
+557,cell adhesion involved in single-species biofilm formation,PF13994,GO:0043709,process,1,1996
+1592,positive regulation of sporulation resulting in formation of a cellular spore,PF14089,GO:0045881,process,1,1997
+527,capsule polysaccharide biosynthetic process,PF14102,GO:0045227,process,2,1998
+1210,mitochondrial membrane,PF14138,GO:0031966,component,1,1999
+2064,tocopherol cyclase activity,PF14249,GO:0009976,function,1,2000
+1843,respiratory chain complex II,PF14290,GO:0045273,component,1,2001
+2029,tRNA-specific adenosine deaminase activity,PF14437,GO:0008251,function,1,2002
+1605,preQ1 synthase activity,PF14489,GO:0033739,function,1,2003
+1882,ribose phosphate diphosphokinase activity,PF14572,GO:0004749,function,1,2004
+1374,oligogalacturonide lyase activity,PF14583,GO:0047487,function,1,2005
+800,epidermis development,PF14672,GO:0008544,process,1,2006
+1969,sphingomyelin phosphodiesterase D activity,PF14724,GO:0050290,function,1,2007
+183,HAUS complex,PF14735,GO:0070652,component,2,2008
+1695,protein-N-terminal asparagine amidohydrolase activity,PF14736,GO:0008418,function,1,2009
+1016,integrator complex,PF14750,GO:0032039,component,2,2010
+1865,retinol transmembrane transporter activity,PF14752,GO:0034632,function,1,2011
+48,AP-5 adaptor complex,PF14764,GO:0044599,component,1,2012
+1220,mitochondrial respiratory chain complex I,PF14813,GO:0005747,component,5,2013
+671,cornified envelope,PF14820,GO:0001533,component,3,2014
+1778,regulation of angiogenesis,PF14822,GO:0045765,process,1,2015
+905,glycerol-3-phosphate O-acyltransferase activity,PF14829,GO:0004366,function,1,2016
+6,1-pyrroline-5-carboxylate dehydrogenase activity,PF14850,GO:0003842,function,1,2017
+965,host cell cytoplasmic vesicle,PF14860,GO:0044161,component,1,2018
+724,defense response to Gram-positive bacterium,PF14867,GO:0050830,process,3,2019
+585,cellular respiration,PF14876,GO:0045333,process,1,2020
+471,axonemal microtubule,PF14892,GO:0005879,component,1,2021
+1294,negative regulation of phosphatase activity,PF14895,GO:0010923,process,1,2022
+263,RNA polymerase I transcription regulator complex,PF14929,GO:0000120,component,1,2023
+73,BLOC-1 complex,PF14942,GO:0031083,component,1,2024
+1215,mitochondrial proton-transporting ATP synthase complex,PF14960,GO:0005753,component,1,2025
+1230,mitochondrion organization,PF14972,GO:0007005,process,3,2026
+1222,mitochondrial respiratory chain complex III assembly,PF14990,GO:0034551,process,3,2027
+1149,melanosome,PF14991,GO:0042470,component,2,2028
+49,AP-type membrane coat adaptor complex,PF15001,GO:0030119,component,1,2029
+1188,microtubule organizing center organization,PF15003,GO:0031023,process,1,2030
+368,activation of innate immune response,PF15009,GO:0002218,process,1,2031
+1100,lysosome,PF15014,GO:0005764,component,1,2032
+176,Golgi apparatus,PF15015,GO:0005794,component,2,2033
+90,CatSper complex,PF15020,GO:0036128,component,2,2034
+1795,regulation of double-strand break repair via nonhomologous end joining,PF15021,GO:2001032,process,1,2035
+401,"alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase activity",PF15024,GO:0030144,function,1,2036
+1589,positive regulation of protein phosphorylation,PF15036,GO:0001934,process,1,2037
+493,bile acid and bile salt transport,PF15048,GO:0015721,process,1,2038
+2045,tetraspanin-enriched microdomain,PF15050,GO:0097197,component,1,2039
+2168,vesicle tethering to Golgi,PF15053,GO:0099041,process,1,2040
+1302,nervous system development,PF15056,GO:0007399,process,1,2041
+1965,sperm principal piece,PF15064,GO:0097228,component,1,2042
+362,actin filament bundle organization,PF15068,GO:0061572,process,1,2043
+1762,recombinational repair,PF15072,GO:0000725,process,3,2044
+2208,voltage-gated monoatomic ion channel activity,PF15108,GO:0005244,function,1,2045
+1654,protein kinase A regulatory subunit binding,PF15127,GO:0034237,function,1,2046
+1757,receptor signaling protein tyrosine kinase activator activity,PF15129,GO:0030298,function,1,2047
+1829,regulation of toll-like receptor signaling pathway,PF15133,GO:0034121,process,1,2048
+1898,secretory granule membrane,PF15138,GO:0030667,component,1,2049
+158,Fanconi anaemia nuclear complex,PF15146,GO:0043240,component,4,2050
+1838,release of cytochrome c from mitochondria,PF15150,GO:0001836,process,1,2051
+2009,synaptonemal complex assembly,PF15162,GO:0007130,process,5,2052
+1584,positive regulation of immune response,PF15177,GO:0050778,process,1,2053
+162,G protein-coupled receptor binding,PF15180,GO:0001664,function,2,2054
+1905,sensory perception of sound,PF15182,GO:0007605,process,1,2055
+1212,mitochondrial outer membrane translocase complex,PF15184,GO:0005742,component,4,2056
+1269,negative regulation of D-amino-acid oxidase activity,PF15199,GO:1900758,process,1,2057
+1520,photoreceptor outer segment membrane,PF15201,GO:0042622,component,1,2058
+831,fat cell differentiation,PF15202,GO:0045444,process,1,2059
+1964,sperm plasma membrane,PF15203,GO:0097524,component,1,2060
+1756,receptor recycling,PF15208,GO:0001881,process,1,2061
+1579,positive regulation of cytokine production,PF15220,GO:0001819,process,1,2062
+1000,immune response,PF15225,GO:0006955,process,22,2063
+2010,synaptonemal complex organization,PF15233,GO:0070193,process,1,2064
+1807,regulation of mitotic cell cycle spindle assembly checkpoint,PF15243,GO:0090266,process,1,2065
+664,connexin binding,PF15281,GO:0071253,function,1,2066
+1062,killing of cells of another organism,PF15291,GO:0031640,process,3,2067
+1039,intraciliary transport particle A,PF15305,GO:0030991,component,1,2068
+2090,transcription repressor complex,PF15306,GO:0017053,component,1,2069
+354,acrosomal vesicle,PF15307,GO:0001669,component,2,2070
+1967,spermatogenesis,PF15310,GO:0007283,process,9,2071
+1952,snRNA binding,PF15313,GO:0017069,function,1,2072
+587,cellular response to ionizing radiation,PF15319,GO:0071479,process,1,2073
+245,RNA 5'-cap (guanine-N7)-methylation,PF15320,GO:0106005,process,1,2074
+2030,tRNA-splicing ligase complex,PF15323,GO:0072669,component,1,2075
+1285,negative regulation of double-strand break repair via nonhomologous end joining,PF15325,GO:2001033,process,1,2076
+2079,transcription elongation factor activity,PF15328,GO:0003711,function,1,2077
+71,B cell receptor signaling pathway,PF15332,GO:0050853,process,1,2078
+268,RNA polymerase transcription factor SL1 complex,PF15333,GO:0005668,component,1,2079
+355,acrosomal vesicle exocytosis,PF15339,GO:0060478,process,1,2080
+950,histone H4-R3 methylation,PF15340,GO:0043985,process,1,2081
+1271,negative regulation of T cell activation,PF15347,GO:0050868,process,1,2082
+290,SMN complex,PF15348,GO:0032797,component,1,2083
+578,cell-cell junction,PF15351,GO:0005911,component,1,2084
+1327,non-motile cilium assembly,PF15352,GO:1905515,process,1,2085
+439,apelin receptor binding,PF15360,GO:0031704,function,1,2086
+508,box C/D snoRNP assembly,PF15370,GO:0000492,process,1,2087
+149,EKC/KEOPS complex,PF15387,GO:0000408,component,1,2088
+523,calcium-dependent protein binding,PF15427,GO:0048306,function,1,2089
+1071,late endosome membrane,PF15454,GO:0031902,component,1,2090
+1972,spliceosomal complex disassembly,PF15458,GO:0000390,process,1,2091
+951,histone acetylation,PF15460,GO:0016573,process,5,2092
+618,chloride transport,PF15462,GO:0006821,process,2,2093
+1690,protein ubiquitination,PF15473,GO:0016567,process,11,2094
+89,CST complex,PF15490,GO:1990879,component,3,2095
+2088,transcription initiation at RNA polymerase III promoter,PF15497,GO:0006384,process,1,2096
+296,SUMO binding,PF15499,GO:0032183,function,1,2097
+1282,negative regulation of centriole replication,PF15501,GO:0046600,process,1,2098
+1172,methylated histone binding,PF15549,GO:0035064,function,1,2099
+470,axon guidance,PF15550,GO:0007411,process,2,2100
+1058,keratinocyte development,PF15551,GO:0003334,process,1,2101
+1233,mitotic cell cycle checkpoint signaling,PF15556,GO:0007093,process,2,2102
+155,FANCM-MHF complex,PF15630,GO:0071821,component,1,2103
+1767,regulation of B cell receptor signaling pathway,PF15666,GO:0050855,process,1,2104
+645,circadian regulation of gene expression,PF15673,GO:0032922,process,1,2105
+603,cerebellum development,PF15677,GO:0021549,process,1,2106
+1239,mitotic spindle assembly,PF15678,GO:0090307,process,1,2107
+1803,regulation of lymphocyte activation,PF15681,GO:0051249,process,1,2108
+625,chondrocyte differentiation,PF15682,GO:0002062,process,1,2109
+1572,positive regulation of angiogenesis,PF15686,GO:0045766,process,1,2110
+1827,regulation of systemic acquired resistance,PF15699,GO:0010112,process,1,2111
+70,B cell activation,PF15703,GO:0042113,process,1,2112
+1548,pollen development,PF15704,GO:0009555,process,1,2113
+754,double-strand break repair involved in meiotic recombination,PF15710,GO:1990918,process,1,2114
+599,centriole replication,PF15718,GO:0007099,process,1,2115
+1938,single-species biofilm formation,PF15723,GO:0044010,process,1,2116
+1280,negative regulation of cell migration,PF15734,GO:0030336,process,1,2117
+1341,nuclear retinoic acid receptor binding,PF15741,GO:0042974,function,1,2118
+1298,negative regulation of substrate adhesion-dependent cell spreading,PF15745,GO:1900025,process,1,2119
+356,acrosome reaction,PF15754,GO:0007340,process,1,2120
+548,cartilage development,PF15756,GO:0051216,process,1,2121
+1581,positive regulation of enamel mineralization,PF15757,GO:0070175,process,1,2122
+763,dynein complex binding,PF15773,GO:0070840,function,3,2123
+1308,neurotrophin TRK receptor signaling pathway,PF15798,GO:0048011,process,1,2124
+1283,negative regulation of circadian rhythm,PF15800,GO:0042754,process,1,2125
+407,alpha-tubulin binding,PF15806,GO:0043014,function,1,2126
+1150,melanosome transport,PF15812,GO:0032402,process,1,2127
+1590,positive regulation of release of cytochrome c from mitochondria,PF15826,GO:0090200,process,1,2128
+1992,structural constituent of skin epidermis,PF15847,GO:0030280,function,1,2129
+1288,negative regulation of glucose import,PF15894,GO:0046325,process,1,2130
+293,SOSS complex,PF15925,GO:0070876,component,1,2131
+1788,regulation of cell growth,PF15937,GO:0001558,process,1,2132
+1902,sensory organ development,PF15952,GO:0007423,process,1,2133
+601,centrosome cycle,PF15964,GO:0007098,process,1,2134
+751,dolichyl-phosphate-mannose-protein mannosyltransferase activity,PF15971,GO:0004169,function,1,2135
+776,embryonic development via the syncytial blastoderm,PF15972,GO:0001700,process,1,2136
+1235,mitotic cytokinesis,PF16006,GO:0000281,process,1,2137
+2135,type IV pilus assembly,PF16074,GO:0043683,process,3,2138
+1686,protein trimerization,PF16331,GO:0070206,process,1,2139
+2131,type II protein secretion system complex,PF16537,GO:0015627,component,6,2140
+1586,positive regulation of myeloid cell differentiation,PF16647,GO:0045639,process,1,2141
+350,acid phosphatase activity,PF16656,GO:0003993,function,1,2142
+363,actin filament organization,PF16671,GO:0007015,process,4,2143
+1284,negative regulation of cysteine-type endopeptidase activity involved in apoptotic process,PF16672,GO:0043154,process,1,2144
+1943,single-stranded telomeric DNA binding,PF16686,GO:0043047,function,2,2145
+280,Ragulator complex,PF16818,GO:0071986,component,3,2146
+298,Shu complex,PF16834,GO:0097196,component,2,2147
+743,dimethylpropiothetin dethiomethylase activity,PF16867,GO:0047869,function,1,2148
+1003,import into cell,PF16941,GO:0098657,process,1,2149
+1028,intracellular calcium ion homeostasis,PF16965,GO:0006874,process,2,2150
+1316,nitrate transmembrane transport,PF16974,GO:0015706,process,1,2151
+1246,molybdate ion transport,PF16983,GO:0015689,process,2,2152
+1831,regulation of translation,PF17049,GO:0006417,process,1,2153
+1196,mitochondrial crista junction,PF17050,GO:0044284,component,1,2154
+1107,mRNA cap binding complex,PF17052,GO:0005845,component,2,2155
+862,fungal-type cell wall organization,PF17056,GO:0031505,process,2,2156
+1659,protein localization to spindle pole body,PF17060,GO:0071988,process,1,2157
+1945,sleep,PF17064,GO:0030431,process,1,2158
+1332,nuclear export,PF17066,GO:0051168,process,1,2159
+785,endoplasmic reticulum inheritance,PF17078,GO:0048309,process,1,2160
+1963,sperm individualization,PF17079,GO:0007291,process,1,2161
+598,central plaque of spindle pole body,PF17082,GO:0005823,component,1,2162
+1811,regulation of osteoblast differentiation,PF17085,GO:0045667,process,1,2163
+1304,neuron projection development,PF17095,GO:0031175,process,1,2164
+358,actin cortical patch,PF17096,GO:0030479,component,1,2165
+640,"chromosome, centromeric region",PF17097,GO:0000775,component,6,2166
+40,5S rRNA binding,PF17144,GO:0008097,function,1,2167
+347,acetylcholine-gated channel complex,PF17175,GO:0005892,component,1,2168
+1837,regulatory ncRNA-mediated post-transcriptional gene silencing,PF17204,GO:0035194,process,1,2169
+1396,outer mitochondrial membrane organization,PF17237,GO:0007008,process,1,2170
+1583,positive regulation of heart contraction,PF17308,GO:0045823,process,1,2171
+1470,pheromone-dependent signal transduction involved in conjugation with cellular fusion,PF17317,GO:0000750,process,1,2172
+2163,vacuole inheritance,PF17321,GO:0000011,process,1,2173
+217,N-acyl homoserine lactone synthase activity,PF17327,GO:0061579,function,1,2174
+1923,siderophore transport,PF17357,GO:0015891,process,1,2175
+558,cell adhesion molecule binding,PF17366,GO:0050839,function,1,2176
+2004,suppression by virus of host transcription,PF17527,GO:0039653,process,1,2177
+947,histidine metabolic process,PF17528,GO:0006547,process,2,2178
+1677,protein secretion by the type VI secretion system,PF17541,GO:0033103,process,1,2179
+2069,toxin transport,PF17642,GO:1901998,process,1,2180
+1484,"phosphatidylinositol 3-kinase complex, class III, type II",PF17649,GO:0034272,component,1,2181
+644,cilium assembly,PF17664,GO:0060271,process,5,2182
+1231,mitophagy,PF17716,GO:0000423,process,2,2183
+1858,response to reactive oxygen species,PF17720,GO:0000302,process,1,2184
+1290,negative regulation of helicase activity,PF17752,GO:0051097,process,1,2185
+1841,resolution of meiotic recombination intermediates,PF17825,GO:0000712,process,1,2186
+3,(3R)-hydroxypalmitoyl-[acyl-carrier-protein] dehydratase activity,PF17951,GO:0004317,function,1,2187
+2005,suspensor development,PF18209,GO:0010098,process,1,2188
+84,COP9 signalosome assembly,PF18392,GO:0010387,process,1,2189
+1226,mitochondrial translation,PF18699,GO:0032543,process,1,2190
+1040,intramolecular lyase activity,PF18916,GO:0016872,function,1,2191
+186,Hsp90 protein binding,PF18972,GO:0051879,function,1,2192
+88,CRISPR-cas system,PF19021,GO:0099048,process,1,2193
+205,MAPK cascade,PF19039,GO:0000165,process,2,2194
+1328,nuclear cap binding complex,PF19041,GO:0005846,component,3,2195
+340,acetate-CoA ligase (ADP-forming) activity,PF19045,GO:0043758,function,1,2196
+647,cis-Golgi network,PF19046,GO:0005801,component,1,2197
+713,cytoskeleton-dependent intracellular transport,PF19047,GO:0030705,process,1,2198
+1291,negative regulation of mitotic cell cycle,PF19052,GO:0045930,process,1,2199
+1213,mitochondrial outer membrane translocase complex assembly,PF19117,GO:0070096,process,1,2200
+1818,regulation of reciprocal meiotic recombination,PF19225,GO:0010520,process,1,2201
+46,AMP deaminase activity,PF19326,GO:0003876,function,1,2202
+75,C-C chemokine binding,PF19429,GO:0019957,function,1,2203
+1688,protein tyrosine phosphatase activity,PF19567,GO:0004725,function,6,2204
+288,SCF-dependent proteasomal ubiquitin-dependent protein catabolic process,PF19729,GO:0031146,process,1,2205
+2134,type III site-specific deoxyribonuclease activity,PF19778,GO:0015668,function,1,2206
+2035,telomerase catalytic core complex assembly,PF19977,GO:1904868,process,1,2207
+1808,regulation of mitotic cytokinesis,PF20162,GO:1902412,process,1,2208
+1944,site of double-strand break,PF20496,GO:0035861,component,1,2209
+2059,thylakoid membrane organization,PF20711,GO:0010027,process,1,2210
+1604,pre-miRNA processing,PF20932,GO:0031054,process,1,2211
+1751,rRNA primary transcript binding,PF20945,GO:0042134,function,1,2212
+1953,snRNA processing,PF21045,GO:0016180,process,1,2213
+249,RNA cap binding,PF21071,GO:0000339,function,1,2214
+730,deoxyribonuclease I activity,PF21111,GO:0004530,function,1,2215
+1599,potassium channel regulator activity,PF21201,GO:0015459,function,1,2216
+1180,microtubule,PF21410,GO:0005874,component,3,2217
+2215,xylan biosynthetic process,PF21729,GO:0045492,process,1,2218
