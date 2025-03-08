@@ -1,4 +1,4 @@
-name: plaid-train
+name: plaid
 channels:
   - conda-forge
   - bioconda

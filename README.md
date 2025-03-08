@@ -4,21 +4,39 @@
 
 PLAID is a multimodal generative model that can generate protein sequence and all-atom structure based on conditional function and taxonomic prompts. Please see our [paper](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v1) for more details.
 
+### Key features:
+* Unconditional sampling from PLAID
+* Function- and organism-conditioned sampling with automatic length determination
+* Training code for latent diffusion models
+* Saving embeddings as a WebDataset loader for better I/O
+* Evaluation pipeline for sequence/structure diversity and sequence/structure novelty, using `mmseqs` and `foldseek`
+* Configurable pipelines using Hydra
+
 ## Contents
 
-- [Contents](#contents)
-- [Demo](#demo)
-- [Installation](#installation)
-  - [Clone the Repository](#clone-the-repository)
-  - [Environment Setup](#environment-setup)
-  - [Model Weights](#model-weights)
-  - [Loading Pretrained Models](#loading-pretrained-models)
-- [Basic Usage](#basic-usage)
-  - [Quick Start: Command line](#quick-start-command-line)
-  - [Quick Start: Notebook](#quick-start-notebook)
-- [Full Pipeline](#full-pipeline)
-- [Training](#training)
-- [License](#license)
+- [PLAID (Protein Latent Induced Diffusion)](#plaid-protein-latent-induced-diffusion)
+    - [Key features:](#key-features)
+  - [Contents](#contents)
+  - [Demo](#demo)
+  - [Installation](#installation)
+    - [Clone the Repository](#clone-the-repository)
+    - [Environment Setup](#environment-setup)
+    - [Model Weights](#model-weights)
+    - [Loading Pretrained Models](#loading-pretrained-models)
+  - [Basic Usage](#basic-usage)
+    - [Quick Start: Command line](#quick-start-command-line)
+      - [Unconditional Sampling](#unconditional-sampling)
+      - [Conditional Sampling](#conditional-sampling)
+        - [Automatic length determination](#automatic-length-determination)
+    - [Quick Start: Notebook](#quick-start-notebook)
+  - [Full Pipeline](#full-pipeline)
+      - [Step 1: Sampling Latent Embeddings](#step-1-sampling-latent-embeddings)
+      - [Step 2: Decode the Latent Embedding](#step-2-decode-the-latent-embedding)
+      - [Step 3: Generate inverse and phantom sequences/structures](#step-3-generate-inverse-and-phantom-sequencesstructures)
+      - [Step 4: Analyze metrics (ccRMSD, novelty, diversity, etc.):](#step-4-analyze-metrics-ccrmsd-novelty-diversity-etc)
+  - [Training](#training)
+  - [License](#license)
+  - [TODO (PRs welcome!)](#todo-prs-welcome)
 
 
 ## Demo
@@ -34,7 +52,6 @@ A hosted demo of the model will be available soon.
 git clone https://github.com/amyxlu/plaid.git
 cd plaid
 ```
-
 
 ### Environment Setup
 Create the environment and install dependencies:
@@ -104,13 +121,17 @@ SAMPLE_OUTPUT_DIR=/shared/amyxlu/plaid/artifacts/samples
 python pipeline/run_pipeline.py experiment=generate_conditional ++sample.output_root_dir=$SAMPLE_OUTPUT_DIR ++sample.function_idx=166  ++sample.organism_idx=1030 ++sample.length=None ++sample.cond_scale=3.0
 ```
 
-`++sample.function_idx` and `++sample.organism_idx` are required. Similar to the unconditional case, `++sample.output_root_dir` has no default, and must be defined. The other default values are this time specified in `configs/sample_conditional.yaml`. When `++sample.length=None`, the length is automatically chosen based on the length of known Pfam domains with the function`++sample.function_idx`. This auto-length feature only works when conditioning on a function. The conditioning scale of 3.0 determines how strongly to condition - a scale of 0.0 would be equivalent to unconditional sampling.
+`++sample.function_idx` and `++sample.organism_idx` are required. Similar to the unconditional case, `++sample.output_root_dir` has no default, and must be defined. The other default values are this time specified in `configs/sample_conditional.yaml`.
+
+The conditioning scale of 3.0 determines how strongly to condition - a scale of 0.0 would be equivalent to unconditional sampling.
 
 This will save outputs to `SAMPLE_OUTPUT_DIR/f166_o1030_l140_s3/`, where `f166` refers to the conditional function index, `o1030` refers to the conditional organism index, and `s3` refers to the classifier-free guidance conditioning. `l140` is the auto-selected length. This might be different for different runs.
 
 >[!TIP]
 >To find the mapping between your desired GO term and function index, see `src/plaid/constants.py`.
 
+##### Automatic length determination
+If the function is specified, we can automatically choose a length to be **the length of a randomly sampled sequence from Pfam with that function**. This can be activated by setting `++sample.length=None`. 
 
 ### Quick Start: Notebook
 
@@ -187,3 +208,7 @@ Embeddings are pre-computed and cached as `.tar` files for compatibility with [W
 ## License
 
 PLAID is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## TODO (PRs welcome!)
+- [ ] Upload Pfam WebDataset embeddings
+- [ ] Make a version of the repo that only loads the 100M model which does not require xFormers -- this will remove compatibility issues with new versions of PyTorch and remove the multiples-of-8 constraint on possible lengths we can use
