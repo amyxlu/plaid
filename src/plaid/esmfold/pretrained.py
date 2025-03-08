@@ -16,7 +16,7 @@ from .esmfold import ESMFold
 def _load_model(model_name):
     if model_name.endswith(".pt"):  # local, treat as filepath
         model_path = Path(model_name)
-        model_data = torch.load(str(model_path), map_location="cpu")
+        model_data = torch.load(str(model_path), map_location="cpu", weights_only=False)
     else:  # load from hub
         url = f"https://dl.fbaipublicfiles.com/fair-esm/models/{model_name}.pt"
         model_data = torch.hub.load_state_dict_from_url(

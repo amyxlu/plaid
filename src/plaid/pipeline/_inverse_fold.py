@@ -122,7 +122,7 @@ class InverseFoldPipeline:
                 / f"{self.model_name}.pt"
             )
 
-        checkpoint = torch.load(checkpoint_path)
+        checkpoint = torch.load(checkpoint_path, weights_only=False)
         print("Number of edges:", checkpoint["num_edges"])
         noise_level_print = checkpoint["noise_level"]
         print(f"Training noise level: {noise_level_print}A")

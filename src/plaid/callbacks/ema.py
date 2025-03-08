@@ -138,7 +138,7 @@ class EMA(Callback):
             # otherwise, look to see if there are EMA weights saved in the checkpoint directory
             ema_path = str(trainer.ckpt_path).replace(ext, f"-EMA{ext}")
             if os.path.exists(ema_path):
-                ema_state_dict = torch.load(ema_path, map_location=torch.device("cpu"))
+                ema_state_dict = torch.load(ema_path, weights_only=False, map_location=torch.device("cpu"))
                 self._ema_model_weights = ema_state_dict["state_dict"].values()
                 del ema_state_dict
                 rank_zero_info(

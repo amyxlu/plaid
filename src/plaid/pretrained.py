@@ -18,7 +18,7 @@ def _load_state_dict(model_id) -> dict:
         filename="last.ckpt",
         cache_dir=CHECKPOINT_DIR_PATH,
     )
-    return torch.load(model_path)
+    return torch.load(model_path, weights_only=False, map_location="cpu")
 
 
 def _load_config(model_id) -> OmegaConf:

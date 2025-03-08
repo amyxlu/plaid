@@ -201,7 +201,7 @@ def main(args):
             verbose=print_all,
         )
 
-    checkpoint = torch.load(checkpoint_path, map_location=device)
+    checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
     noise_level_print = checkpoint["noise_level"]
     model = ProteinMPNN(
         ca_only=args.ca_only,
