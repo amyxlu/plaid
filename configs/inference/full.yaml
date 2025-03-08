@@ -9,17 +9,17 @@ run_decode: True
 
 # If enabled, this will run the full pipeline of generating "inverse generated"
 # and "phantom" embeddings, for calculating cross-consistency and self-consistency.
-run_cross_consistency: True
-run_self_consistency: True 
+run_cross_consistency: False
+run_self_consistency: False
 
 # If enabled, this will run the analysis step, which includes calculating
 # designability scores, novelty and diversity checks (i.e. `easy-search`
 # and `easy-cluster`).
-run_analysis: True 
+run_analysis: False 
 
 # If enabled, this will filter out embeddings that are predicted to be 
 # non-designable when running foldseek in the `run_analysis` step.
-use_designability_filter: True
+use_designability_filter: False
 
 # If enabled, this will log the experiment to Weights & Biases.
 log_to_wandb: False

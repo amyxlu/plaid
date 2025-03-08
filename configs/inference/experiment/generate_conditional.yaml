@@ -8,9 +8,3 @@
 defaults:
   - _self_
   - override /sample: sample_conditional
-
-# set these to False to skip analysis;
-# will only run the sampling and decoding steps.
-run_cross_consistency: False 
-run_self_consistency: False 
-run_analysis: False

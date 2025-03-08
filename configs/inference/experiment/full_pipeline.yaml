@@ -1,0 +1,12 @@
+# @package _global_
+
+# Example experiment that runs the full pipeline, including
+# calculating cross-consistency, self-consistency, novelty, and diversity.
+
+# This example uses the ddim_unconditional scheme, but you can substitute
+# for another conditional generation config modularly
+
+
+defaults:
+  - _self_
+  - override /sample: ddim_unconditional
