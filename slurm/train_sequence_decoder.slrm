@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+#SBATCH --job-name decoder 
+#SBATCH --nodes 1 
+#SBATCH --gpus-per-node 1 
+#SBATCH --partition gpu2
+#SBATCH --cpus-per-gpu 16 
+#SBATCH --mem-per-gpu 144G
+
+eval "$(conda shell.bash hook)"
+conda activate plaid 
+
+echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
+echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
+echo "SLURMD_NODENAME = ${SLURMD_NODENAME}"
+echo "SLURM_JOB_NUM_NODES = ${SLURM_JOB_NUM_NODES}"
+
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+cd /homefs/home/lux70/code/plaid/
+srun python train_sequence_decoder.py $@

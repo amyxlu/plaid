@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+#SBATCH --job-name infer
+#SBATCH --nodes 1 
+#SBATCH --gpus-per-node 1 
+#SBATCH --partition gpu2
+#SBATCH --cpus-per-gpu 4 
+#SBATCH --mem 200G
+#SBATCH --time=15-00:00:00
+
+
+eval "$(conda shell.bash hook)"
+conda activate plaid 
+
+echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
+echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
+echo "SLURMD_NODENAME = ${SLURMD_NODENAME}"
+echo "SLURM_JOB_NUM_NODES = ${SLURM_JOB_NUM_NODES}"
+
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+cd /homefs/home/lux70/code/plaid/scripts
+
+nvidia-smi
+srun python h5_from_shards.py $@
+

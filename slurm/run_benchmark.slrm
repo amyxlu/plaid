@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+#SBATCH --job-name property 
+#SBATCH --nodes 1 
+#SBATCH --gpus-per-node 1 
+#SBATCH --partition gpu2
+#SBATCH --cpus-per-gpu 20
+#SBATCH --mem 100G
+#SBATCH --time=10-00:00:00
+
+eval "$(conda shell.bash hook)"
+conda activate torchdrug 
+
+echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
+echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
+echo "SLURMD_NODENAME = ${SLURMD_NODENAME}"
+echo "SLURM_JOB_NUM_NODES = ${SLURM_JOB_NUM_NODES}"
+
+cd /homefs/home/lux70/code/plaid
+srun python run_benchmark.py $@
