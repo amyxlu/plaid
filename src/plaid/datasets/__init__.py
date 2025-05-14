@@ -12,3 +12,4 @@ from ._metadata_helpers import (
     HUMAN_IDX,
     MetadataParser,
 )
+from ._fasta import FastaDataset

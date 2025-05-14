@@ -5,11 +5,10 @@ import os
 import torch
 from tqdm import tqdm
 
-from evo.dataset import FastaDataset
-
 from ..esmfold import output_to_pdb, esmfold_v1
 from ..typed import PathLike, DeviceLike
 from ..utils import save_pdb_strs_to_disk
+from ..datasets import FastaDataset
 
 
 def ensure_exists(path):

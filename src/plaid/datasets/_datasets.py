@@ -3,32 +3,27 @@ Misc dataloaders not used for the final model, included for completeness.
 """
 
 import math
-import warnings
 
 import einops
 import torch
-from torch.utils.data import IterableDataset, DataLoader, Dataset
+from torch.utils.data import DataLoader, Dataset
 import numpy as np
-from typing import List, Tuple
 import h5py
 import lmdb
 
-from evo.dataset import FastaDataset
-
 from safetensors.torch import load_file
-import glob
 from pathlib import Path
 import pickle
 import typing as T
 import lightning as L
 
-from plaid.transforms import (
+from ..transforms import (
     mask_from_seq_lens,
-    get_random_sequence_crop_batch,
-    get_random_sequence_crop,
     trim_or_pad_length_first,
 )
-from plaid.constants import ACCEPTED_LM_EMBEDDER_TYPES
+from ..constants import ACCEPTED_LM_EMBEDDER_TYPES
+
+from ._datasets import FastaDataset
 
 
 class TensorShardDataset(Dataset):
