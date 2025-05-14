@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+#SBATCH --job-name preprocess
+#SBATCH --nodes 1 
+#SBATCH --gpus-per-node 2 
+#SBATCH --partition gpu2
+#SBATCH --cpus-per-gpu 8 
+#SBATCH --mem 400G
+#SBATCH --time=5-00:00:00
+
+source ~/.bashrc
+
+echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
+echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
+echo "SLURMD_NODENAME = ${SLURMD_NODENAME}"
+echo "SLURM_JOB_NUM_NODES = ${SLURM_JOB_NUM_NODES}"
+
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+
+# Check NVIDIA GPU status
+nvidia-smi
+
+# Check environment packages
+micromamba activate plaid
+micromamba env list
+micromamba list
+
+# Run script
+srun python /homefs/home/lux70/code/plaid-dev-distributed/scripts/preprocessing/mp_spawn_compressed_webdataset.py
+

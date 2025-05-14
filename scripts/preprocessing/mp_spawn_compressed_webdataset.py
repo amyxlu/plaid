@@ -26,13 +26,19 @@ from webdataset import ShardWriter
 
 logger = logging.getLogger(__name__)
 
+# TODO: make argparse
 
 @dataclass
 class DistributedInferenceConfig:
     compression_model_id: str = "j1v1wv6w"
     compression_ckpt_dir: str = "/data/lux70/cheap/checkpoints/"
-    fasta_file: str = "/data/lux70/data/pfam/val.fasta"
-    output_dir: str = "/data/lux70/data/pfam/compressed/reshard_val"
+
+    fasta_file: str = "/data/lux70/data/pdb/all_chains.fasta"
+    output_dir: str = "/data/lux70/data/pdb/compressed/"
+
+    # fasta_file: str = "/data/lux70/data/pfam/val.fasta"
+    # output_dir: str = "/data/lux70/data/pfam/compressed/reshard_val"
+
     # output_dir: str = "/data/lux70/data/pfam/compressed"
     # fasta_file: str = "/data/lux70/data/uniref90/partial.fasta"
     # output_dir: str = "/data/lux70/data/uniref90/compressed/partial/"
