@@ -4,6 +4,7 @@ typing-extensions
 wandb
 biopython
 hydra-core >= 1.3
+h5py
 seaborn
 pandas
 transformers
