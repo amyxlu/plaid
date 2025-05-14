@@ -1,4 +1,4 @@
-from evo.dataset import FastaDataset
+from plaid.datasets import FastaDataset
 from tqdm import tqdm, trange
 import os
 from pathlib import Path

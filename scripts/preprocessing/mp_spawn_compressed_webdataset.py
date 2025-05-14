@@ -10,7 +10,6 @@ import json
 import logging
 from tqdm import tqdm
 
-import h5py
 import numpy as np
 import torch
 import torch.distributed as dist

@@ -8,7 +8,6 @@
 #SBATCH --mem 400G
 #SBATCH --time=5-00:00:00
 
-source ~/.bashrc
 
 echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
 echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
@@ -18,14 +17,16 @@ echo "SLURM_JOB_NUM_NODES = ${SLURM_JOB_NUM_NODES}"
 export HYDRA_FULL_ERROR=1
 export TOKENIZERS_PARALLELISM=false
 
+eval "$(micromamba shell hook --shell bash)"
+
 # Check NVIDIA GPU status
 nvidia-smi
 
 # Check environment packages
-micromamba activate plaid
-micromamba env list
-micromamba list
+source ~/.bashrc
+mamba activate plaid
+mamba env list
 
 # Run script
-srun python /homefs/home/lux70/code/plaid-dev-distributed/scripts/preprocessing/mp_spawn_compressed_webdataset.py
+srun python /homefs/home/lux70/code/plaid/scripts/preprocessing/mp_spawn_compressed_webdataset.py
 
