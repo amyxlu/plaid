@@ -533,7 +533,11 @@ def parse_sequence_from_structure(pdb_data=None, pdb_path=None, id="") -> str:
         sequence = ""
         for residue in chain.get_residues():
             res_name = residue.get_resname()
-            sequence += restype_3to1[res_name]
+            try:
+                sequence += restype_3to1[res_name]
+            except KeyError:
+                # to make sure things right properly, we'll replace this with "A"
+                sequence += "A"
         chains.append(sequence)
     return ":".join(chains)
 
