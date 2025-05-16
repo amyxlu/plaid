@@ -50,6 +50,14 @@
 # done
 
 
+sampdir=/data/lux70/plaid/chroma/skip8_64per/
+for subdir in "$sampdir"/*/; do
+  if [ -d "$subdir" ]; then
+    echo $subdir
+    sbatch run_analysis.slrm $subdir
+  fi
+done
+
 sampdir=/data/lux70/plaid/esm3/skip8_64per/
 for subdir in "$sampdir"/*/; do
   if [ -d "$subdir" ]; then

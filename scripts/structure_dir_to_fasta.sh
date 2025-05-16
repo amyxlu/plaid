@@ -1,4 +1,4 @@
-sampdir=/data/lux70/plaid/esm3 
+sampdir=/data/lux70/plaid/chroma/skip8_64per 
 for subdir in "$sampdir"/*/; do
   if [ -d "$subdir" ]; then
     # Check if sequences.fasta already exists in the structures directory

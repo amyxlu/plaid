@@ -1,7 +1,10 @@
 """
 ```
-git clone https://github.com/generatebio/chroma.git
-pip install -e chroma # use `-e` for it to be editable locally. 
+git clone https://github.com/amyxlu/RFDiffusion.git
+cd RFDiffusion
+uv venv --python 3.8
+source .venv/bin/activate
+uv pip install -r requirements
 ```
 """
 from tqdm import trange

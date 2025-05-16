@@ -5,12 +5,12 @@
 #SBATCH --gpus-per-node 1 
 #SBATCH --partition gpu2
 #SBATCH --cpus-per-gpu 4 
-#SBATCH --mem 100G
-#SBATCH --time=15-00:00:00
+#SBATCH --mem 30G
+#SBATCH --time=1-00:00:00
 
-eval "$(conda shell.bash hook)"
+source ~/.bashrc
+eval "$(mamba shell.bash hook)"
 
-conda activate omegafold
 echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
 echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
 echo "SLURMD_NODENAME = ${SLURMD_NODENAME}"
@@ -21,6 +21,10 @@ export HYDRA_FULL_ERROR=1
 cd /homefs/home/lux70/code/plaid/pipeline
 
 nvidia-smi
+
+mamba activate plaid 
+mamba env list
+echo $CONDA_PREFIX
 
 srun python run_pipeline.py $@
 

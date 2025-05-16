@@ -1,16 +1,15 @@
 #!/usr/bin/env bash
 
-#SBATCH --job-name analysis
+#SBATCH --job-name baseline 
 #SBATCH --nodes 1 
 #SBATCH --gpus-per-node 1 
 #SBATCH --partition gpu2
 #SBATCH --cpus-per-gpu 4 
-#SBATCH --mem 100G
+#SBATCH --mem 10G
 #SBATCH --time=1-00:00:00
 
 source ~/.bashrc
 eval "$(mamba shell hook --shell bash)"
-
 
 echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
 echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
@@ -19,13 +18,11 @@ echo "SLURM_JOB_NUM_NODES = ${SLURM_JOB_NUM_NODES}"
 
 export HYDRA_FULL_ERROR=1
 
-cd /homefs/home/lux70/code/plaid/pipeline
-
 nvidia-smi
 
-mamba activate plaid 
-mamba env list
-echo $CONDA_PREFIX
+cd ~/code/chroma/
+source .venv/bin/activate
+which python
 
-srun python run_analysis.py $@
+srun python /homefs/home/lux70/code/plaid/scripts/baselines/sample_chroma.py $@
 

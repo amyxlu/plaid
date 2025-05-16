@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+#SBATCH --job-name rfdiffusion 
+#SBATCH --nodes 1 
+#SBATCH --gpus-per-node 1 
+#SBATCH --partition gpu2
+#SBATCH --cpus-per-gpu 4 
+#SBATCH --mem 10G
+#SBATCH --time=1-00:00:00
+
+source ~/.bashrc
+eval "$(mamba shell hook --shell bash)"
+
+echo "SLURM_JOB_NODELIST = ${SLURM_JOB_NODELIST}"
+echo "SLURM_JOB_ID = ${SLURM_JOB_ID}"
+echo "SLURMD_NODENAME = ${SLURMD_NODENAME}"
+echo "SLURM_JOB_NUM_NODES = ${SLURM_JOB_NUM_NODES}"
+
+export HYDRA_FULL_ERROR=1
+
+nvidia-smi
+
+cd ~/code/rfdiffusion
+source .venv/bin/activate
+which python
+
+start_time=$SECONDS
+srun python scripts/run_inference.py contigmap.contigs=[$1-$1] inference.num_designs=$2 inference.output_prefix=$3 
+end_time=$SECONDS
+
+duration=$((end_time - start_time))
+
+echo "-------------------------------------"
+echo "The set of commands took $duration seconds to complete."
+echo $1,$2,$duraton >> $3/sample_times.txt
