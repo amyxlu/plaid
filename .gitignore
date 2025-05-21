@@ -10,3 +10,8 @@ artifacts
 *wandb*
 *.hydra
 *.log
+*.svg
+
+
+# */notebooks/FIGURE_*.ipynb
+# */notebooks/Untitled*.ipynb
