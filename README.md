@@ -64,6 +64,14 @@ pip install -e .  # Install PLAID
 
 Note: The OpenFold implementation of the ESMFold module includes custom CUDA kernels for the attention mechanism. This repository uses a fork of OpenFold with C++17 compatibility for CUDA kernels to support `torch >= 2.0`.
 
+Users have observed an error resembling:
+```
+/home/amyxlu/micromamba/envs/plaid/include/python3.10/Python.h:44:10: fatal error: crypt.h: No such file or directory
+         44 | #include <crypt.h>
+            |          ^~~~~~~~~
+```
+You can try to use the patch `cp /usr/include/crypt.h /home/amyxlu/micromamba/envs/plaid/include/python3.10/` to fix this (replace the destination based on your installation).
+
 
 ### Model Weights
 * Latent Autoencoder (CHEAP): full codebase is available [here](https://github.com/amyxlu/cheap-proteins). We use the `CHEAP_pfam_shorten_2_dim_32()` model.
